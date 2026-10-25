@@ -1,0 +1,30 @@
+{
+  "time": "2026-10-17T06:13:03.326138+08:00",
+  "dataset": "Financial PhraseBank, sentences_allagree",
+  "repo": "https://huggingface.co/datasets/takala/financial_phrasebank",
+  "commit": "8d3fe0c36d5feec6b3cc5e455b0fcb4820fb9964",
+  "archive_sha256": "0e1a06c4900fdae46091d031068601e3773ba067c7cecb5b0da1dcba5ce989a6",
+  "license": "CC-BY-NC-SA-3.0 as declared in pinned README; no public redistribution performed",
+  "source_allagree_rows": 2264,
+  "selected_rows": 96,
+  "selection": "Deduplicate text hashes; take first96sorted SHA256 then seed-permute; no labels or model outputs used in selection",
+  "binary_query": "positive versus neutral-or-negative, relative to supplied corpus labels",
+  "query_types": [
+    "filter"
+  ],
+  "group_semantics": "three source partitions; no financial entity-join claim",
+  "public_condition": "synthetic hash parity flag, toggled by the fixed stream",
+  "blindness": "Not an independently sealed or human-validated test; public labeled corpus",
+  "source_files": [
+    {
+      "name": "FinancialPhraseBank-v1.0.zip",
+      "sha256": "0e1a06c4900fdae46091d031068601e3773ba067c7cecb5b0da1dcba5ce989a6",
+      "bytes": 681890
+    },
+    {
+      "name": "README.md",
+      "sha256": "274523f90fee5ef947c24bd95388818a551dbd2c1d9ee55469446329cb6c82e0",
+      "bytes": 9582
+    }
+  ]
+}

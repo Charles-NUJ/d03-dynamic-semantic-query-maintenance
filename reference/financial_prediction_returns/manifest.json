@@ -1,0 +1,22 @@
+[
+  {
+    "name": "contexts.json",
+    "bytes": 167,
+    "sha256": "1c09a0f4a6440f2caffc70980259e605b88fd0b61bc925bc0e785db490aee2e5"
+  },
+  {
+    "name": "theta0_predictions.json",
+    "bytes": 29388,
+    "sha256": "f7a8de94a335e7a9119b5636f2c128deacb6f21f6fa88a1ce0c89df163003162"
+  },
+  {
+    "name": "theta1_predictions.json",
+    "bytes": 29329,
+    "sha256": "6578c23ca005844c5257477b4b57c83298cc8b1db8b575090b5dddb387632503"
+  },
+  {
+    "name": "inference_receipt.json",
+    "bytes": 347,
+    "sha256": "75bf60b84ab78ce857ffd49ed3d075681c90cb7ae4aa11f16c8ebf5be81e592a"
+  }
+]

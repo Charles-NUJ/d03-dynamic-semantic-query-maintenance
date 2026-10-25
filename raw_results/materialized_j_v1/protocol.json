@@ -1,0 +1,48 @@
+{
+  "time": "2026-10-19T00:34:00.954996+08:00",
+  "methods": [
+    "CF",
+    "SC",
+    "CR",
+    "WCR",
+    "WQCR"
+  ],
+  "streams": 3,
+  "queries": [
+    "filter",
+    "join"
+  ],
+  "fee_caps": [
+    16,
+    80
+  ],
+  "write_caps": {
+    "filter": [
+      32,
+      96,
+      512
+    ],
+    "join": [
+      1200,
+      2400,
+      8192
+    ]
+  },
+  "audit_fee": 1.0,
+  "refresh_fee": 0.05,
+  "fixed_before_J_predictions_and_policy_execution": true,
+  "prediction_pool": "316 unique previously executed H keys plus92 missing required keys collected before J controllers;controllers see returns only after payment",
+  "missing_predictions_expected": 92,
+  "total_required_keys": 408,
+  "new_semantic_texts": 0,
+  "post_hoc_workload_design": true,
+  "seed": 2026101903,
+  "facts": "supplied H labels;not a human oracle",
+  "write_unit": "One inserted/deleted membership in explicit candidate or published result table. Includes intake,paid candidate deltas and final publication. Excludes SQL index/cache/metadata writes,bytes,IO,CPU and transactions themselves.",
+  "event_intake": "If exact candidate intake delta cannot fit,metadata/version advance but candidate/published tables remain untouched and event refuses.",
+  "protected": "Fee reserve if initially affordable. WCR/WQCR also preserve joint reserve only when both reserves fit after intake. Otherwise common immediate worst-write/fee guards apply;no completion guarantee.",
+  "publication": "Exact margins+current version+both budgets;refusal retains old physical published table but current-epoch read returns unavailable.",
+  "no_formal_latency": true,
+  "no_external_engine_reproduction": true,
+  "formal_submission": false
+}

@@ -1,0 +1,84 @@
+{
+  "time": "2026-10-22T14:12:21.522986+08:00",
+  "status": "N_EXECUTED_VERIFICATION_PENDING",
+  "dual_states": 4018,
+  "maximum_gradient_identity_error": 0.0,
+  "all_strong_convexity_bounds_hold": true,
+  "fee_dual_price": {
+    "median": -4.8348737206793405e-05,
+    "p05": -0.30003914651526353,
+    "p95": 0.0
+  },
+  "write_dual_price": {
+    "median": -0.04620865379963185,
+    "p05": -0.7422577705514771,
+    "p95": 0.001565327836460714
+  },
+  "probability_plus_005_sensitivity": {
+    "median_allocation_l2_change": 0.007899177343412977,
+    "p95_allocation_l2_change": 0.08656068118697677,
+    "maximum_bound_ratio": 0.9572741922303516,
+    "selected_class_changes": 227,
+    "states": 4018,
+    "perturbed_nonconverged": 22
+  },
+  "quotient_benchmark": [
+    {
+      "n": 64,
+      "WCR_branch_tests": 256,
+      "WQCR_branch_tests": 4,
+      "test_reduction": 64.0,
+      "WCR_median_ms": 1.2307,
+      "WQCR_median_ms": 0.1168,
+      "median_speedup": 10.536815068493151,
+      "same_selected_action": true
+    },
+    {
+      "n": 256,
+      "WCR_branch_tests": 1024,
+      "WQCR_branch_tests": 4,
+      "test_reduction": 256.0,
+      "WCR_median_ms": 4.9047,
+      "WQCR_median_ms": 0.2675,
+      "median_speedup": 18.33532710280374,
+      "same_selected_action": true
+    },
+    {
+      "n": 1024,
+      "WCR_branch_tests": 4096,
+      "WQCR_branch_tests": 4,
+      "test_reduction": 1024.0,
+      "WCR_median_ms": 26.0473,
+      "WQCR_median_ms": 1.7555,
+      "median_speedup": 14.837539162631728,
+      "same_selected_action": true
+    },
+    {
+      "n": 4096,
+      "WCR_branch_tests": 16384,
+      "WQCR_branch_tests": 4,
+      "test_reduction": 4096.0,
+      "WCR_median_ms": 109.6593,
+      "WQCR_median_ms": 7.2928,
+      "median_speedup": 15.03665258885476,
+      "same_selected_action": true
+    },
+    {
+      "n": 16384,
+      "WCR_branch_tests": 65536,
+      "WQCR_branch_tests": 4,
+      "test_reduction": 16384.0,
+      "WCR_median_ms": 419.6738,
+      "WQCR_median_ms": 25.1596,
+      "median_speedup": 16.680463918345282,
+      "same_selected_action": true
+    }
+  ],
+  "wall_seconds": 15.983755700000074,
+  "new_GPU_calls": 0,
+  "new_model_calls": 0,
+  "new_labels": 0,
+  "new_trajectories": 0,
+  "formal_submission": false,
+  "limits": "Dual replay uses recorded K states. The +0.05 perturbation is a deterministic stress test, not a calibrated confidence interval. The homogeneous filter benchmark is a repeated-state scalability case, not an end-to-end or worst-case database benchmark."
+}

@@ -1,0 +1,3955 @@
+{
+  "id": "live_h_stream2_join_f16_w1200_SC",
+  "stream": "live_h_stream2",
+  "query": "join",
+  "method": "SC",
+  "fee_cap": 16,
+  "write_cap": 1200,
+  "events": [
+    {
+      "epoch": 0,
+      "kind": "cold",
+      "nonempty": true,
+      "fee_cap": 16,
+      "write_cap": 1200,
+      "initial": {
+        "cert": [
+          -4160,
+          448,
+          960,
+          64
+        ],
+        "U": 64,
+        "V": 1920,
+        "delta": 960,
+        "intake_required": 960,
+        "intake_applied": true,
+        "intake_writes": 960,
+        "joint_protected": false,
+        "fee_protected": false
+      },
+      "steps": [
+        {
+          "rid": "102722610",
+          "key": "7ffd8aa8908b6676bc4342858514ca93d16caabd82d03f4c5da959fdd8b8af2f",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.05,
+          "candidate_writes": 30,
+          "write_total": 990,
+          "cert_before": [
+            -4160,
+            448,
+            960,
+            64
+          ],
+          "cert_after": [
+            -4030,
+            258,
+            930,
+            63
+          ],
+          "delta": 930,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "ef80e7727dfb6de307069a5448c1d699a5099c7b8223b9d2848ad3f3f106bdcf"
+        },
+        {
+          "rid": "102771117",
+          "key": "3d377d07f960229398daf59877814e313504ff2906e55b2f42b387144b4d4d1a",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.1,
+          "candidate_writes": 30,
+          "write_total": 1020,
+          "cert_before": [
+            -4030,
+            258,
+            930,
+            63
+          ],
+          "cert_after": [
+            -3900,
+            68,
+            900,
+            62
+          ],
+          "delta": 900,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "7c61e11f46de34ec96ed2a27655b08c4cb44b24367445032337b21a9c0736222"
+        },
+        {
+          "rid": "2506076",
+          "key": "6c2aca70e59bb8f544e4bba384cbc230841487ae872daed8ca37aa56ebdac60f",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.15000000000000002,
+          "candidate_writes": 30,
+          "write_total": 1050,
+          "cert_before": [
+            -3900,
+            68,
+            900,
+            62
+          ],
+          "cert_after": [
+            -3770,
+            -122,
+            870,
+            61
+          ],
+          "delta": 870,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "6983540aca633934adf7dd2300c0df7b48de1439b96c9409538dc336a8b9163d"
+        },
+        {
+          "rid": "2508205",
+          "key": "9764b4b255e9c83e1fe4983fad55b6c412750f8dce663649e930138e5cd4093c",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.2,
+          "candidate_writes": 30,
+          "write_total": 1080,
+          "cert_before": [
+            -3770,
+            -122,
+            870,
+            61
+          ],
+          "cert_after": [
+            -3676,
+            -364,
+            844,
+            60
+          ],
+          "delta": 844,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "0479c60c8b27a812eacfff47dd82fd50222276faa8c71c133e9a19fa15606cfa"
+        },
+        {
+          "rid": "2508362",
+          "key": "1371851bdb0e0f7e17cb94052a87065bfa18f381cb960b29a2afd5a81771ee72",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.25,
+          "candidate_writes": 30,
+          "write_total": 1110,
+          "cert_before": [
+            -3676,
+            -364,
+            844,
+            60
+          ],
+          "cert_after": [
+            -3578,
+            -584,
+            822,
+            59
+          ],
+          "delta": 822,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "a5a701451795f508098232f35cc628de7aa344aefcd828435de4ce1fd998924c"
+        },
+        {
+          "rid": "2513354",
+          "key": "79a6d79de03faa50f7da5e4f933ba4b5aa60b8b7244b86af67351f5fdcb2700e",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.3,
+          "candidate_writes": 30,
+          "write_total": 1140,
+          "cert_before": [
+            -3578,
+            -584,
+            822,
+            59
+          ],
+          "cert_after": [
+            -3516,
+            -764,
+            804,
+            58
+          ],
+          "delta": 804,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "567431c34320b44e4a30d95873d3f604959bd7afa3bf243afd293d0c41b4fe84"
+        },
+        {
+          "rid": "2514720",
+          "key": "c7298386d09f07bed98df24dadb0df777180c1bf0b84474fee4e9d8b85f970aa",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.35,
+          "candidate_writes": 30,
+          "write_total": 1170,
+          "cert_before": [
+            -3516,
+            -764,
+            804,
+            58
+          ],
+          "cert_after": [
+            -3450,
+            -904,
+            790,
+            57
+          ],
+          "delta": 790,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "9289a5c6eaa9922678e98a81fd24bd9c809011bb960c2d2229aa138a780535e9"
+        },
+        {
+          "rid": "2514816",
+          "key": "75388474ac04788e5cacde5a12cc733ecd00b576b3f40e6c2bcb110a99ba8238",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.39999999999999997,
+          "candidate_writes": 30,
+          "write_total": 1200,
+          "cert_before": [
+            -3450,
+            -904,
+            790,
+            57
+          ],
+          "cert_after": [
+            -3420,
+            -1004,
+            780,
+            56
+          ],
+          "delta": 780,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "ea5cd5d1b65c22016e37e08a4a9361c4b8db13a95485a93130ffa54c0c1c8ddf"
+        }
+      ],
+      "fee": 0.39999999999999997,
+      "writes": 1200,
+      "publication_writes": 0,
+      "published": false,
+      "refusal_reason": "no_admissible_action",
+      "final_cert": [
+        -3420,
+        -1004,
+        780,
+        56
+      ],
+      "answer_sha256": "ea5cd5d1b65c22016e37e08a4a9361c4b8db13a95485a93130ffa54c0c1c8ddf",
+      "published_table_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "branch_tests": 2232,
+      "representative_visits": 1116,
+      "wrong_epoch_rejected": true
+    },
+    {
+      "epoch": 1,
+      "kind": "repeat",
+      "nonempty": true,
+      "fee_cap": 16,
+      "write_cap": 1200,
+      "initial": {
+        "cert": [
+          -3420,
+          -1004,
+          780,
+          56
+        ],
+        "U": 64,
+        "V": 1920,
+        "delta": 780,
+        "intake_required": 0,
+        "intake_applied": true,
+        "intake_writes": 0,
+        "joint_protected": false,
+        "fee_protected": false
+      },
+      "steps": [
+        {
+          "rid": "2515366",
+          "key": "abb4030f52fde16243d3b0a96ed3968b2a51652aa7851b80bf1d1cdd9aa93559",
+          "kind": "refresh",
+          "bit": 0,
+          "fee_total": 0.05,
+          "candidate_writes": 0,
+          "write_total": 0,
+          "cert_before": [
+            -3420,
+            -1004,
+            780,
+            56
+          ],
+          "cert_after": [
+            -3420,
+            -1004,
+            780,
+            55
+          ],
+          "delta": 780,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "ea5cd5d1b65c22016e37e08a4a9361c4b8db13a95485a93130ffa54c0c1c8ddf"
+        },
+        {
+          "rid": "2517558",
+          "key": "1a9e4997ce497e9a638e9c4b37a62b5de2b11988c18db19ffc5121937e13eab8",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.1,
+          "candidate_writes": 30,
+          "write_total": 30,
+          "cert_before": [
+            -3420,
+            -1004,
+            780,
+            55
+          ],
+          "cert_after": [
+            -3386,
+            -1064,
+            774,
+            54
+          ],
+          "delta": 774,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "8493b7ad1e1489675e71510b7e3e77ac75b3a7dd41c31c8d0305f95474ec7d45"
+        },
+        {
+          "rid": "2517758",
+          "key": "6847fbfa02ac5fa91642e697b06054a4fedb3fe92fc8ab56929f5712765f796a",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.15000000000000002,
+          "candidate_writes": 30,
+          "write_total": 60,
+          "cert_before": [
+            -3386,
+            -1064,
+            774,
+            54
+          ],
+          "cert_after": [
+            -3388,
+            -1084,
+            772,
+            53
+          ],
+          "delta": 772,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "8cf17a505eb4f037b746e3a398547e61b57941e8e98f48d684ec9c2209028beb"
+        },
+        {
+          "rid": "2519222",
+          "key": "55b37e834b3df162eaef0c2af43fb9c02458e506b0b1ad3706598851155b30f8",
+          "kind": "refresh",
+          "bit": 0,
+          "fee_total": 0.2,
+          "candidate_writes": 0,
+          "write_total": 60,
+          "cert_before": [
+            -3388,
+            -1084,
+            772,
+            53
+          ],
+          "cert_after": [
+            -3388,
+            -1084,
+            772,
+            52
+          ],
+          "delta": 772,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "8cf17a505eb4f037b746e3a398547e61b57941e8e98f48d684ec9c2209028beb"
+        },
+        {
+          "rid": "2523155",
+          "key": "b4f05380bb1fc901bc18d6d27996a8254756096f7ba91ec5b7cd3a23c5eac0c5",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.25,
+          "candidate_writes": 30,
+          "write_total": 90,
+          "cert_before": [
+            -3388,
+            -1084,
+            772,
+            52
+          ],
+          "cert_after": [
+            -3386,
+            -1064,
+            774,
+            51
+          ],
+          "delta": 774,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "e35a4f89238ac6db762f8b6f4a8b6184a3647804fef0beb28b72cb0fed58e59c"
+        },
+        {
+          "rid": "2529056",
+          "key": "c7a12f5f10aaeadfaaf4af50baf8f7e5e5b90b086284fce2a9574f8823411d9f",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.3,
+          "candidate_writes": 30,
+          "write_total": 120,
+          "cert_before": [
+            -3386,
+            -1064,
+            774,
+            51
+          ],
+          "cert_after": [
+            -3420,
+            -1004,
+            780,
+            50
+          ],
+          "delta": 780,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "0c0c64e9ae159cab5a3205834c708f5d992d3e66dc08b076e610aa5f8d6f9dcd"
+        },
+        {
+          "rid": "2537857",
+          "key": "e22ec997deb2741043247a3ea58815a028c04ef002e7e6aa0f8125f17c90490a",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.35,
+          "candidate_writes": 30,
+          "write_total": 150,
+          "cert_before": [
+            -3420,
+            -1004,
+            780,
+            50
+          ],
+          "cert_after": [
+            -3450,
+            -904,
+            790,
+            49
+          ],
+          "delta": 790,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "2676b217ecb2fd92b5b6c1e14fac82a91b5a8f2b0a07bf2258c8bd6364ac64ee"
+        },
+        {
+          "rid": "2552342",
+          "key": "55cd91bb5bee4a1cc7433ba63a03b5aee0512abf39f38072241b0535beca4690",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.39999999999999997,
+          "candidate_writes": 30,
+          "write_total": 180,
+          "cert_before": [
+            -3450,
+            -904,
+            790,
+            49
+          ],
+          "cert_after": [
+            -3516,
+            -764,
+            804,
+            48
+          ],
+          "delta": 804,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "c95d86bfb7b43dc8c2f247638ff60b122f86c3175268f7a7acdbc6914172626d"
+        },
+        {
+          "rid": "2553547",
+          "key": "ef0a91952bb489add318f310f9676f9f8139d3fa5d90a1b98d0ba93f787b6531",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.44999999999999996,
+          "candidate_writes": 30,
+          "write_total": 210,
+          "cert_before": [
+            -3516,
+            -764,
+            804,
+            48
+          ],
+          "cert_after": [
+            -3578,
+            -584,
+            822,
+            47
+          ],
+          "delta": 822,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "bccbc7896dec54e579a92eb7ab66d66e03604df3663534c36efe3031e54f5d77"
+        },
+        {
+          "rid": "2563983",
+          "key": "97ba5a8604d7bbc8a56b483964519a303f76d911d6d5af87c998f0c6bec1900d",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.49999999999999994,
+          "candidate_writes": 30,
+          "write_total": 240,
+          "cert_before": [
+            -3578,
+            -584,
+            822,
+            47
+          ],
+          "cert_after": [
+            -3484,
+            -826,
+            796,
+            46
+          ],
+          "delta": 796,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "eb3c12ce6d6b615ba1798556815b6fea1aa0434086398960e8d4168532f8c330"
+        },
+        {
+          "rid": "2563995",
+          "key": "110be2acc66bb4dd14326a92ff2e57d80f2854eaf34f936fcb22bf9184feb28b",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.5499999999999999,
+          "candidate_writes": 30,
+          "write_total": 270,
+          "cert_before": [
+            -3484,
+            -826,
+            796,
+            46
+          ],
+          "cert_after": [
+            -3386,
+            -1046,
+            774,
+            45
+          ],
+          "delta": 774,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "4ac93567055ac24bc481cc444dd54c54441b4d32698d13fc962387c6e6759203"
+        },
+        {
+          "rid": "2564000",
+          "key": "a1d1d716da05ec58e270527ea65887a4f970fcf3945048dea7449f235476a2eb",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.6,
+          "candidate_writes": 30,
+          "write_total": 300,
+          "cert_before": [
+            -3386,
+            -1046,
+            774,
+            45
+          ],
+          "cert_after": [
+            -3324,
+            -1226,
+            756,
+            44
+          ],
+          "delta": 756,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "29bfd0d76fe209765a32789e3582ba5a126c70fbc3b57d5cfc6556877b63711e"
+        },
+        {
+          "rid": "2564739",
+          "key": "6b6d0f288fe2266df4e63520838c311b06f9ab29e5e4d3de82549dcc6160b5d5",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.65,
+          "candidate_writes": 30,
+          "write_total": 330,
+          "cert_before": [
+            -3324,
+            -1226,
+            756,
+            44
+          ],
+          "cert_after": [
+            -3258,
+            -1366,
+            742,
+            43
+          ],
+          "delta": 742,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "56b14b3b052686c438f65e170d3e70bede29d2aff2b4ff61b8b010c2582450cb"
+        },
+        {
+          "rid": "2564777",
+          "key": "0bf905bf458eeddad61ad3c00c99d6d8f586685d1e7d6e22429dd03fda797b70",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.7000000000000001,
+          "candidate_writes": 30,
+          "write_total": 360,
+          "cert_before": [
+            -3258,
+            -1366,
+            742,
+            43
+          ],
+          "cert_after": [
+            -3228,
+            -1466,
+            732,
+            42
+          ],
+          "delta": 732,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "898d64aea1acd6acf7a93f30b981d8009027f2e1ee1db5f198308ea46523f9a8"
+        },
+        {
+          "rid": "2565348",
+          "key": "e6191b5e278a876c26b530da7b865e356e25bed1e9473a109011a3c268e5ac4c",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.7500000000000001,
+          "candidate_writes": 30,
+          "write_total": 390,
+          "cert_before": [
+            -3228,
+            -1466,
+            732,
+            42
+          ],
+          "cert_after": [
+            -3194,
+            -1526,
+            726,
+            41
+          ],
+          "delta": 726,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "06ac381654bb17a6935d91407997fdfd727ed5816d7dd0d08ad478fba4b0b130"
+        },
+        {
+          "rid": "2565431",
+          "key": "7cd566df85256f9829e00a906f5213253bcfd575b27a8f514f239a8412fae5b0",
+          "kind": "refresh",
+          "bit": 0,
+          "fee_total": 0.8000000000000002,
+          "candidate_writes": 0,
+          "write_total": 390,
+          "cert_before": [
+            -3194,
+            -1526,
+            726,
+            41
+          ],
+          "cert_after": [
+            -3194,
+            -1526,
+            726,
+            40
+          ],
+          "delta": 726,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "06ac381654bb17a6935d91407997fdfd727ed5816d7dd0d08ad478fba4b0b130"
+        },
+        {
+          "rid": "2565777",
+          "key": "644a033d2f6c366bdd74e4f0184781d0a19f0e8b4bba57459d330b781bb59665",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.8500000000000002,
+          "candidate_writes": 30,
+          "write_total": 420,
+          "cert_before": [
+            -3194,
+            -1526,
+            726,
+            40
+          ],
+          "cert_after": [
+            -3196,
+            -1546,
+            724,
+            39
+          ],
+          "delta": 724,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "84ea250cd10b9b4124a0fa786f73dfa86e5945ea3bce2ed6f554a19f2f221705"
+        },
+        {
+          "rid": "2566194",
+          "key": "77f12a3afd9742539f760079e7cde5f41c66f39f47d83e0ae61c23394a327ef4",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.9000000000000002,
+          "candidate_writes": 30,
+          "write_total": 450,
+          "cert_before": [
+            -3196,
+            -1546,
+            724,
+            39
+          ],
+          "cert_after": [
+            -3194,
+            -1526,
+            726,
+            38
+          ],
+          "delta": 726,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "86b9d4ac92d2c261e6fb26d92b0ba6cac18f376fd6f6723288990b3d364b0e03"
+        },
+        {
+          "rid": "2566549",
+          "key": "125d213b244ce0d0cd025cd1c45b2e2e666583daf525f06342bba3abc5694fc5",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.9500000000000003,
+          "candidate_writes": 30,
+          "write_total": 480,
+          "cert_before": [
+            -3194,
+            -1526,
+            726,
+            38
+          ],
+          "cert_after": [
+            -3228,
+            -1466,
+            732,
+            37
+          ],
+          "delta": 732,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "89741bfad2a533de12f9eb2c59971e6d4d0609674a9829d54ae5a30b29531fb9"
+        },
+        {
+          "rid": "2566839",
+          "key": "33abbfa342be7b03e45178c21412ddfc90fc82bae8356a4b6efceb9799c83636",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.0000000000000002,
+          "candidate_writes": 30,
+          "write_total": 510,
+          "cert_before": [
+            -3228,
+            -1466,
+            732,
+            37
+          ],
+          "cert_after": [
+            -3258,
+            -1366,
+            742,
+            36
+          ],
+          "delta": 742,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "4f835be964b1e9dccbfe56ca6ba96ba61d5c28b7b4047063cacf1df9c5ffe45f"
+        },
+        {
+          "rid": "2567862",
+          "key": "955c486f3e88a0d0492c949cd5ad83fed7eba80373bc76a8b1842cd2291999ee",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.0500000000000003,
+          "candidate_writes": 30,
+          "write_total": 540,
+          "cert_before": [
+            -3258,
+            -1366,
+            742,
+            36
+          ],
+          "cert_after": [
+            -3324,
+            -1226,
+            756,
+            35
+          ],
+          "delta": 756,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "407d1e80576a166e5165bed9a7b0b865f037a668fe170c30b0cec586799ad7b5"
+        },
+        {
+          "rid": "2573036",
+          "key": "ad63c0aca9b0aadbf2fe11dc007ef10ff1370e60e41b84f88bbcae2bbcd74a1e",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.1000000000000003,
+          "candidate_writes": 30,
+          "write_total": 570,
+          "cert_before": [
+            -3324,
+            -1226,
+            756,
+            35
+          ],
+          "cert_after": [
+            -3386,
+            -1046,
+            774,
+            34
+          ],
+          "delta": 774,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "b858fd7d5260fc7d523accbcb4c636e5151d32e8633bc91d06733d6294135b6e"
+        },
+        {
+          "rid": "2579791",
+          "key": "959677383859f5ceb9beb3e05b1ad6b10c45acfd25342a2c93dde85e3c0a2e32",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.1500000000000004,
+          "candidate_writes": 30,
+          "write_total": 600,
+          "cert_before": [
+            -3386,
+            -1046,
+            774,
+            34
+          ],
+          "cert_after": [
+            -3256,
+            -1236,
+            744,
+            33
+          ],
+          "delta": 744,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "e12457e3d764c3160c70853ed7bbdff62f50c58c7451d324419499a38fb6c467"
+        },
+        {
+          "rid": "2579836",
+          "key": "6a3651aefcea1d6620c5c920e0bf089701ab8a138fa9a1e4515dddcaedb9e9e9",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.2000000000000004,
+          "candidate_writes": 30,
+          "write_total": 630,
+          "cert_before": [
+            -3256,
+            -1236,
+            744,
+            33
+          ],
+          "cert_after": [
+            -3162,
+            -1478,
+            718,
+            32
+          ],
+          "delta": 718,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "e5e8cf5f90c783654de07f3da311b09ce71f9f1f91ef3e667e5184796276f145"
+        },
+        {
+          "rid": "2579852",
+          "key": "e8853928fd3c6980867319210051ac1020c78d333691396b45b0e9b57d18b72d",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.2500000000000004,
+          "candidate_writes": 30,
+          "write_total": 660,
+          "cert_before": [
+            -3162,
+            -1478,
+            718,
+            32
+          ],
+          "cert_after": [
+            -3064,
+            -1698,
+            696,
+            31
+          ],
+          "delta": 696,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "8a6a8865c663d6f382272454e134bd9abeb4f9b94e5b3a7d126b448e84a64a3a"
+        },
+        {
+          "rid": "2579877",
+          "key": "2f26222d98e7e5836c4a3e30acfcb710b232ecf71c5d1e6361e9044ddd8037cc",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.3000000000000005,
+          "candidate_writes": 30,
+          "write_total": 690,
+          "cert_before": [
+            -3064,
+            -1698,
+            696,
+            31
+          ],
+          "cert_after": [
+            -3002,
+            -1878,
+            678,
+            30
+          ],
+          "delta": 678,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "bc5a0dbb0d3c020c5097c091885c33aa067749f65ee67aba6d15d552bd4af529"
+        },
+        {
+          "rid": "2579884",
+          "key": "73b7e895ee5748aa489b4ea3886ebc097f8621e39c2f16135b608adcabfa5b69",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.3500000000000005,
+          "candidate_writes": 30,
+          "write_total": 720,
+          "cert_before": [
+            -3002,
+            -1878,
+            678,
+            30
+          ],
+          "cert_after": [
+            -2936,
+            -2018,
+            664,
+            29
+          ],
+          "delta": 664,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "697126bd11340a2898f5e8e1f31104cdc7f16b8354d3050083e8d5ce29b98410"
+        },
+        {
+          "rid": "2579986",
+          "key": "f9fbf0db442d54c8581264b8d48979d8346affee85205d84e92f301849a8ce6b",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.4000000000000006,
+          "candidate_writes": 30,
+          "write_total": 750,
+          "cert_before": [
+            -2936,
+            -2018,
+            664,
+            29
+          ],
+          "cert_after": [
+            -2906,
+            -2118,
+            654,
+            28
+          ],
+          "delta": 654,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "aed4dbe32d56bd19235f3b9a8cd0c1d5eab03877da2037108e4f81b8ff3a0e8c"
+        },
+        {
+          "rid": "2580069",
+          "key": "24493f1cf3db1fb3319d38ac01090c82377b3029b8dc8a3533b3d5cb49002e3e",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.4500000000000006,
+          "candidate_writes": 30,
+          "write_total": 780,
+          "cert_before": [
+            -2906,
+            -2118,
+            654,
+            28
+          ],
+          "cert_after": [
+            -2872,
+            -2178,
+            648,
+            27
+          ],
+          "delta": 648,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "54acfaa2ecab700accb56ab7f9c89269b1085cdf6eaad1a2e736833f4e277835"
+        },
+        {
+          "rid": "2580377",
+          "key": "900bd77a9b3a07062acdd52571025876c4cab7a087b097b8771ced5ed14f3dfe",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.5000000000000007,
+          "candidate_writes": 30,
+          "write_total": 810,
+          "cert_before": [
+            -2872,
+            -2178,
+            648,
+            27
+          ],
+          "cert_after": [
+            -2874,
+            -2198,
+            646,
+            26
+          ],
+          "delta": 646,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "0feb731aa922cf0bc31cc776d55f1db2855f915280b5779cd96751d79f38a9e4"
+        },
+        {
+          "rid": "2580797",
+          "key": "63ae220cd1f25b2ea4201f0c76a9680a9c2f95da02f80235218774020f140edf",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.5500000000000007,
+          "candidate_writes": 30,
+          "write_total": 840,
+          "cert_before": [
+            -2874,
+            -2198,
+            646,
+            26
+          ],
+          "cert_after": [
+            -2872,
+            -2178,
+            648,
+            25
+          ],
+          "delta": 648,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "a34df064175a5fb949be2aa2796f7a5133eb55f2e6c256d0c9551486eb71a165"
+        },
+        {
+          "rid": "2580899",
+          "key": "ed6d31900edaa333e7335f84e0b193feb3ff0c22edfff12a33862f8d34e295cb",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.6000000000000008,
+          "candidate_writes": 30,
+          "write_total": 870,
+          "cert_before": [
+            -2872,
+            -2178,
+            648,
+            25
+          ],
+          "cert_after": [
+            -2906,
+            -2118,
+            654,
+            24
+          ],
+          "delta": 654,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "2daa62159f647a45e5b15bd49680e95b712aad12b1231a2bb9cce869caf2f083"
+        },
+        {
+          "rid": "2581053",
+          "key": "361350a763c66730705e3004d40221fc3f101570855b86e9c88e8f79a9e03eff",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.6500000000000008,
+          "candidate_writes": 30,
+          "write_total": 900,
+          "cert_before": [
+            -2906,
+            -2118,
+            654,
+            24
+          ],
+          "cert_after": [
+            -2936,
+            -2018,
+            664,
+            23
+          ],
+          "delta": 664,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "c829859792427c8cae7ddee6fee55bc2c7acaa5541d4c9e262b638f4c075576f"
+        },
+        {
+          "rid": "2581317",
+          "key": "fd9cc63411ccace6ebb5b0165929028f0bf2c18aae19c25e8f598a1099aae726",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.7000000000000008,
+          "candidate_writes": 30,
+          "write_total": 930,
+          "cert_before": [
+            -2936,
+            -2018,
+            664,
+            23
+          ],
+          "cert_after": [
+            -3002,
+            -1878,
+            678,
+            22
+          ],
+          "delta": 678,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "5c2da52fc8131389cb14037d9c60d098baa248ea79fc3caf20492a73cf49414a"
+        },
+        {
+          "rid": "2581591",
+          "key": "aa4fd0a0b6338326dacaba727bda818c7560aba3e96e2d946fc151d0bd0d2c92",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.7500000000000009,
+          "candidate_writes": 30,
+          "write_total": 960,
+          "cert_before": [
+            -3002,
+            -1878,
+            678,
+            22
+          ],
+          "cert_after": [
+            -3064,
+            -1698,
+            696,
+            21
+          ],
+          "delta": 696,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "f3800ff98598b01a6054a73f01586e0f2b486ce7fe0cb13daffdd09b4c95822b"
+        },
+        {
+          "rid": "2593602",
+          "key": "64b295d9d8bb488d5f28f0d13b39331ef105b4deaaf0456f020d2fbeb7fda90c",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.800000000000001,
+          "candidate_writes": 30,
+          "write_total": 990,
+          "cert_before": [
+            -3064,
+            -1698,
+            696,
+            21
+          ],
+          "cert_after": [
+            -3162,
+            -1478,
+            718,
+            20
+          ],
+          "delta": 718,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "a9c4120388385b56be5dc20df0daf16e638d10e33d9535fddb6aae6e1b81066d"
+        },
+        {
+          "rid": "2597003",
+          "key": "0b9738276803cec699ca286bb79d973a57ac1fc6326844238377ff3a5cecfcb2",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.850000000000001,
+          "candidate_writes": 30,
+          "write_total": 1020,
+          "cert_before": [
+            -3162,
+            -1478,
+            718,
+            20
+          ],
+          "cert_after": [
+            -3260,
+            -1258,
+            740,
+            19
+          ],
+          "delta": 740,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "613840471267700300037ef0e15ad39b29810f6def2eaa7ee51b18894939649b"
+        },
+        {
+          "rid": "2610231",
+          "key": "2f855572d5696ded82846d13de17b5de40f1dd63575bf1f237586752720f4cc8",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.900000000000001,
+          "candidate_writes": 30,
+          "write_total": 1050,
+          "cert_before": [
+            -3260,
+            -1258,
+            740,
+            19
+          ],
+          "cert_after": [
+            -3354,
+            -1016,
+            766,
+            18
+          ],
+          "delta": 766,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "bae6f11c8fc7dd5747dfceadb92aea3d73b434137ba559151375cfe3bdc311ef"
+        },
+        {
+          "rid": "2620263",
+          "key": "5b736d6ac9fd131e1f8bf6059d2fcab48b736f3d40783e41f7933c8809b822fd",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.950000000000001,
+          "candidate_writes": 30,
+          "write_total": 1080,
+          "cert_before": [
+            -3354,
+            -1016,
+            766,
+            18
+          ],
+          "cert_after": [
+            -3448,
+            -774,
+            792,
+            17
+          ],
+          "delta": 792,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "1b3263b952b81af4c401cc817167d96260f4c3ff48ec32f6fc4f025a62b96e34"
+        },
+        {
+          "rid": "2623233",
+          "key": "34dfe1007c0d693aa0b8d6fd5b7bfa1673bf7b2c8c6ab506a4df981781746557",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 2.000000000000001,
+          "candidate_writes": 30,
+          "write_total": 1110,
+          "cert_before": [
+            -3448,
+            -774,
+            792,
+            17
+          ],
+          "cert_after": [
+            -3354,
+            -1016,
+            766,
+            16
+          ],
+          "delta": 766,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "6c9180a462035bc09cee0a6c570f8e67b9406c562fb1e9cb50e1d948e167f929"
+        },
+        {
+          "rid": "2623234",
+          "key": "0b82c671b27eff4c07c31297feea8d06d34e903d122f1ac52f49a6204522252d",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 2.0500000000000007,
+          "candidate_writes": 30,
+          "write_total": 1140,
+          "cert_before": [
+            -3354,
+            -1016,
+            766,
+            16
+          ],
+          "cert_after": [
+            -3256,
+            -1236,
+            744,
+            15
+          ],
+          "delta": 744,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "7cf0070d724e30772ed57d2f2fa9ae9d1c4ccd96440fa9d07a517f90418001c2"
+        },
+        {
+          "rid": "2623400",
+          "key": "fde58b846f3836e68eba8649f3896b46946c27a03bf3962b9023c1758bdd0ebd",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 2.1000000000000005,
+          "candidate_writes": 30,
+          "write_total": 1170,
+          "cert_before": [
+            -3256,
+            -1236,
+            744,
+            15
+          ],
+          "cert_after": [
+            -3194,
+            -1416,
+            726,
+            14
+          ],
+          "delta": 726,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "c319ba7c64e0c7d0b2a84de5fdcd93039411196eea7f883e471c67b6ea938b63"
+        },
+        {
+          "rid": "2623871",
+          "key": "e0fddfda378b12dec4e50c2c994d5e9d5b4675417eb9e1c4854302b5b6b8a4de",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 2.1500000000000004,
+          "candidate_writes": 30,
+          "write_total": 1200,
+          "cert_before": [
+            -3194,
+            -1416,
+            726,
+            14
+          ],
+          "cert_after": [
+            -3128,
+            -1556,
+            712,
+            13
+          ],
+          "delta": 712,
+          "U": 64,
+          "V": 1920,
+          "answer_sha256": "d79a8b63c7ddaebfeb7a16b86d8fedcd48154588900c381a0a20ce21504dc555"
+        }
+      ],
+      "fee": 2.1500000000000004,
+      "writes": 1200,
+      "publication_writes": 0,
+      "published": false,
+      "refusal_reason": "no_admissible_action",
+      "final_cert": [
+        -3128,
+        -1556,
+        712,
+        13
+      ],
+      "answer_sha256": "d79a8b63c7ddaebfeb7a16b86d8fedcd48154588900c381a0a20ce21504dc555",
+      "published_table_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "branch_tests": 8668,
+      "representative_visits": 4334,
+      "wrong_epoch_rejected": true
+    },
+    {
+      "epoch": 2,
+      "kind": "public_mask",
+      "nonempty": true,
+      "fee_cap": 16,
+      "write_cap": 1200,
+      "initial": {
+        "cert": [
+          358,
+          -1460,
+          718,
+          1
+        ],
+        "U": 10,
+        "V": 300,
+        "delta": 718,
+        "intake_required": 310,
+        "intake_applied": true,
+        "intake_writes": 310,
+        "joint_protected": false,
+        "fee_protected": true
+      },
+      "steps": [
+        {
+          "rid": "2655172",
+          "key": "4243929c974f4c5e59f07bb22863a6925e41f2a6ab32eb26239ce11a7c61a879",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.05,
+          "candidate_writes": 30,
+          "write_total": 340,
+          "cert_before": [
+            358,
+            -1460,
+            718,
+            1
+          ],
+          "cert_after": [
+            576,
+            -1680,
+            696,
+            0
+          ],
+          "delta": 696,
+          "U": 10,
+          "V": 300,
+          "answer_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7"
+        },
+        {
+          "rid": "2506076",
+          "key": "6c2aca70e59bb8f544e4bba384cbc230841487ae872daed8ca37aa56ebdac60f",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 1.05,
+          "candidate_writes": 0,
+          "write_total": 340,
+          "cert_before": [
+            576,
+            -1680,
+            696,
+            0
+          ],
+          "cert_after": [
+            576,
+            -1450,
+            696,
+            0
+          ],
+          "delta": 696,
+          "U": 9,
+          "V": 270,
+          "answer_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7"
+        },
+        {
+          "rid": "2514816",
+          "key": "75388474ac04788e5cacde5a12cc733ecd00b576b3f40e6c2bcb110a99ba8238",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 2.05,
+          "candidate_writes": 0,
+          "write_total": 340,
+          "cert_before": [
+            576,
+            -1450,
+            696,
+            0
+          ],
+          "cert_after": [
+            576,
+            -1216,
+            696,
+            0
+          ],
+          "delta": 696,
+          "U": 8,
+          "V": 240,
+          "answer_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7"
+        },
+        {
+          "rid": "2523155",
+          "key": "b4f05380bb1fc901bc18d6d27996a8254756096f7ba91ec5b7cd3a23c5eac0c5",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 3.05,
+          "candidate_writes": 0,
+          "write_total": 340,
+          "cert_before": [
+            576,
+            -1216,
+            696,
+            0
+          ],
+          "cert_after": [
+            616,
+            -978,
+            696,
+            0
+          ],
+          "delta": 696,
+          "U": 7,
+          "V": 210,
+          "answer_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7"
+        },
+        {
+          "rid": "2566839",
+          "key": "33abbfa342be7b03e45178c21412ddfc90fc82bae8356a4b6efceb9799c83636",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 4.05,
+          "candidate_writes": 0,
+          "write_total": 340,
+          "cert_before": [
+            616,
+            -978,
+            696,
+            0
+          ],
+          "cert_after": [
+            616,
+            -708,
+            696,
+            0
+          ],
+          "delta": 696,
+          "U": 6,
+          "V": 180,
+          "answer_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7"
+        },
+        {
+          "rid": "2579877",
+          "key": "2f26222d98e7e5836c4a3e30acfcb710b232ecf71c5d1e6361e9044ddd8037cc",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 5.05,
+          "candidate_writes": 0,
+          "write_total": 340,
+          "cert_before": [
+            616,
+            -708,
+            696,
+            0
+          ],
+          "cert_after": [
+            616,
+            -478,
+            696,
+            0
+          ],
+          "delta": 696,
+          "U": 5,
+          "V": 150,
+          "answer_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7"
+        },
+        {
+          "rid": "2580797",
+          "key": "63ae220cd1f25b2ea4201f0c76a9680a9c2f95da02f80235218774020f140edf",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 6.05,
+          "candidate_writes": 0,
+          "write_total": 340,
+          "cert_before": [
+            616,
+            -478,
+            696,
+            0
+          ],
+          "cert_after": [
+            616,
+            -244,
+            696,
+            0
+          ],
+          "delta": 696,
+          "U": 4,
+          "V": 120,
+          "answer_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7"
+        },
+        {
+          "rid": "2623234",
+          "key": "0b82c671b27eff4c07c31297feea8d06d34e903d122f1ac52f49a6204522252d",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 7.05,
+          "candidate_writes": 0,
+          "write_total": 340,
+          "cert_before": [
+            616,
+            -244,
+            696,
+            0
+          ],
+          "cert_after": [
+            616,
+            -14,
+            696,
+            0
+          ],
+          "delta": 696,
+          "U": 3,
+          "V": 90,
+          "answer_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7"
+        },
+        {
+          "rid": "2623400",
+          "key": "fde58b846f3836e68eba8649f3896b46946c27a03bf3962b9023c1758bdd0ebd",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 8.05,
+          "candidate_writes": 0,
+          "write_total": 340,
+          "cert_before": [
+            616,
+            -14,
+            696,
+            0
+          ],
+          "cert_after": [
+            616,
+            220,
+            696,
+            0
+          ],
+          "delta": 696,
+          "U": 2,
+          "V": 60,
+          "answer_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7"
+        }
+      ],
+      "fee": 8.05,
+      "writes": 1036,
+      "publication_writes": 696,
+      "published": true,
+      "refusal_reason": null,
+      "final_cert": [
+        616,
+        220,
+        696,
+        0
+      ],
+      "answer_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7",
+      "published_table_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7",
+      "branch_tests": 126,
+      "representative_visits": 63,
+      "wrong_epoch_rejected": true
+    },
+    {
+      "epoch": 3,
+      "kind": "prompt_change",
+      "nonempty": true,
+      "fee_cap": 16,
+      "write_cap": 1200,
+      "initial": {
+        "cert": [
+          616,
+          220,
+          696,
+          2
+        ],
+        "U": 2,
+        "V": 60,
+        "delta": 0,
+        "intake_required": 0,
+        "intake_applied": true,
+        "intake_writes": 0,
+        "joint_protected": false,
+        "fee_protected": true
+      },
+      "steps": [
+        {
+          "rid": "2623871",
+          "key": "e0fddfda378b12dec4e50c2c994d5e9d5b4675417eb9e1c4854302b5b6b8a4de",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.05,
+          "candidate_writes": 0,
+          "write_total": 0,
+          "cert_before": [
+            616,
+            220,
+            696,
+            2
+          ],
+          "cert_after": [
+            616,
+            220,
+            696,
+            1
+          ],
+          "delta": 0,
+          "U": 2,
+          "V": 60,
+          "answer_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7"
+        },
+        {
+          "rid": "2655172",
+          "key": "4243929c974f4c5e59f07bb22863a6925e41f2a6ab32eb26239ce11a7c61a879",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.1,
+          "candidate_writes": 0,
+          "write_total": 0,
+          "cert_before": [
+            616,
+            220,
+            696,
+            1
+          ],
+          "cert_after": [
+            616,
+            220,
+            696,
+            0
+          ],
+          "delta": 0,
+          "U": 2,
+          "V": 60,
+          "answer_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7"
+        }
+      ],
+      "fee": 0.1,
+      "writes": 0,
+      "publication_writes": 0,
+      "published": true,
+      "refusal_reason": null,
+      "final_cert": [
+        616,
+        220,
+        696,
+        0
+      ],
+      "answer_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7",
+      "published_table_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7",
+      "branch_tests": 14,
+      "representative_visits": 7,
+      "wrong_epoch_rejected": true
+    },
+    {
+      "epoch": 4,
+      "kind": "replace_25pct_text",
+      "nonempty": true,
+      "fee_cap": 16,
+      "write_cap": 1200,
+      "initial": {
+        "cert": [
+          -216,
+          414,
+          844,
+          4
+        ],
+        "U": 5,
+        "V": 150,
+        "delta": 172,
+        "intake_required": 172,
+        "intake_applied": true,
+        "intake_writes": 172,
+        "joint_protected": false,
+        "fee_protected": true
+      },
+      "steps": [
+        {
+          "rid": "2580797",
+          "key": "f1457f325d94b42a326a70b39e6166256a044326829dbfad98cf31276b4aff3e",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.05,
+          "candidate_writes": 30,
+          "write_total": 202,
+          "cert_before": [
+            -216,
+            414,
+            844,
+            4
+          ],
+          "cert_after": [
+            18,
+            164,
+            818,
+            3
+          ],
+          "delta": 146,
+          "U": 5,
+          "V": 150,
+          "answer_sha256": "5d7b1e267c3c50001106a403fd1b0c856fc50594e0657795601b348e2c40040e"
+        },
+        {
+          "rid": "2623871",
+          "key": "40b98eb2e5573315248650ea07593b40a4dacc9abb3d6531612ed3926b82c24c",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.1,
+          "candidate_writes": 30,
+          "write_total": 232,
+          "cert_before": [
+            18,
+            164,
+            818,
+            3
+          ],
+          "cert_after": [
+            232,
+            -54,
+            792,
+            2
+          ],
+          "delta": 120,
+          "U": 5,
+          "V": 150,
+          "answer_sha256": "8ea0dbd16644002a8037dce9d019e31b014f55dfba043be980770c85d2215d2d"
+        },
+        {
+          "rid": "2709436",
+          "key": "ac30a05e57b5db8a6500343abbc120c139b18507058e4f9b98cac03a66981028",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.15000000000000002,
+          "candidate_writes": 30,
+          "write_total": 262,
+          "cert_before": [
+            232,
+            -54,
+            792,
+            2
+          ],
+          "cert_after": [
+            450,
+            -268,
+            770,
+            1
+          ],
+          "delta": 146,
+          "U": 5,
+          "V": 150,
+          "answer_sha256": "77ff5837ea1fdc142f261ce1981851168d958044e2b730a106aebace8f95637d"
+        },
+        {
+          "rid": "2784359",
+          "key": "f74e14cf6bfc71a791b1fde204169dbf8e3c1b53cfb316aef59b079893c6657f",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.2,
+          "candidate_writes": 30,
+          "write_total": 292,
+          "cert_before": [
+            450,
+            -268,
+            770,
+            1
+          ],
+          "cert_after": [
+            648,
+            -466,
+            748,
+            0
+          ],
+          "delta": 172,
+          "U": 5,
+          "V": 150,
+          "answer_sha256": "a4a703de238ded6f81c098c72b29ba81be3c175bcd837d623b70e8df639d71c4"
+        },
+        {
+          "rid": "2580797",
+          "key": "f1457f325d94b42a326a70b39e6166256a044326829dbfad98cf31276b4aff3e",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 1.2,
+          "candidate_writes": 0,
+          "write_total": 292,
+          "cert_before": [
+            648,
+            -466,
+            748,
+            0
+          ],
+          "cert_after": [
+            648,
+            -216,
+            748,
+            0
+          ],
+          "delta": 172,
+          "U": 4,
+          "V": 120,
+          "answer_sha256": "a4a703de238ded6f81c098c72b29ba81be3c175bcd837d623b70e8df639d71c4"
+        },
+        {
+          "rid": "2623871",
+          "key": "40b98eb2e5573315248650ea07593b40a4dacc9abb3d6531612ed3926b82c24c",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 2.2,
+          "candidate_writes": 0,
+          "write_total": 292,
+          "cert_before": [
+            648,
+            -216,
+            748,
+            0
+          ],
+          "cert_after": [
+            648,
+            18,
+            748,
+            0
+          ],
+          "delta": 172,
+          "U": 3,
+          "V": 90,
+          "answer_sha256": "a4a703de238ded6f81c098c72b29ba81be3c175bcd837d623b70e8df639d71c4"
+        }
+      ],
+      "fee": 2.2,
+      "writes": 464,
+      "publication_writes": 172,
+      "published": true,
+      "refusal_reason": null,
+      "final_cert": [
+        648,
+        18,
+        748,
+        0
+      ],
+      "answer_sha256": "a4a703de238ded6f81c098c72b29ba81be3c175bcd837d623b70e8df639d71c4",
+      "published_table_sha256": "a4a703de238ded6f81c098c72b29ba81be3c175bcd837d623b70e8df639d71c4",
+      "branch_tests": 78,
+      "representative_visits": 39,
+      "wrong_epoch_rejected": true
+    },
+    {
+      "epoch": 5,
+      "kind": "delete_insert_25pct",
+      "nonempty": true,
+      "fee_cap": 16,
+      "write_cap": 1200,
+      "initial": {
+        "cert": [
+          -152,
+          -80,
+          748,
+          3
+        ],
+        "U": 6,
+        "V": 180,
+        "delta": 736,
+        "intake_required": 736,
+        "intake_applied": true,
+        "intake_writes": 736,
+        "joint_protected": false,
+        "fee_protected": true
+      },
+      "steps": [
+        {
+          "rid": "2564040",
+          "key": "6660a1c702f2b897a2c7882fd53fca237ad39b050c19f0afa4e9c5fd13c617d8",
+          "kind": "refresh",
+          "bit": 0,
+          "fee_total": 0.05,
+          "candidate_writes": 0,
+          "write_total": 736,
+          "cert_before": [
+            -152,
+            -80,
+            748,
+            3
+          ],
+          "cert_after": [
+            -152,
+            -80,
+            748,
+            2
+          ],
+          "delta": 736,
+          "U": 6,
+          "V": 180,
+          "answer_sha256": "d2477b3fc0aca531c991ddda57b7228d8e9f52903702b0ebed8fef4fb1630ee6"
+        },
+        {
+          "rid": "2580116",
+          "key": "68352dd9d948b22fcf564081cc0eb5ee9ea47597cea4bebbacc1b41b59dadc71",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.1,
+          "candidate_writes": 30,
+          "write_total": 766,
+          "cert_before": [
+            -152,
+            -80,
+            748,
+            2
+          ],
+          "cert_after": [
+            66,
+            -294,
+            726,
+            1
+          ],
+          "delta": 714,
+          "U": 6,
+          "V": 180,
+          "answer_sha256": "20cc3e897d17e237a81299b57f56079ad75b2cc9deeeb4aa4b98815c2285ae38"
+        },
+        {
+          "rid": "2649633",
+          "key": "c4c59a17cc6ceb97b5bb02212b69cb671820eb0c51f6be867ca4422a8f00e2c0",
+          "kind": "refresh",
+          "bit": 0,
+          "fee_total": 0.15000000000000002,
+          "candidate_writes": 0,
+          "write_total": 766,
+          "cert_before": [
+            66,
+            -294,
+            726,
+            1
+          ],
+          "cert_after": [
+            66,
+            -294,
+            726,
+            0
+          ],
+          "delta": 714,
+          "U": 6,
+          "V": 180,
+          "answer_sha256": "20cc3e897d17e237a81299b57f56079ad75b2cc9deeeb4aa4b98815c2285ae38"
+        },
+        {
+          "rid": "2564040",
+          "key": "6660a1c702f2b897a2c7882fd53fca237ad39b050c19f0afa4e9c5fd13c617d8",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 1.15,
+          "candidate_writes": 30,
+          "write_total": 796,
+          "cert_before": [
+            66,
+            -294,
+            726,
+            0
+          ],
+          "cert_after": [
+            336,
+            -294,
+            696,
+            0
+          ],
+          "delta": 684,
+          "U": 5,
+          "V": 150,
+          "answer_sha256": "d8dede6057e535b42dfaba666f23db11e01b66cc2595cb86e67e5a57e1dec292"
+        },
+        {
+          "rid": "2580116",
+          "key": "68352dd9d948b22fcf564081cc0eb5ee9ea47597cea4bebbacc1b41b59dadc71",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 2.15,
+          "candidate_writes": 0,
+          "write_total": 796,
+          "cert_before": [
+            336,
+            -294,
+            696,
+            0
+          ],
+          "cert_after": [
+            336,
+            -60,
+            696,
+            0
+          ],
+          "delta": 684,
+          "U": 4,
+          "V": 120,
+          "answer_sha256": "d8dede6057e535b42dfaba666f23db11e01b66cc2595cb86e67e5a57e1dec292"
+        },
+        {
+          "rid": "2649633",
+          "key": "c4c59a17cc6ceb97b5bb02212b69cb671820eb0c51f6be867ca4422a8f00e2c0",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 3.15,
+          "candidate_writes": 30,
+          "write_total": 826,
+          "cert_before": [
+            336,
+            -60,
+            696,
+            0
+          ],
+          "cert_after": [
+            538,
+            -20,
+            678,
+            0
+          ],
+          "delta": 666,
+          "U": 3,
+          "V": 90,
+          "answer_sha256": "e448427d4e72d64154820421a99b49fddec8849ca9fd82b245d45d1f7823bbf2"
+        },
+        {
+          "rid": "2655172",
+          "key": "4243929c974f4c5e59f07bb22863a6925e41f2a6ab32eb26239ce11a7c61a879",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 4.15,
+          "candidate_writes": 0,
+          "write_total": 826,
+          "cert_before": [
+            538,
+            -20,
+            678,
+            0
+          ],
+          "cert_after": [
+            578,
+            218,
+            678,
+            0
+          ],
+          "delta": 666,
+          "U": 2,
+          "V": 60,
+          "answer_sha256": "e448427d4e72d64154820421a99b49fddec8849ca9fd82b245d45d1f7823bbf2"
+        }
+      ],
+      "fee": 4.15,
+      "writes": 826,
+      "publication_writes": 0,
+      "published": false,
+      "refusal_reason": "publication_write_cap",
+      "final_cert": [
+        578,
+        218,
+        678,
+        0
+      ],
+      "answer_sha256": "e448427d4e72d64154820421a99b49fddec8849ca9fd82b245d45d1f7823bbf2",
+      "published_table_sha256": "a4a703de238ded6f81c098c72b29ba81be3c175bcd837d623b70e8df639d71c4",
+      "branch_tests": 84,
+      "representative_visits": 42,
+      "wrong_epoch_rejected": true
+    },
+    {
+      "epoch": 6,
+      "kind": "unmask",
+      "nonempty": true,
+      "fee_cap": 16,
+      "write_cap": 1200,
+      "initial": {
+        "cert": [
+          -2206,
+          -3900,
+          474,
+          53
+        ],
+        "U": 55,
+        "V": 1650,
+        "delta": 798,
+        "intake_required": 392,
+        "intake_applied": true,
+        "intake_writes": 392,
+        "joint_protected": false,
+        "fee_protected": false
+      },
+      "steps": [
+        {
+          "rid": "102654913",
+          "key": "f11f31d3ac8ed0ddc724f2c0d3b95a850e6dfa14c1272a1ee860695fee0fda38",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.05,
+          "candidate_writes": 30,
+          "write_total": 422,
+          "cert_before": [
+            -2206,
+            -3900,
+            474,
+            53
+          ],
+          "cert_after": [
+            -2204,
+            -3880,
+            476,
+            52
+          ],
+          "delta": 800,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "2f72cc2f8f4d70cf0cdce8e80de0bb7b584d07bb68198232ca420c91ab027809"
+        },
+        {
+          "rid": "102722610",
+          "key": "7ffd8aa8908b6676bc4342858514ca93d16caabd82d03f4c5da959fdd8b8af2f",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.1,
+          "candidate_writes": 0,
+          "write_total": 422,
+          "cert_before": [
+            -2204,
+            -3880,
+            476,
+            52
+          ],
+          "cert_after": [
+            -2204,
+            -3880,
+            476,
+            51
+          ],
+          "delta": 800,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "2f72cc2f8f4d70cf0cdce8e80de0bb7b584d07bb68198232ca420c91ab027809"
+        },
+        {
+          "rid": "102771117",
+          "key": "3d377d07f960229398daf59877814e313504ff2906e55b2f42b387144b4d4d1a",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.15000000000000002,
+          "candidate_writes": 0,
+          "write_total": 422,
+          "cert_before": [
+            -2204,
+            -3880,
+            476,
+            51
+          ],
+          "cert_after": [
+            -2204,
+            -3880,
+            476,
+            50
+          ],
+          "delta": 800,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "2f72cc2f8f4d70cf0cdce8e80de0bb7b584d07bb68198232ca420c91ab027809"
+        },
+        {
+          "rid": "2506076",
+          "key": "a4f1aa2c06adfe0f024db0f48c760af734d5b70384db00f2d3f28fcaef62b095",
+          "kind": "refresh",
+          "bit": 0,
+          "fee_total": 0.2,
+          "candidate_writes": 0,
+          "write_total": 422,
+          "cert_before": [
+            -2204,
+            -3880,
+            476,
+            50
+          ],
+          "cert_after": [
+            -2204,
+            -3880,
+            476,
+            49
+          ],
+          "delta": 800,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "2f72cc2f8f4d70cf0cdce8e80de0bb7b584d07bb68198232ca420c91ab027809"
+        },
+        {
+          "rid": "2508205",
+          "key": "9764b4b255e9c83e1fe4983fad55b6c412750f8dce663649e930138e5cd4093c",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.25,
+          "candidate_writes": 0,
+          "write_total": 422,
+          "cert_before": [
+            -2204,
+            -3880,
+            476,
+            49
+          ],
+          "cert_after": [
+            -2204,
+            -3880,
+            476,
+            48
+          ],
+          "delta": 800,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "2f72cc2f8f4d70cf0cdce8e80de0bb7b584d07bb68198232ca420c91ab027809"
+        },
+        {
+          "rid": "2508362",
+          "key": "7dc480901d8415b9aee25e35f6f486e9ade34137d2a7ccac4690432030056d4c",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.3,
+          "candidate_writes": 30,
+          "write_total": 452,
+          "cert_before": [
+            -2204,
+            -3880,
+            476,
+            48
+          ],
+          "cert_after": [
+            -2238,
+            -3820,
+            482,
+            47
+          ],
+          "delta": 798,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "12ef2879199a6fb89d322b30bd47c29d53e4951399a9595ab3dfd33ced07381b"
+        },
+        {
+          "rid": "2514720",
+          "key": "c0ac3bcb017d4ed167f7535942d1dd3c5dce830147a2a4e829a93e93bd6ad480",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.35,
+          "candidate_writes": 30,
+          "write_total": 482,
+          "cert_before": [
+            -2238,
+            -3820,
+            482,
+            47
+          ],
+          "cert_after": [
+            -2268,
+            -3720,
+            492,
+            46
+          ],
+          "delta": 792,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "da4998bad4de6f34a6497f49c7dc823957e7b03c3834695edef5112e4d79d443"
+        },
+        {
+          "rid": "2515123",
+          "key": "fd34b48a59e78b239f742425dcf45907bce0e01f12a0a6a2ed92698f78b17a55",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.39999999999999997,
+          "candidate_writes": 30,
+          "write_total": 512,
+          "cert_before": [
+            -2268,
+            -3720,
+            492,
+            46
+          ],
+          "cert_after": [
+            -2334,
+            -3580,
+            506,
+            45
+          ],
+          "delta": 806,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "ee91fa0460c935edb2279e93cba0d045a1f82f6ef51a4711ac28d8c107e4e7c4"
+        },
+        {
+          "rid": "2517288",
+          "key": "40555a3afaaffa2494e650cfddf2ef4c33318d2787bcd9824c8277193e5286e2",
+          "kind": "refresh",
+          "bit": 0,
+          "fee_total": 0.44999999999999996,
+          "candidate_writes": 0,
+          "write_total": 512,
+          "cert_before": [
+            -2334,
+            -3580,
+            506,
+            45
+          ],
+          "cert_after": [
+            -2334,
+            -3580,
+            506,
+            44
+          ],
+          "delta": 806,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "ee91fa0460c935edb2279e93cba0d045a1f82f6ef51a4711ac28d8c107e4e7c4"
+        },
+        {
+          "rid": "2517558",
+          "key": "1a9e4997ce497e9a638e9c4b37a62b5de2b11988c18db19ffc5121937e13eab8",
+          "kind": "refresh",
+          "bit": 0,
+          "fee_total": 0.49999999999999994,
+          "candidate_writes": 30,
+          "write_total": 542,
+          "cert_before": [
+            -2334,
+            -3580,
+            506,
+            44
+          ],
+          "cert_after": [
+            -2268,
+            -3720,
+            492,
+            43
+          ],
+          "delta": 808,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "6a438681cb910f7c4a38d39aa91d6f10c311e8897a7b20c40b8c385dd421996f"
+        },
+        {
+          "rid": "2517758",
+          "key": "6847fbfa02ac5fa91642e697b06054a4fedb3fe92fc8ab56929f5712765f796a",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.5499999999999999,
+          "candidate_writes": 0,
+          "write_total": 542,
+          "cert_before": [
+            -2268,
+            -3720,
+            492,
+            43
+          ],
+          "cert_after": [
+            -2268,
+            -3720,
+            492,
+            42
+          ],
+          "delta": 808,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "6a438681cb910f7c4a38d39aa91d6f10c311e8897a7b20c40b8c385dd421996f"
+        },
+        {
+          "rid": "2519222",
+          "key": "55b37e834b3df162eaef0c2af43fb9c02458e506b0b1ad3706598851155b30f8",
+          "kind": "refresh",
+          "bit": 0,
+          "fee_total": 0.6,
+          "candidate_writes": 0,
+          "write_total": 542,
+          "cert_before": [
+            -2268,
+            -3720,
+            492,
+            42
+          ],
+          "cert_after": [
+            -2268,
+            -3720,
+            492,
+            41
+          ],
+          "delta": 808,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "6a438681cb910f7c4a38d39aa91d6f10c311e8897a7b20c40b8c385dd421996f"
+        },
+        {
+          "rid": "2524433",
+          "key": "8696a0f7b4fa803cd10dd837bff41864b1220957358cf3979d685203a1a0bbc7",
+          "kind": "refresh",
+          "bit": 0,
+          "fee_total": 0.65,
+          "candidate_writes": 0,
+          "write_total": 542,
+          "cert_before": [
+            -2268,
+            -3720,
+            492,
+            41
+          ],
+          "cert_after": [
+            -2268,
+            -3720,
+            492,
+            40
+          ],
+          "delta": 808,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "6a438681cb910f7c4a38d39aa91d6f10c311e8897a7b20c40b8c385dd421996f"
+        },
+        {
+          "rid": "2537857",
+          "key": "e22ec997deb2741043247a3ea58815a028c04ef002e7e6aa0f8125f17c90490a",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.7000000000000001,
+          "candidate_writes": 0,
+          "write_total": 542,
+          "cert_before": [
+            -2268,
+            -3720,
+            492,
+            40
+          ],
+          "cert_after": [
+            -2268,
+            -3720,
+            492,
+            39
+          ],
+          "delta": 808,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "6a438681cb910f7c4a38d39aa91d6f10c311e8897a7b20c40b8c385dd421996f"
+        },
+        {
+          "rid": "2553547",
+          "key": "ef0a91952bb489add318f310f9676f9f8139d3fa5d90a1b98d0ba93f787b6531",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.7500000000000001,
+          "candidate_writes": 0,
+          "write_total": 542,
+          "cert_before": [
+            -2268,
+            -3720,
+            492,
+            39
+          ],
+          "cert_after": [
+            -2268,
+            -3720,
+            492,
+            38
+          ],
+          "delta": 808,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "6a438681cb910f7c4a38d39aa91d6f10c311e8897a7b20c40b8c385dd421996f"
+        },
+        {
+          "rid": "2563983",
+          "key": "97ba5a8604d7bbc8a56b483964519a303f76d911d6d5af87c998f0c6bec1900d",
+          "kind": "refresh",
+          "bit": 0,
+          "fee_total": 0.8000000000000002,
+          "candidate_writes": 30,
+          "write_total": 572,
+          "cert_before": [
+            -2268,
+            -3720,
+            492,
+            38
+          ],
+          "cert_after": [
+            -2266,
+            -3700,
+            494,
+            37
+          ],
+          "delta": 814,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "03e646399c67bb4927a9535026fc616d441c1d849632e6833c515680b55d4712"
+        },
+        {
+          "rid": "2564000",
+          "key": "a1d1d716da05ec58e270527ea65887a4f970fcf3945048dea7449f235476a2eb",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.8500000000000002,
+          "candidate_writes": 0,
+          "write_total": 572,
+          "cert_before": [
+            -2266,
+            -3700,
+            494,
+            37
+          ],
+          "cert_after": [
+            -2266,
+            -3700,
+            494,
+            36
+          ],
+          "delta": 814,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "03e646399c67bb4927a9535026fc616d441c1d849632e6833c515680b55d4712"
+        },
+        {
+          "rid": "2564777",
+          "key": "0bf905bf458eeddad61ad3c00c99d6d8f586685d1e7d6e22429dd03fda797b70",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.9000000000000002,
+          "candidate_writes": 0,
+          "write_total": 572,
+          "cert_before": [
+            -2266,
+            -3700,
+            494,
+            36
+          ],
+          "cert_after": [
+            -2266,
+            -3700,
+            494,
+            35
+          ],
+          "delta": 814,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "03e646399c67bb4927a9535026fc616d441c1d849632e6833c515680b55d4712"
+        },
+        {
+          "rid": "2565431",
+          "key": "7cd566df85256f9829e00a906f5213253bcfd575b27a8f514f239a8412fae5b0",
+          "kind": "refresh",
+          "bit": 0,
+          "fee_total": 0.9500000000000003,
+          "candidate_writes": 0,
+          "write_total": 572,
+          "cert_before": [
+            -2266,
+            -3700,
+            494,
+            35
+          ],
+          "cert_after": [
+            -2266,
+            -3700,
+            494,
+            34
+          ],
+          "delta": 814,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "03e646399c67bb4927a9535026fc616d441c1d849632e6833c515680b55d4712"
+        },
+        {
+          "rid": "2565777",
+          "key": "b39f1c82ab9df0b2c7c9e5383fd472e86711c3b7fcdd6e6130ea25d8f49039a6",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.0000000000000002,
+          "candidate_writes": 30,
+          "write_total": 602,
+          "cert_before": [
+            -2266,
+            -3700,
+            494,
+            34
+          ],
+          "cert_after": [
+            -2268,
+            -3720,
+            492,
+            33
+          ],
+          "delta": 808,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "5687dcb3450f31ff375163462e80c179208638a01f9fe751b8a7530e71b2e516"
+        },
+        {
+          "rid": "2566194",
+          "key": "eadd0563c91e62716cba57ae3c716a55809d4040486e7f0d1670b8396e6b912e",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.0500000000000003,
+          "candidate_writes": 30,
+          "write_total": 632,
+          "cert_before": [
+            -2268,
+            -3720,
+            492,
+            33
+          ],
+          "cert_after": [
+            -2266,
+            -3700,
+            494,
+            32
+          ],
+          "delta": 798,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "8fa6d3dba86f1198c1ec64774edd7d019702c8e1571c5ee7651c5ecba0f7aa3c"
+        },
+        {
+          "rid": "2566549",
+          "key": "125d213b244ce0d0cd025cd1c45b2e2e666583daf525f06342bba3abc5694fc5",
+          "kind": "refresh",
+          "bit": 0,
+          "fee_total": 1.1000000000000003,
+          "candidate_writes": 30,
+          "write_total": 662,
+          "cert_before": [
+            -2266,
+            -3700,
+            494,
+            32
+          ],
+          "cert_after": [
+            -2268,
+            -3720,
+            492,
+            31
+          ],
+          "delta": 808,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "0e7fd491bfd9790e4a6fcbef15028050651f09adc4d86ec59b45daf7f232e325"
+        },
+        {
+          "rid": "2566839",
+          "key": "fd948743d07096ef442a28d23a4c85cac1b3e14ace69cccf89066afbb61b2387",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.1500000000000004,
+          "candidate_writes": 30,
+          "write_total": 692,
+          "cert_before": [
+            -2268,
+            -3720,
+            492,
+            31
+          ],
+          "cert_after": [
+            -2266,
+            -3700,
+            494,
+            30
+          ],
+          "delta": 798,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "b2743738660af1c8274c924a86f910dedab9f3add38e164191158917edebe567"
+        },
+        {
+          "rid": "2567862",
+          "key": "346089bb8cafce1881f3071fcb58d8f62009a79194f4a88b5577ea400682fae7",
+          "kind": "refresh",
+          "bit": 0,
+          "fee_total": 1.2000000000000004,
+          "candidate_writes": 0,
+          "write_total": 692,
+          "cert_before": [
+            -2266,
+            -3700,
+            494,
+            30
+          ],
+          "cert_after": [
+            -2266,
+            -3700,
+            494,
+            29
+          ],
+          "delta": 798,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "b2743738660af1c8274c924a86f910dedab9f3add38e164191158917edebe567"
+        },
+        {
+          "rid": "2579791",
+          "key": "959677383859f5ceb9beb3e05b1ad6b10c45acfd25342a2c93dde85e3c0a2e32",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.2500000000000004,
+          "candidate_writes": 0,
+          "write_total": 692,
+          "cert_before": [
+            -2266,
+            -3700,
+            494,
+            29
+          ],
+          "cert_after": [
+            -2266,
+            -3700,
+            494,
+            28
+          ],
+          "delta": 798,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "b2743738660af1c8274c924a86f910dedab9f3add38e164191158917edebe567"
+        },
+        {
+          "rid": "2579852",
+          "key": "e8853928fd3c6980867319210051ac1020c78d333691396b45b0e9b57d18b72d",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.3000000000000005,
+          "candidate_writes": 0,
+          "write_total": 692,
+          "cert_before": [
+            -2266,
+            -3700,
+            494,
+            28
+          ],
+          "cert_after": [
+            -2266,
+            -3700,
+            494,
+            27
+          ],
+          "delta": 798,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "b2743738660af1c8274c924a86f910dedab9f3add38e164191158917edebe567"
+        },
+        {
+          "rid": "2579877",
+          "key": "23fcb9c7c861a0c72721567de55feec174111a267e89076c8a069d1a3d505b40",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.3500000000000005,
+          "candidate_writes": 30,
+          "write_total": 722,
+          "cert_before": [
+            -2266,
+            -3700,
+            494,
+            27
+          ],
+          "cert_after": [
+            -2296,
+            -3600,
+            504,
+            26
+          ],
+          "delta": 788,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "50cab9692fcf150b0d5d6ea5469cdf665537c5e2a7381e9cf4ed45887b44c1c7"
+        },
+        {
+          "rid": "2579986",
+          "key": "f9fbf0db442d54c8581264b8d48979d8346affee85205d84e92f301849a8ce6b",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.4000000000000006,
+          "candidate_writes": 0,
+          "write_total": 722,
+          "cert_before": [
+            -2296,
+            -3600,
+            504,
+            26
+          ],
+          "cert_after": [
+            -2296,
+            -3600,
+            504,
+            25
+          ],
+          "delta": 788,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "50cab9692fcf150b0d5d6ea5469cdf665537c5e2a7381e9cf4ed45887b44c1c7"
+        },
+        {
+          "rid": "2580069",
+          "key": "24493f1cf3db1fb3319d38ac01090c82377b3029b8dc8a3533b3d5cb49002e3e",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.4500000000000006,
+          "candidate_writes": 0,
+          "write_total": 722,
+          "cert_before": [
+            -2296,
+            -3600,
+            504,
+            25
+          ],
+          "cert_after": [
+            -2296,
+            -3600,
+            504,
+            24
+          ],
+          "delta": 788,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "50cab9692fcf150b0d5d6ea5469cdf665537c5e2a7381e9cf4ed45887b44c1c7"
+        },
+        {
+          "rid": "2580217",
+          "key": "b50080f4ecf9a236122b6fce1977a4cf2c195f592f3e5718dc356ca8cfbcdf63",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.5000000000000007,
+          "candidate_writes": 30,
+          "write_total": 752,
+          "cert_before": [
+            -2296,
+            -3600,
+            504,
+            24
+          ],
+          "cert_after": [
+            -2362,
+            -3460,
+            518,
+            23
+          ],
+          "delta": 802,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "965a5619070160d7141abec897df10ef162a3fbbc2ec71b56dc58a5774f1f96d"
+        },
+        {
+          "rid": "2580377",
+          "key": "305ef6d4c3fe3f98ba598c6a2406a6e9d18b84c2818da1edd376293421f2cf28",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.5500000000000007,
+          "candidate_writes": 30,
+          "write_total": 782,
+          "cert_before": [
+            -2362,
+            -3460,
+            518,
+            23
+          ],
+          "cert_after": [
+            -2424,
+            -3280,
+            536,
+            22
+          ],
+          "delta": 792,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "480dd5ab45d62ceb29fcc4f012e5360fe2e66cea2e519a8025b41c7a44ce0995"
+        },
+        {
+          "rid": "2580899",
+          "key": "ed6d31900edaa333e7335f84e0b193feb3ff0c22edfff12a33862f8d34e295cb",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.6000000000000008,
+          "candidate_writes": 0,
+          "write_total": 782,
+          "cert_before": [
+            -2424,
+            -3280,
+            536,
+            22
+          ],
+          "cert_after": [
+            -2424,
+            -3280,
+            536,
+            21
+          ],
+          "delta": 792,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "480dd5ab45d62ceb29fcc4f012e5360fe2e66cea2e519a8025b41c7a44ce0995"
+        },
+        {
+          "rid": "2581053",
+          "key": "361350a763c66730705e3004d40221fc3f101570855b86e9c88e8f79a9e03eff",
+          "kind": "refresh",
+          "bit": 0,
+          "fee_total": 1.6500000000000008,
+          "candidate_writes": 30,
+          "write_total": 812,
+          "cert_before": [
+            -2424,
+            -3280,
+            536,
+            21
+          ],
+          "cert_after": [
+            -2362,
+            -3460,
+            518,
+            20
+          ],
+          "delta": 802,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "4508eedb4d00b419c3e656cff8ee6ff480102e3e2e5ce1a8fe6d69643cbb4d76"
+        },
+        {
+          "rid": "2581195",
+          "key": "f500d118e0925fc7b5e270ebf5adacbd257f6a38562d712ea043f4417c7680eb",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.7000000000000008,
+          "candidate_writes": 30,
+          "write_total": 842,
+          "cert_before": [
+            -2362,
+            -3460,
+            518,
+            20
+          ],
+          "cert_after": [
+            -2424,
+            -3280,
+            536,
+            19
+          ],
+          "delta": 820,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "18a0a1ca19cdf2db56a1eb0cd6a0fe119fedfe60511e342a9940e4d78ebef848"
+        },
+        {
+          "rid": "2581317",
+          "key": "c203be95f06df127ab28770d242f520f26ad038e0a34f4a109aa9cc288cf8684",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.7500000000000009,
+          "candidate_writes": 30,
+          "write_total": 872,
+          "cert_before": [
+            -2424,
+            -3280,
+            536,
+            19
+          ],
+          "cert_after": [
+            -2522,
+            -3060,
+            558,
+            18
+          ],
+          "delta": 814,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "f2081559faedc44b447a8f88078051060d96689e822bd260a9e5e0bdcf3ece6c"
+        },
+        {
+          "rid": "2581591",
+          "key": "aa4fd0a0b6338326dacaba727bda818c7560aba3e96e2d946fc151d0bd0d2c92",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.800000000000001,
+          "candidate_writes": 0,
+          "write_total": 872,
+          "cert_before": [
+            -2522,
+            -3060,
+            558,
+            18
+          ],
+          "cert_after": [
+            -2522,
+            -3060,
+            558,
+            17
+          ],
+          "delta": 814,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "f2081559faedc44b447a8f88078051060d96689e822bd260a9e5e0bdcf3ece6c"
+        },
+        {
+          "rid": "2581639",
+          "key": "948f375002b93fb672cbb3108dd068cb70e11b1f76905ebfc5556b6979e1b74a",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.850000000000001,
+          "candidate_writes": 30,
+          "write_total": 902,
+          "cert_before": [
+            -2522,
+            -3060,
+            558,
+            17
+          ],
+          "cert_after": [
+            -2616,
+            -2818,
+            584,
+            16
+          ],
+          "delta": 840,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "27c0149088622fbc5fbbdad155be1b470943ec13d137e01147bbd0994dda9622"
+        },
+        {
+          "rid": "2593602",
+          "key": "64b295d9d8bb488d5f28f0d13b39331ef105b4deaaf0456f020d2fbeb7fda90c",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.900000000000001,
+          "candidate_writes": 0,
+          "write_total": 902,
+          "cert_before": [
+            -2616,
+            -2818,
+            584,
+            16
+          ],
+          "cert_after": [
+            -2616,
+            -2818,
+            584,
+            15
+          ],
+          "delta": 840,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "27c0149088622fbc5fbbdad155be1b470943ec13d137e01147bbd0994dda9622"
+        },
+        {
+          "rid": "2597904",
+          "key": "65f3595808b5631e72bc8de50773c1a168c8099056848263fd8dccf8a4ddda3a",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 1.950000000000001,
+          "candidate_writes": 30,
+          "write_total": 932,
+          "cert_before": [
+            -2616,
+            -2818,
+            584,
+            15
+          ],
+          "cert_after": [
+            -2650,
+            -2758,
+            590,
+            14
+          ],
+          "delta": 846,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "5d43e1ca916f4055508569431c7029d3618708035b3c7f6e276133dc7b58d7dc"
+        },
+        {
+          "rid": "2598180",
+          "key": "cdaa3fe4c60833483423a1ea2f080b79dd6c6cd28b76eab9e8611020c58cce15",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 2.000000000000001,
+          "candidate_writes": 30,
+          "write_total": 962,
+          "cert_before": [
+            -2650,
+            -2758,
+            590,
+            14
+          ],
+          "cert_after": [
+            -2680,
+            -2658,
+            600,
+            13
+          ],
+          "delta": 856,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "e6720617ba093f17febce5b77f2054dc3b3938bb90018e440ccb16217f0d27d5"
+        },
+        {
+          "rid": "2603823",
+          "key": "1cae5cc2bbcd4ecc9f26249e008e05ec5ac9fb46e195ffec4ffdcce3d5c2d274",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 2.0500000000000007,
+          "candidate_writes": 30,
+          "write_total": 992,
+          "cert_before": [
+            -2680,
+            -2658,
+            600,
+            13
+          ],
+          "cert_after": [
+            -2746,
+            -2518,
+            614,
+            12
+          ],
+          "delta": 870,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "87b50b94f8c39f049f56a74b9e3d82904b354ae1a98c2d54ebf7617e4acc7cfe"
+        },
+        {
+          "rid": "2610231",
+          "key": "2f855572d5696ded82846d13de17b5de40f1dd63575bf1f237586752720f4cc8",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 2.1000000000000005,
+          "candidate_writes": 0,
+          "write_total": 992,
+          "cert_before": [
+            -2746,
+            -2518,
+            614,
+            12
+          ],
+          "cert_after": [
+            -2746,
+            -2518,
+            614,
+            11
+          ],
+          "delta": 870,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "87b50b94f8c39f049f56a74b9e3d82904b354ae1a98c2d54ebf7617e4acc7cfe"
+        },
+        {
+          "rid": "2623233",
+          "key": "dd438ea7798194a546093fa2cb007923f5924c65fb7207481563f45c0438ac9a",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 2.1500000000000004,
+          "candidate_writes": 30,
+          "write_total": 1022,
+          "cert_before": [
+            -2746,
+            -2518,
+            614,
+            11
+          ],
+          "cert_after": [
+            -2716,
+            -2618,
+            604,
+            10
+          ],
+          "delta": 884,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "b1820341786ca2cd2ecb8583a29fca338a01e98f9e4bbc44d05cfb7b56a487d4"
+        },
+        {
+          "rid": "2623400",
+          "key": "25a9ef2a133ab13186d7498bc161a000171db2d501ff4bce6a8f90ec9602fd20",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 2.2,
+          "candidate_writes": 30,
+          "write_total": 1052,
+          "cert_before": [
+            -2716,
+            -2618,
+            604,
+            10
+          ],
+          "cert_after": [
+            -2682,
+            -2678,
+            598,
+            9
+          ],
+          "delta": 894,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "0d51607b85996f92e5767094e9ff74775828ca6fc7abc23174fd8f023f1036fa"
+        },
+        {
+          "rid": "2623476",
+          "key": "b2040f62def3b7310b583b02556a7e0acaba5ded05373914d2813ff3f6b5e008",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 2.25,
+          "candidate_writes": 30,
+          "write_total": 1082,
+          "cert_before": [
+            -2682,
+            -2678,
+            598,
+            9
+          ],
+          "cert_after": [
+            -2684,
+            -2698,
+            596,
+            8
+          ],
+          "delta": 892,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "0f9594320ecc5cf84c4625d39b23611f3fb4d1a1be2f225d4f3d4944681392b9"
+        },
+        {
+          "rid": "2624454",
+          "key": "8da178a5a12c9cf0542067daae8016cabe36a7620968c15373ffb4a22e6c77b0",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 2.3,
+          "candidate_writes": 30,
+          "write_total": 1112,
+          "cert_before": [
+            -2684,
+            -2698,
+            596,
+            8
+          ],
+          "cert_after": [
+            -2682,
+            -2678,
+            598,
+            7
+          ],
+          "delta": 902,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "a70f45009b17cf5a1a2a36a0eb02660656b64c261a661e61825614eaf6a3346b"
+        },
+        {
+          "rid": "2624498",
+          "key": "fa54d6b42bc68c7de3048cfaeb2761e4b13678bc65c6ae0a3f58f8e9c15e1f1e",
+          "kind": "refresh",
+          "bit": 0,
+          "fee_total": 2.3499999999999996,
+          "candidate_writes": 0,
+          "write_total": 1112,
+          "cert_before": [
+            -2682,
+            -2678,
+            598,
+            7
+          ],
+          "cert_after": [
+            -2682,
+            -2678,
+            598,
+            6
+          ],
+          "delta": 902,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "a70f45009b17cf5a1a2a36a0eb02660656b64c261a661e61825614eaf6a3346b"
+        },
+        {
+          "rid": "2654012",
+          "key": "85f93011d00a1acdf02be2d4338e0adf845901d21e71a6b20d0821f5e9f79fad",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 2.3999999999999995,
+          "candidate_writes": 30,
+          "write_total": 1142,
+          "cert_before": [
+            -2682,
+            -2678,
+            598,
+            6
+          ],
+          "cert_after": [
+            -2716,
+            -2618,
+            604,
+            5
+          ],
+          "delta": 908,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "22a5074ffa9f46b5adfa7a08d008187c015a5be950484121193ab04a7855539c"
+        },
+        {
+          "rid": "2655611",
+          "key": "87ed3be445490f27a858830651c51bf740b159a0307f0556f42ce69b0310b0e8",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 2.4499999999999993,
+          "candidate_writes": 30,
+          "write_total": 1172,
+          "cert_before": [
+            -2716,
+            -2618,
+            604,
+            5
+          ],
+          "cert_after": [
+            -2746,
+            -2518,
+            614,
+            4
+          ],
+          "delta": 910,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "384fa5f9ecbeae75f9fb10a1fdb7f495da1b815ab7208a4973722ac711ab826c"
+        }
+      ],
+      "fee": 2.4499999999999993,
+      "writes": 1172,
+      "publication_writes": 0,
+      "published": false,
+      "refusal_reason": "no_admissible_action",
+      "final_cert": [
+        -2746,
+        -2518,
+        614,
+        4
+      ],
+      "answer_sha256": "384fa5f9ecbeae75f9fb10a1fdb7f495da1b815ab7208a4973722ac711ab826c",
+      "published_table_sha256": "a4a703de238ded6f81c098c72b29ba81be3c175bcd837d623b70e8df639d71c4",
+      "branch_tests": 8350,
+      "representative_visits": 4175,
+      "wrong_epoch_rejected": true
+    },
+    {
+      "epoch": 7,
+      "kind": "empty",
+      "nonempty": false,
+      "fee_cap": 16,
+      "write_cap": 1200,
+      "initial": {
+        "cert": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "U": 0,
+        "V": 0,
+        "delta": 748,
+        "intake_required": 614,
+        "intake_applied": true,
+        "intake_writes": 614,
+        "joint_protected": false,
+        "fee_protected": true
+      },
+      "steps": [],
+      "fee": 0.0,
+      "writes": 614,
+      "publication_writes": 0,
+      "published": false,
+      "refusal_reason": "publication_write_cap",
+      "final_cert": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "answer_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "published_table_sha256": "a4a703de238ded6f81c098c72b29ba81be3c175bcd837d623b70e8df639d71c4",
+      "branch_tests": 0,
+      "representative_visits": 0,
+      "wrong_epoch_rejected": true
+    },
+    {
+      "epoch": 8,
+      "kind": "reinsert",
+      "nonempty": true,
+      "fee_cap": 16,
+      "write_cap": 1200,
+      "initial": {
+        "cert": [
+          -2746,
+          -2518,
+          614,
+          4
+        ],
+        "U": 55,
+        "V": 1650,
+        "delta": 910,
+        "intake_required": 614,
+        "intake_applied": true,
+        "intake_writes": 614,
+        "joint_protected": false,
+        "fee_protected": false
+      },
+      "steps": [
+        {
+          "rid": "2655740",
+          "key": "e5c0a8ee1b528401bfea20d8649671cb968ad0b97949c84e641bc853b10b8adb",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.05,
+          "candidate_writes": 30,
+          "write_total": 644,
+          "cert_before": [
+            -2746,
+            -2518,
+            614,
+            4
+          ],
+          "cert_after": [
+            -2812,
+            -2378,
+            628,
+            3
+          ],
+          "delta": 908,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "c4ec10de9b7f8556a94fe3bcfb1b00aadfdf51721b15c34d3390be82cc4ead0f"
+        },
+        {
+          "rid": "2666408",
+          "key": "6db5a6debd0f539675a44ca3af1948894b5ab92a868dcf10a4e8b3a1552f338f",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.1,
+          "candidate_writes": 30,
+          "write_total": 674,
+          "cert_before": [
+            -2812,
+            -2378,
+            628,
+            3
+          ],
+          "cert_after": [
+            -2874,
+            -2198,
+            646,
+            2
+          ],
+          "delta": 926,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "7b6aaa38c0f0b789626e1b34a55bbb8e9b0f9ef197404e46f1449e44adedc14b"
+        },
+        {
+          "rid": "2704185",
+          "key": "e8f6198198a14980d0da6f62f1ad0f9698d2a3e7c1c350bd370d87c596ed2ca8",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.15000000000000002,
+          "candidate_writes": 30,
+          "write_total": 704,
+          "cert_before": [
+            -2874,
+            -2198,
+            646,
+            2
+          ],
+          "cert_after": [
+            -2972,
+            -1978,
+            668,
+            1
+          ],
+          "delta": 948,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "174f89acf7353182c6058e7c853719f73436d4f9f1551392b5dff42937a5f49c"
+        },
+        {
+          "rid": "2813366",
+          "key": "a7d11f257c2526239dc5f44b2c074a47fda98936ade8041090f6bf43f007ad4b",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.2,
+          "candidate_writes": 30,
+          "write_total": 734,
+          "cert_before": [
+            -2972,
+            -1978,
+            668,
+            1
+          ],
+          "cert_after": [
+            -3066,
+            -1736,
+            694,
+            0
+          ],
+          "delta": 950,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "02222b5b81cab090bb739cd47010604af02ce21e29c76df9c73794091cf53bcc"
+        },
+        {
+          "rid": "102654913",
+          "key": "f11f31d3ac8ed0ddc724f2c0d3b95a850e6dfa14c1272a1ee860695fee0fda38",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 1.2,
+          "candidate_writes": 0,
+          "write_total": 734,
+          "cert_before": [
+            -3066,
+            -1736,
+            694,
+            0
+          ],
+          "cert_after": [
+            -3066,
+            -1736,
+            694,
+            0
+          ],
+          "delta": 950,
+          "U": 54,
+          "V": 1620,
+          "answer_sha256": "02222b5b81cab090bb739cd47010604af02ce21e29c76df9c73794091cf53bcc"
+        },
+        {
+          "rid": "102722610",
+          "key": "7ffd8aa8908b6676bc4342858514ca93d16caabd82d03f4c5da959fdd8b8af2f",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 2.2,
+          "candidate_writes": 0,
+          "write_total": 734,
+          "cert_before": [
+            -3066,
+            -1736,
+            694,
+            0
+          ],
+          "cert_after": [
+            -3066,
+            -1736,
+            694,
+            0
+          ],
+          "delta": 950,
+          "U": 53,
+          "V": 1590,
+          "answer_sha256": "02222b5b81cab090bb739cd47010604af02ce21e29c76df9c73794091cf53bcc"
+        },
+        {
+          "rid": "102771117",
+          "key": "3d377d07f960229398daf59877814e313504ff2906e55b2f42b387144b4d4d1a",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 3.2,
+          "candidate_writes": 0,
+          "write_total": 734,
+          "cert_before": [
+            -3066,
+            -1736,
+            694,
+            0
+          ],
+          "cert_after": [
+            -3066,
+            -1736,
+            694,
+            0
+          ],
+          "delta": 950,
+          "U": 52,
+          "V": 1560,
+          "answer_sha256": "02222b5b81cab090bb739cd47010604af02ce21e29c76df9c73794091cf53bcc"
+        },
+        {
+          "rid": "2506076",
+          "key": "a4f1aa2c06adfe0f024db0f48c760af734d5b70384db00f2d3f28fcaef62b095",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 4.2,
+          "candidate_writes": 30,
+          "write_total": 764,
+          "cert_before": [
+            -3066,
+            -1736,
+            694,
+            0
+          ],
+          "cert_after": [
+            -3132,
+            -1596,
+            708,
+            0
+          ],
+          "delta": 948,
+          "U": 51,
+          "V": 1530,
+          "answer_sha256": "e096f25daf63bb38b5cbb2f04c6fda18ce23efa9db9281ed87985c60e37cf4da"
+        },
+        {
+          "rid": "2508205",
+          "key": "9764b4b255e9c83e1fe4983fad55b6c412750f8dce663649e930138e5cd4093c",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 5.2,
+          "candidate_writes": 0,
+          "write_total": 764,
+          "cert_before": [
+            -3132,
+            -1596,
+            708,
+            0
+          ],
+          "cert_after": [
+            -3132,
+            -1596,
+            708,
+            0
+          ],
+          "delta": 948,
+          "U": 50,
+          "V": 1500,
+          "answer_sha256": "e096f25daf63bb38b5cbb2f04c6fda18ce23efa9db9281ed87985c60e37cf4da"
+        },
+        {
+          "rid": "2508362",
+          "key": "7dc480901d8415b9aee25e35f6f486e9ade34137d2a7ccac4690432030056d4c",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 6.2,
+          "candidate_writes": 0,
+          "write_total": 764,
+          "cert_before": [
+            -3132,
+            -1596,
+            708,
+            0
+          ],
+          "cert_after": [
+            -3132,
+            -1596,
+            708,
+            0
+          ],
+          "delta": 948,
+          "U": 49,
+          "V": 1470,
+          "answer_sha256": "e096f25daf63bb38b5cbb2f04c6fda18ce23efa9db9281ed87985c60e37cf4da"
+        },
+        {
+          "rid": "2514720",
+          "key": "c0ac3bcb017d4ed167f7535942d1dd3c5dce830147a2a4e829a93e93bd6ad480",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 7.2,
+          "candidate_writes": 0,
+          "write_total": 764,
+          "cert_before": [
+            -3132,
+            -1596,
+            708,
+            0
+          ],
+          "cert_after": [
+            -3112,
+            -1596,
+            708,
+            0
+          ],
+          "delta": 948,
+          "U": 48,
+          "V": 1440,
+          "answer_sha256": "e096f25daf63bb38b5cbb2f04c6fda18ce23efa9db9281ed87985c60e37cf4da"
+        },
+        {
+          "rid": "2515123",
+          "key": "fd34b48a59e78b239f742425dcf45907bce0e01f12a0a6a2ed92698f78b17a55",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 8.2,
+          "candidate_writes": 0,
+          "write_total": 764,
+          "cert_before": [
+            -3112,
+            -1596,
+            708,
+            0
+          ],
+          "cert_after": [
+            -3052,
+            -1596,
+            708,
+            0
+          ],
+          "delta": 948,
+          "U": 47,
+          "V": 1410,
+          "answer_sha256": "e096f25daf63bb38b5cbb2f04c6fda18ce23efa9db9281ed87985c60e37cf4da"
+        },
+        {
+          "rid": "2517288",
+          "key": "40555a3afaaffa2494e650cfddf2ef4c33318d2787bcd9824c8277193e5286e2",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 9.2,
+          "candidate_writes": 30,
+          "write_total": 794,
+          "cert_before": [
+            -3052,
+            -1596,
+            708,
+            0
+          ],
+          "cert_after": [
+            -3074,
+            -1416,
+            726,
+            0
+          ],
+          "delta": 966,
+          "U": 46,
+          "V": 1380,
+          "answer_sha256": "ca926538f73b84b17c3a1f7d7a548cd22b3805504b912d79b3d74437452b3928"
+        },
+        {
+          "rid": "2517558",
+          "key": "1a9e4997ce497e9a638e9c4b37a62b5de2b11988c18db19ffc5121937e13eab8",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 10.2,
+          "candidate_writes": 30,
+          "write_total": 824,
+          "cert_before": [
+            -3074,
+            -1416,
+            726,
+            0
+          ],
+          "cert_after": [
+            -3112,
+            -1196,
+            748,
+            0
+          ],
+          "delta": 964,
+          "U": 45,
+          "V": 1350,
+          "answer_sha256": "48ab8bcb2683d273c07e15a24c1ea515b602cd2401af981a1a4c1cdc5184c7e2"
+        },
+        {
+          "rid": "2517758",
+          "key": "6847fbfa02ac5fa91642e697b06054a4fedb3fe92fc8ab56929f5712765f796a",
+          "kind": "audit",
+          "bit": 0,
+          "fee_total": 11.2,
+          "candidate_writes": 30,
+          "write_total": 854,
+          "cert_before": [
+            -3112,
+            -1196,
+            748,
+            0
+          ],
+          "cert_after": [
+            -2954,
+            -1194,
+            726,
+            0
+          ],
+          "delta": 966,
+          "U": 44,
+          "V": 1320,
+          "answer_sha256": "f26b6cb68f6f8c368b751381a596bbd7af6108c00798d0388ee305980a21e51c"
+        },
+        {
+          "rid": "2519222",
+          "key": "55b37e834b3df162eaef0c2af43fb9c02458e506b0b1ad3706598851155b30f8",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 12.2,
+          "candidate_writes": 30,
+          "write_total": 884,
+          "cert_before": [
+            -2954,
+            -1194,
+            726,
+            0
+          ],
+          "cert_after": [
+            -2972,
+            -1012,
+            748,
+            0
+          ],
+          "delta": 964,
+          "U": 43,
+          "V": 1290,
+          "answer_sha256": "650c28d51ba309d4a995efeece5a2fa3d30a09f4f48508fd802921820ee7d0ce"
+        },
+        {
+          "rid": "2524433",
+          "key": "8696a0f7b4fa803cd10dd837bff41864b1220957358cf3979d685203a1a0bbc7",
+          "kind": "audit",
+          "bit": 0,
+          "fee_total": 13.2,
+          "candidate_writes": 0,
+          "write_total": 884,
+          "cert_before": [
+            -2972,
+            -1012,
+            748,
+            0
+          ],
+          "cert_after": [
+            -2952,
+            -866,
+            748,
+            0
+          ],
+          "delta": 964,
+          "U": 42,
+          "V": 1260,
+          "answer_sha256": "650c28d51ba309d4a995efeece5a2fa3d30a09f4f48508fd802921820ee7d0ce"
+        },
+        {
+          "rid": "2537857",
+          "key": "e22ec997deb2741043247a3ea58815a028c04ef002e7e6aa0f8125f17c90490a",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 14.2,
+          "candidate_writes": 0,
+          "write_total": 884,
+          "cert_before": [
+            -2952,
+            -866,
+            748,
+            0
+          ],
+          "cert_after": [
+            -2772,
+            -812,
+            748,
+            0
+          ],
+          "delta": 964,
+          "U": 41,
+          "V": 1230,
+          "answer_sha256": "650c28d51ba309d4a995efeece5a2fa3d30a09f4f48508fd802921820ee7d0ce"
+        },
+        {
+          "rid": "2553547",
+          "key": "ef0a91952bb489add318f310f9676f9f8139d3fa5d90a1b98d0ba93f787b6531",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 15.2,
+          "candidate_writes": 0,
+          "write_total": 884,
+          "cert_before": [
+            -2772,
+            -812,
+            748,
+            0
+          ],
+          "cert_after": [
+            -2552,
+            -754,
+            748,
+            0
+          ],
+          "delta": 964,
+          "U": 40,
+          "V": 1200,
+          "answer_sha256": "650c28d51ba309d4a995efeece5a2fa3d30a09f4f48508fd802921820ee7d0ce"
+        }
+      ],
+      "fee": 15.2,
+      "writes": 884,
+      "publication_writes": 0,
+      "published": false,
+      "refusal_reason": "no_admissible_action",
+      "final_cert": [
+        -2552,
+        -754,
+        748,
+        0
+      ],
+      "answer_sha256": "650c28d51ba309d4a995efeece5a2fa3d30a09f4f48508fd802921820ee7d0ce",
+      "published_table_sha256": "a4a703de238ded6f81c098c72b29ba81be3c175bcd837d623b70e8df639d71c4",
+      "branch_tests": 1900,
+      "representative_visits": 990,
+      "wrong_epoch_rejected": true
+    }
+  ],
+  "database": "raw_results/materialized_j_v1/databases/live_h_stream2_join_f16_w1200_SC.sqlite",
+  "database_sha256": "6b1451ff5f9d2eef7f2426251b66db223ca779de850504bb7309860b6ec0e1fb"
+}

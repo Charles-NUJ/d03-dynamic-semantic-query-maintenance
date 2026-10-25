@@ -1,0 +1,2330 @@
+{
+  "id": "live_h_stream2_join_f16_w2400_WQCR",
+  "stream": "live_h_stream2",
+  "query": "join",
+  "method": "WQCR",
+  "fee_cap": 16,
+  "write_cap": 2400,
+  "events": [
+    {
+      "epoch": 0,
+      "kind": "cold",
+      "nonempty": true,
+      "fee_cap": 16,
+      "write_cap": 2400,
+      "initial": {
+        "cert": [
+          -4160,
+          448,
+          960,
+          64
+        ],
+        "U": 64,
+        "V": 1920,
+        "delta": 960,
+        "intake_required": 960,
+        "intake_applied": true,
+        "intake_writes": 960,
+        "joint_protected": false,
+        "fee_protected": false
+      },
+      "steps": [
+        {
+          "rid": "102722610",
+          "key": "7ffd8aa8908b6676bc4342858514ca93d16caabd82d03f4c5da959fdd8b8af2f",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 1.0,
+          "candidate_writes": 30,
+          "write_total": 990,
+          "cert_before": [
+            -4160,
+            448,
+            960,
+            64
+          ],
+          "cert_after": [
+            -4030,
+            258,
+            930,
+            63
+          ],
+          "delta": 930,
+          "U": 63,
+          "V": 1890,
+          "answer_sha256": "ef80e7727dfb6de307069a5448c1d699a5099c7b8223b9d2848ad3f3f106bdcf"
+        },
+        {
+          "rid": "102771117",
+          "key": "3d377d07f960229398daf59877814e313504ff2906e55b2f42b387144b4d4d1a",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 2.0,
+          "candidate_writes": 30,
+          "write_total": 1020,
+          "cert_before": [
+            -4030,
+            258,
+            930,
+            63
+          ],
+          "cert_after": [
+            -3900,
+            68,
+            900,
+            62
+          ],
+          "delta": 900,
+          "U": 62,
+          "V": 1860,
+          "answer_sha256": "7c61e11f46de34ec96ed2a27655b08c4cb44b24367445032337b21a9c0736222"
+        },
+        {
+          "rid": "2506076",
+          "key": "6c2aca70e59bb8f544e4bba384cbc230841487ae872daed8ca37aa56ebdac60f",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 3.0,
+          "candidate_writes": 30,
+          "write_total": 1050,
+          "cert_before": [
+            -3900,
+            68,
+            900,
+            62
+          ],
+          "cert_after": [
+            -3770,
+            -122,
+            870,
+            61
+          ],
+          "delta": 870,
+          "U": 61,
+          "V": 1830,
+          "answer_sha256": "6983540aca633934adf7dd2300c0df7b48de1439b96c9409538dc336a8b9163d"
+        },
+        {
+          "rid": "2579791",
+          "key": "959677383859f5ceb9beb3e05b1ad6b10c45acfd25342a2c93dde85e3c0a2e32",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 4.0,
+          "candidate_writes": 30,
+          "write_total": 1080,
+          "cert_before": [
+            -3770,
+            -122,
+            870,
+            61
+          ],
+          "cert_after": [
+            -3640,
+            -312,
+            840,
+            60
+          ],
+          "delta": 840,
+          "U": 60,
+          "V": 1800,
+          "answer_sha256": "6d8fad6e47897ebe1e2664934168139e2a969904d1bb420a2083b24b31715869"
+        },
+        {
+          "rid": "2508205",
+          "key": "9764b4b255e9c83e1fe4983fad55b6c412750f8dce663649e930138e5cd4093c",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 5.0,
+          "candidate_writes": 30,
+          "write_total": 1110,
+          "cert_before": [
+            -3640,
+            -312,
+            840,
+            60
+          ],
+          "cert_after": [
+            -3526,
+            -554,
+            814,
+            59
+          ],
+          "delta": 814,
+          "U": 59,
+          "V": 1770,
+          "answer_sha256": "2f6c47d994cb580bf9b5a19a5145fb34af82c84e8a321555725f360279582957"
+        },
+        {
+          "rid": "2563983",
+          "key": "97ba5a8604d7bbc8a56b483964519a303f76d911d6d5af87c998f0c6bec1900d",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 6.0,
+          "candidate_writes": 30,
+          "write_total": 1140,
+          "cert_before": [
+            -3526,
+            -554,
+            814,
+            59
+          ],
+          "cert_after": [
+            -3412,
+            -796,
+            788,
+            58
+          ],
+          "delta": 788,
+          "U": 58,
+          "V": 1740,
+          "answer_sha256": "d452e50d979262d6acf4a78ddc9241cf9f23834ce51208c39248b855e75f11a9"
+        },
+        {
+          "rid": "2579836",
+          "key": "6a3651aefcea1d6620c5c920e0bf089701ab8a138fa9a1e4515dddcaedb9e9e9",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 7.0,
+          "candidate_writes": 30,
+          "write_total": 1170,
+          "cert_before": [
+            -3412,
+            -796,
+            788,
+            58
+          ],
+          "cert_after": [
+            -3298,
+            -1038,
+            762,
+            57
+          ],
+          "delta": 762,
+          "U": 57,
+          "V": 1710,
+          "answer_sha256": "04bfd9996b4cf413464fab2b1656c57347f2baf43bfb15a8f52bd6ff4d49cc73"
+        },
+        {
+          "rid": "2623233",
+          "key": "34dfe1007c0d693aa0b8d6fd5b7bfa1673bf7b2c8c6ab506a4df981781746557",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 8.0,
+          "candidate_writes": 30,
+          "write_total": 1200,
+          "cert_before": [
+            -3298,
+            -1038,
+            762,
+            57
+          ],
+          "cert_after": [
+            -3184,
+            -1280,
+            736,
+            56
+          ],
+          "delta": 736,
+          "U": 56,
+          "V": 1680,
+          "answer_sha256": "bf43c3b5dd78f48be4d750635e344cf8922af9886cd7246da3270ab233b9c078"
+        },
+        {
+          "rid": "2508362",
+          "key": "1371851bdb0e0f7e17cb94052a87065bfa18f381cb960b29a2afd5a81771ee72",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 9.0,
+          "candidate_writes": 30,
+          "write_total": 1230,
+          "cert_before": [
+            -3184,
+            -1280,
+            736,
+            56
+          ],
+          "cert_after": [
+            -3066,
+            -1500,
+            714,
+            55
+          ],
+          "delta": 714,
+          "U": 55,
+          "V": 1650,
+          "answer_sha256": "d69cf2458ef408b26708f6a0bd27737b804fce684b4764d92610e511b1f9f59e"
+        },
+        {
+          "rid": "2563995",
+          "key": "110be2acc66bb4dd14326a92ff2e57d80f2854eaf34f936fcb22bf9184feb28b",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 10.0,
+          "candidate_writes": 30,
+          "write_total": 1260,
+          "cert_before": [
+            -3066,
+            -1500,
+            714,
+            55
+          ],
+          "cert_after": [
+            -2948,
+            -1720,
+            692,
+            54
+          ],
+          "delta": 692,
+          "U": 54,
+          "V": 1620,
+          "answer_sha256": "097a7490059a4f2f432cb4c19ee130c82dda4f22c5157f2e85e60f3592ebea67"
+        },
+        {
+          "rid": "2579852",
+          "key": "e8853928fd3c6980867319210051ac1020c78d333691396b45b0e9b57d18b72d",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 11.0,
+          "candidate_writes": 30,
+          "write_total": 1290,
+          "cert_before": [
+            -2948,
+            -1720,
+            692,
+            54
+          ],
+          "cert_after": [
+            -2830,
+            -1940,
+            670,
+            53
+          ],
+          "delta": 670,
+          "U": 53,
+          "V": 1590,
+          "answer_sha256": "c1b814bed3e5a833fee2fd85c7459d08835d93790434f76aeea9764a1bbd5ce2"
+        },
+        {
+          "rid": "2623234",
+          "key": "0b82c671b27eff4c07c31297feea8d06d34e903d122f1ac52f49a6204522252d",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 12.0,
+          "candidate_writes": 30,
+          "write_total": 1320,
+          "cert_before": [
+            -2830,
+            -1940,
+            670,
+            53
+          ],
+          "cert_after": [
+            -2712,
+            -2160,
+            648,
+            52
+          ],
+          "delta": 648,
+          "U": 52,
+          "V": 1560,
+          "answer_sha256": "dbeae6c24d63bce1078322294b40f7ff5ac932cccc943a789b0d660022f74983"
+        },
+        {
+          "rid": "2513354",
+          "key": "79a6d79de03faa50f7da5e4f933ba4b5aa60b8b7244b86af67351f5fdcb2700e",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 13.0,
+          "candidate_writes": 30,
+          "write_total": 1350,
+          "cert_before": [
+            -2712,
+            -2160,
+            648,
+            52
+          ],
+          "cert_after": [
+            -2610,
+            -2340,
+            630,
+            51
+          ],
+          "delta": 630,
+          "U": 51,
+          "V": 1530,
+          "answer_sha256": "18c39bf13bd93c98429a88c9d6a7d989eaec84fe4241f899d61aed4775f78d1e"
+        },
+        {
+          "rid": "2564000",
+          "key": "a1d1d716da05ec58e270527ea65887a4f970fcf3945048dea7449f235476a2eb",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 14.0,
+          "candidate_writes": 30,
+          "write_total": 1380,
+          "cert_before": [
+            -2610,
+            -2340,
+            630,
+            51
+          ],
+          "cert_after": [
+            -2508,
+            -2520,
+            612,
+            50
+          ],
+          "delta": 612,
+          "U": 50,
+          "V": 1500,
+          "answer_sha256": "8647cd961eccb19aec77de63132069862be99e30a6428eef033f27d5e48834e5"
+        },
+        {
+          "rid": "2579877",
+          "key": "2f26222d98e7e5836c4a3e30acfcb710b232ecf71c5d1e6361e9044ddd8037cc",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 15.0,
+          "candidate_writes": 30,
+          "write_total": 1410,
+          "cert_before": [
+            -2508,
+            -2520,
+            612,
+            50
+          ],
+          "cert_after": [
+            -2406,
+            -2700,
+            594,
+            49
+          ],
+          "delta": 594,
+          "U": 49,
+          "V": 1470,
+          "answer_sha256": "c08414a47ad2a1b218fea52c9ba573660d596d6274f973623195f4fb02b5b28e"
+        },
+        {
+          "rid": "2623400",
+          "key": "fde58b846f3836e68eba8649f3896b46946c27a03bf3962b9023c1758bdd0ebd",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 16.0,
+          "candidate_writes": 30,
+          "write_total": 1440,
+          "cert_before": [
+            -2406,
+            -2700,
+            594,
+            49
+          ],
+          "cert_after": [
+            -2304,
+            -2880,
+            576,
+            48
+          ],
+          "delta": 576,
+          "U": 48,
+          "V": 1440,
+          "answer_sha256": "ac1af6da8b6eee0647e6b98ccd87bf918014cae7daa8871ef501585de28dd73a"
+        }
+      ],
+      "fee": 16.0,
+      "writes": 1440,
+      "publication_writes": 0,
+      "published": false,
+      "refusal_reason": "no_admissible_action",
+      "final_cert": [
+        -2304,
+        -2880,
+        576,
+        48
+      ],
+      "answer_sha256": "ac1af6da8b6eee0647e6b98ccd87bf918014cae7daa8871ef501585de28dd73a",
+      "published_table_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "branch_tests": 112,
+      "representative_visits": 58,
+      "wrong_epoch_rejected": true
+    },
+    {
+      "epoch": 1,
+      "kind": "repeat",
+      "nonempty": true,
+      "fee_cap": 16,
+      "write_cap": 2400,
+      "initial": {
+        "cert": [
+          -2304,
+          -2880,
+          576,
+          48
+        ],
+        "U": 48,
+        "V": 1440,
+        "delta": 576,
+        "intake_required": 0,
+        "intake_applied": true,
+        "intake_writes": 0,
+        "joint_protected": false,
+        "fee_protected": false
+      },
+      "steps": [
+        {
+          "rid": "2514720",
+          "key": "c7298386d09f07bed98df24dadb0df777180c1bf0b84474fee4e9d8b85f970aa",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 1.0,
+          "candidate_writes": 30,
+          "write_total": 30,
+          "cert_before": [
+            -2304,
+            -2880,
+            576,
+            48
+          ],
+          "cert_after": [
+            -2198,
+            -3020,
+            562,
+            47
+          ],
+          "delta": 562,
+          "U": 47,
+          "V": 1410,
+          "answer_sha256": "f785badbc576f6955aebf882ae7d3681ddf46d50ca658892099695288a2617ae"
+        },
+        {
+          "rid": "2564739",
+          "key": "6b6d0f288fe2266df4e63520838c311b06f9ab29e5e4d3de82549dcc6160b5d5",
+          "kind": "audit",
+          "bit": 0,
+          "fee_total": 2.0,
+          "candidate_writes": 0,
+          "write_total": 30,
+          "cert_before": [
+            -2198,
+            -3020,
+            562,
+            47
+          ],
+          "cert_after": [
+            -2198,
+            -2970,
+            562,
+            46
+          ],
+          "delta": 562,
+          "U": 46,
+          "V": 1380,
+          "answer_sha256": "f785badbc576f6955aebf882ae7d3681ddf46d50ca658892099695288a2617ae"
+        },
+        {
+          "rid": "2564777",
+          "key": "0bf905bf458eeddad61ad3c00c99d6d8f586685d1e7d6e22429dd03fda797b70",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 3.0,
+          "candidate_writes": 30,
+          "write_total": 60,
+          "cert_before": [
+            -2198,
+            -2970,
+            562,
+            46
+          ],
+          "cert_after": [
+            -2092,
+            -3090,
+            548,
+            45
+          ],
+          "delta": 548,
+          "U": 45,
+          "V": 1350,
+          "answer_sha256": "ecf360fd841a68f2c7e10e323b7a478bf3cd7042d9555b4f279d5ac1761d14e6"
+        },
+        {
+          "rid": "2579884",
+          "key": "73b7e895ee5748aa489b4ea3886ebc097f8621e39c2f16135b608adcabfa5b69",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 4.0,
+          "candidate_writes": 30,
+          "write_total": 90,
+          "cert_before": [
+            -2092,
+            -3090,
+            548,
+            45
+          ],
+          "cert_after": [
+            -1986,
+            -3230,
+            534,
+            44
+          ],
+          "delta": 534,
+          "U": 44,
+          "V": 1320,
+          "answer_sha256": "f7252557bd8c7f878b8233928632668f86a464dc1fc723ce97e777d18fc1fe60"
+        },
+        {
+          "rid": "2623871",
+          "key": "e0fddfda378b12dec4e50c2c994d5e9d5b4675417eb9e1c4854302b5b6b8a4de",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 5.0,
+          "candidate_writes": 30,
+          "write_total": 120,
+          "cert_before": [
+            -1986,
+            -3230,
+            534,
+            44
+          ],
+          "cert_after": [
+            -1880,
+            -3370,
+            520,
+            43
+          ],
+          "delta": 520,
+          "U": 43,
+          "V": 1290,
+          "answer_sha256": "c553f38d1465fda770074ca0e2adef10fee488616df8e410c50a478895e33e6c"
+        },
+        {
+          "rid": "2514816",
+          "key": "75388474ac04788e5cacde5a12cc733ecd00b576b3f40e6c2bcb110a99ba8238",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 6.0,
+          "candidate_writes": 30,
+          "write_total": 150,
+          "cert_before": [
+            -1880,
+            -3370,
+            520,
+            43
+          ],
+          "cert_after": [
+            -1790,
+            -3470,
+            510,
+            42
+          ],
+          "delta": 510,
+          "U": 42,
+          "V": 1260,
+          "answer_sha256": "3c7bd15ba0ef8d816de42cc8864acecfe1884d87389f7303e7a5357a2759760b"
+        },
+        {
+          "rid": "2565348",
+          "key": "e6191b5e278a876c26b530da7b865e356e25bed1e9473a109011a3c268e5ac4c",
+          "kind": "audit",
+          "bit": 0,
+          "fee_total": 7.0,
+          "candidate_writes": 0,
+          "write_total": 150,
+          "cert_before": [
+            -1790,
+            -3470,
+            510,
+            42
+          ],
+          "cert_after": [
+            -1790,
+            -3396,
+            510,
+            41
+          ],
+          "delta": 510,
+          "U": 41,
+          "V": 1230,
+          "answer_sha256": "3c7bd15ba0ef8d816de42cc8864acecfe1884d87389f7303e7a5357a2759760b"
+        },
+        {
+          "rid": "2565431",
+          "key": "7cd566df85256f9829e00a906f5213253bcfd575b27a8f514f239a8412fae5b0",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 8.0,
+          "candidate_writes": 30,
+          "write_total": 180,
+          "cert_before": [
+            -1790,
+            -3396,
+            510,
+            41
+          ],
+          "cert_after": [
+            -1700,
+            -3456,
+            500,
+            40
+          ],
+          "delta": 500,
+          "U": 40,
+          "V": 1200,
+          "answer_sha256": "0f7a4a58be50a8167859ce27f620acbbe27eeb9d34475211c6c5fd467d77cac9"
+        },
+        {
+          "rid": "2579986",
+          "key": "f9fbf0db442d54c8581264b8d48979d8346affee85205d84e92f301849a8ce6b",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 9.0,
+          "candidate_writes": 30,
+          "write_total": 210,
+          "cert_before": [
+            -1700,
+            -3456,
+            500,
+            40
+          ],
+          "cert_after": [
+            -1610,
+            -3556,
+            490,
+            39
+          ],
+          "delta": 490,
+          "U": 39,
+          "V": 1170,
+          "answer_sha256": "429677e32887913c29b93f0c358c0efca13c5c25a4f3c262996295c735efcce4"
+        },
+        {
+          "rid": "2624454",
+          "key": "8da178a5a12c9cf0542067daae8016cabe36a7620968c15373ffb4a22e6c77b0",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 10.0,
+          "candidate_writes": 30,
+          "write_total": 240,
+          "cert_before": [
+            -1610,
+            -3556,
+            490,
+            39
+          ],
+          "cert_after": [
+            -1520,
+            -3656,
+            480,
+            38
+          ],
+          "delta": 480,
+          "U": 38,
+          "V": 1140,
+          "answer_sha256": "941331ceb3f11370629ed03846990dc8e71f5f72904f8c8b770cb211cbda7fb7"
+        },
+        {
+          "rid": "2515366",
+          "key": "abb4030f52fde16243d3b0a96ed3968b2a51652aa7851b80bf1d1cdd9aa93559",
+          "kind": "audit",
+          "bit": 0,
+          "fee_total": 11.0,
+          "candidate_writes": 0,
+          "write_total": 240,
+          "cert_before": [
+            -1520,
+            -3656,
+            480,
+            38
+          ],
+          "cert_after": [
+            -1520,
+            -3566,
+            480,
+            37
+          ],
+          "delta": 480,
+          "U": 37,
+          "V": 1110,
+          "answer_sha256": "941331ceb3f11370629ed03846990dc8e71f5f72904f8c8b770cb211cbda7fb7"
+        },
+        {
+          "rid": "2517558",
+          "key": "1a9e4997ce497e9a638e9c4b37a62b5de2b11988c18db19ffc5121937e13eab8",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 12.0,
+          "candidate_writes": 30,
+          "write_total": 270,
+          "cert_before": [
+            -1520,
+            -3566,
+            480,
+            37
+          ],
+          "cert_after": [
+            -1426,
+            -3606,
+            474,
+            36
+          ],
+          "delta": 474,
+          "U": 36,
+          "V": 1080,
+          "answer_sha256": "bd90544126f9fa65f418cd984adfde9f34b936edfa30db5d32d2add7cbdf1133"
+        },
+        {
+          "rid": "2565777",
+          "key": "644a033d2f6c366bdd74e4f0184781d0a19f0e8b4bba57459d330b781bb59665",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 13.0,
+          "candidate_writes": 30,
+          "write_total": 300,
+          "cert_before": [
+            -1426,
+            -3606,
+            474,
+            36
+          ],
+          "cert_after": [
+            -1332,
+            -3626,
+            468,
+            35
+          ],
+          "delta": 468,
+          "U": 35,
+          "V": 1050,
+          "answer_sha256": "70dfcea6e28536e3e3cb5f182019155e40f457e6428a0dd26f034badabef4058"
+        },
+        {
+          "rid": "2580069",
+          "key": "24493f1cf3db1fb3319d38ac01090c82377b3029b8dc8a3533b3d5cb49002e3e",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 14.0,
+          "candidate_writes": 30,
+          "write_total": 330,
+          "cert_before": [
+            -1332,
+            -3626,
+            468,
+            35
+          ],
+          "cert_after": [
+            -1238,
+            -3686,
+            462,
+            34
+          ],
+          "delta": 462,
+          "U": 34,
+          "V": 1020,
+          "answer_sha256": "5aa47fd1466e3079b3254e76e8dc4bca5829b73f9d49e1bf56b696892f145a95"
+        },
+        {
+          "rid": "2624498",
+          "key": "fa54d6b42bc68c7de3048cfaeb2761e4b13678bc65c6ae0a3f58f8e9c15e1f1e",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 15.0,
+          "candidate_writes": 30,
+          "write_total": 360,
+          "cert_before": [
+            -1238,
+            -3686,
+            462,
+            34
+          ],
+          "cert_after": [
+            -1144,
+            -3746,
+            456,
+            33
+          ],
+          "delta": 456,
+          "U": 33,
+          "V": 990,
+          "answer_sha256": "34e1edbacf3addec02bdb7edcb9097467adbde02ec055ab0d6afb4d5b4df8ff5"
+        },
+        {
+          "rid": "2517758",
+          "key": "6847fbfa02ac5fa91642e697b06054a4fedb3fe92fc8ab56929f5712765f796a",
+          "kind": "audit",
+          "bit": 0,
+          "fee_total": 16.0,
+          "candidate_writes": 0,
+          "write_total": 360,
+          "cert_before": [
+            -1144,
+            -3746,
+            456,
+            33
+          ],
+          "cert_after": [
+            -1144,
+            -3632,
+            456,
+            32
+          ],
+          "delta": 456,
+          "U": 32,
+          "V": 960,
+          "answer_sha256": "34e1edbacf3addec02bdb7edcb9097467adbde02ec055ab0d6afb4d5b4df8ff5"
+        }
+      ],
+      "fee": 16.0,
+      "writes": 360,
+      "publication_writes": 0,
+      "published": false,
+      "refusal_reason": "no_admissible_action",
+      "final_cert": [
+        -1144,
+        -3632,
+        456,
+        32
+      ],
+      "answer_sha256": "34e1edbacf3addec02bdb7edcb9097467adbde02ec055ab0d6afb4d5b4df8ff5",
+      "published_table_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "branch_tests": 176,
+      "representative_visits": 92,
+      "wrong_epoch_rejected": true
+    },
+    {
+      "epoch": 2,
+      "kind": "public_mask",
+      "nonempty": true,
+      "fee_cap": 16,
+      "write_cap": 2400,
+      "initial": {
+        "cert": [
+          -284,
+          616,
+          796,
+          4
+        ],
+        "U": 4,
+        "V": 120,
+        "delta": 796,
+        "intake_required": 452,
+        "intake_applied": true,
+        "intake_writes": 452,
+        "joint_protected": true,
+        "fee_protected": true
+      },
+      "steps": [
+        {
+          "rid": "2566839",
+          "key": "33abbfa342be7b03e45178c21412ddfc90fc82bae8356a4b6efceb9799c83636",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 1.0,
+          "candidate_writes": 30,
+          "write_total": 482,
+          "cert_before": [
+            -284,
+            616,
+            796,
+            4
+          ],
+          "cert_after": [
+            -14,
+            616,
+            766,
+            3
+          ],
+          "delta": 766,
+          "U": 3,
+          "V": 90,
+          "answer_sha256": "6a192ec9ce4dd58548cb5eb3037a14b3e0160ee521820c6dd51b93cfa233f770"
+        },
+        {
+          "rid": "2580797",
+          "key": "63ae220cd1f25b2ea4201f0c76a9680a9c2f95da02f80235218774020f140edf",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 2.0,
+          "candidate_writes": 30,
+          "write_total": 512,
+          "cert_before": [
+            -14,
+            616,
+            766,
+            3
+          ],
+          "cert_after": [
+            220,
+            616,
+            740,
+            2
+          ],
+          "delta": 740,
+          "U": 2,
+          "V": 60,
+          "answer_sha256": "c20075366baeebfc8c9987537635037de4d08a69a50762fda29b6b906520a205"
+        },
+        {
+          "rid": "2523155",
+          "key": "b4f05380bb1fc901bc18d6d27996a8254756096f7ba91ec5b7cd3a23c5eac0c5",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 2.05,
+          "candidate_writes": 30,
+          "write_total": 542,
+          "cert_before": [
+            220,
+            616,
+            740,
+            2
+          ],
+          "cert_after": [
+            418,
+            418,
+            718,
+            1
+          ],
+          "delta": 718,
+          "U": 2,
+          "V": 60,
+          "answer_sha256": "0966e9300aa26a93bb269b0140fde9d0179255e8534a1756a9ccae7fce3d836c"
+        },
+        {
+          "rid": "2655172",
+          "key": "4243929c974f4c5e59f07bb22863a6925e41f2a6ab32eb26239ce11a7c61a879",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 2.0999999999999996,
+          "candidate_writes": 30,
+          "write_total": 572,
+          "cert_before": [
+            418,
+            418,
+            718,
+            1
+          ],
+          "cert_after": [
+            616,
+            220,
+            696,
+            0
+          ],
+          "delta": 696,
+          "U": 2,
+          "V": 60,
+          "answer_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7"
+        }
+      ],
+      "fee": 2.0999999999999996,
+      "writes": 1268,
+      "publication_writes": 696,
+      "published": true,
+      "refusal_reason": null,
+      "final_cert": [
+        616,
+        220,
+        696,
+        0
+      ],
+      "answer_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7",
+      "published_table_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7",
+      "branch_tests": 30,
+      "representative_visits": 15,
+      "wrong_epoch_rejected": true
+    },
+    {
+      "epoch": 3,
+      "kind": "prompt_change",
+      "nonempty": true,
+      "fee_cap": 16,
+      "write_cap": 2400,
+      "initial": {
+        "cert": [
+          616,
+          220,
+          696,
+          2
+        ],
+        "U": 2,
+        "V": 60,
+        "delta": 0,
+        "intake_required": 0,
+        "intake_applied": true,
+        "intake_writes": 0,
+        "joint_protected": true,
+        "fee_protected": true
+      },
+      "steps": [
+        {
+          "rid": "2523155",
+          "key": "b4f05380bb1fc901bc18d6d27996a8254756096f7ba91ec5b7cd3a23c5eac0c5",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.05,
+          "candidate_writes": 0,
+          "write_total": 0,
+          "cert_before": [
+            616,
+            220,
+            696,
+            2
+          ],
+          "cert_after": [
+            616,
+            220,
+            696,
+            1
+          ],
+          "delta": 0,
+          "U": 2,
+          "V": 60,
+          "answer_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7"
+        },
+        {
+          "rid": "2655172",
+          "key": "4243929c974f4c5e59f07bb22863a6925e41f2a6ab32eb26239ce11a7c61a879",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 0.1,
+          "candidate_writes": 0,
+          "write_total": 0,
+          "cert_before": [
+            616,
+            220,
+            696,
+            1
+          ],
+          "cert_after": [
+            616,
+            220,
+            696,
+            0
+          ],
+          "delta": 0,
+          "U": 2,
+          "V": 60,
+          "answer_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7"
+        }
+      ],
+      "fee": 0.1,
+      "writes": 0,
+      "publication_writes": 0,
+      "published": true,
+      "refusal_reason": null,
+      "final_cert": [
+        616,
+        220,
+        696,
+        0
+      ],
+      "answer_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7",
+      "published_table_sha256": "4bc2157b16bfb0fbd271bf398bc1c6f84b2c9079614146d222caa705eebfc4f7",
+      "branch_tests": 10,
+      "representative_visits": 5,
+      "wrong_epoch_rejected": true
+    },
+    {
+      "epoch": 4,
+      "kind": "replace_25pct_text",
+      "nonempty": true,
+      "fee_cap": 16,
+      "write_cap": 2400,
+      "initial": {
+        "cert": [
+          -236,
+          196,
+          844,
+          4
+        ],
+        "U": 6,
+        "V": 180,
+        "delta": 172,
+        "intake_required": 172,
+        "intake_applied": true,
+        "intake_writes": 172,
+        "joint_protected": true,
+        "fee_protected": true
+      },
+      "steps": [
+        {
+          "rid": "2580797",
+          "key": "f1457f325d94b42a326a70b39e6166256a044326829dbfad98cf31276b4aff3e",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 1.0,
+          "candidate_writes": 30,
+          "write_total": 202,
+          "cert_before": [
+            -236,
+            196,
+            844,
+            4
+          ],
+          "cert_after": [
+            -2,
+            196,
+            818,
+            3
+          ],
+          "delta": 146,
+          "U": 5,
+          "V": 150,
+          "answer_sha256": "5d7b1e267c3c50001106a403fd1b0c856fc50594e0657795601b348e2c40040e"
+        },
+        {
+          "rid": "2623871",
+          "key": "40b98eb2e5573315248650ea07593b40a4dacc9abb3d6531612ed3926b82c24c",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 2.0,
+          "candidate_writes": 30,
+          "write_total": 232,
+          "cert_before": [
+            -2,
+            196,
+            818,
+            3
+          ],
+          "cert_after": [
+            232,
+            196,
+            792,
+            2
+          ],
+          "delta": 120,
+          "U": 4,
+          "V": 120,
+          "answer_sha256": "8ea0dbd16644002a8037dce9d019e31b014f55dfba043be980770c85d2215d2d"
+        },
+        {
+          "rid": "2709436",
+          "key": "ac30a05e57b5db8a6500343abbc120c139b18507058e4f9b98cac03a66981028",
+          "kind": "refresh",
+          "bit": 1,
+          "fee_total": 2.05,
+          "candidate_writes": 30,
+          "write_total": 262,
+          "cert_before": [
+            232,
+            196,
+            792,
+            2
+          ],
+          "cert_after": [
+            430,
+            -2,
+            770,
+            1
+          ],
+          "delta": 146,
+          "U": 4,
+          "V": 120,
+          "answer_sha256": "77ff5837ea1fdc142f261ce1981851168d958044e2b730a106aebace8f95637d"
+        },
+        {
+          "rid": "2784359",
+          "key": "f74e14cf6bfc71a791b1fde204169dbf8e3c1b53cfb316aef59b079893c6657f",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 3.05,
+          "candidate_writes": 30,
+          "write_total": 292,
+          "cert_before": [
+            430,
+            -2,
+            770,
+            1
+          ],
+          "cert_after": [
+            648,
+            18,
+            748,
+            0
+          ],
+          "delta": 172,
+          "U": 3,
+          "V": 90,
+          "answer_sha256": "a4a703de238ded6f81c098c72b29ba81be3c175bcd837d623b70e8df639d71c4"
+        }
+      ],
+      "fee": 3.05,
+      "writes": 464,
+      "publication_writes": 172,
+      "published": true,
+      "refusal_reason": null,
+      "final_cert": [
+        648,
+        18,
+        748,
+        0
+      ],
+      "answer_sha256": "a4a703de238ded6f81c098c72b29ba81be3c175bcd837d623b70e8df639d71c4",
+      "published_table_sha256": "a4a703de238ded6f81c098c72b29ba81be3c175bcd837d623b70e8df639d71c4",
+      "branch_tests": 58,
+      "representative_visits": 29,
+      "wrong_epoch_rejected": true
+    },
+    {
+      "epoch": 5,
+      "kind": "delete_insert_25pct",
+      "nonempty": true,
+      "fee_cap": 16,
+      "write_cap": 2400,
+      "initial": {
+        "cert": [
+          -152,
+          -80,
+          748,
+          3
+        ],
+        "U": 6,
+        "V": 180,
+        "delta": 736,
+        "intake_required": 736,
+        "intake_applied": true,
+        "intake_writes": 736,
+        "joint_protected": true,
+        "fee_protected": true
+      },
+      "steps": [
+        {
+          "rid": "2564040",
+          "key": "6660a1c702f2b897a2c7882fd53fca237ad39b050c19f0afa4e9c5fd13c617d8",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 1.0,
+          "candidate_writes": 30,
+          "write_total": 766,
+          "cert_before": [
+            -152,
+            -80,
+            748,
+            3
+          ],
+          "cert_after": [
+            118,
+            -80,
+            718,
+            2
+          ],
+          "delta": 706,
+          "U": 5,
+          "V": 150,
+          "answer_sha256": "9e47dc5b5ec1dc127d1f6da985a7bf7bd38aefea49ff4dc2983e9af3a3d33241"
+        },
+        {
+          "rid": "2580116",
+          "key": "68352dd9d948b22fcf564081cc0eb5ee9ea47597cea4bebbacc1b41b59dadc71",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 2.0,
+          "candidate_writes": 30,
+          "write_total": 796,
+          "cert_before": [
+            118,
+            -80,
+            718,
+            2
+          ],
+          "cert_after": [
+            336,
+            -60,
+            696,
+            1
+          ],
+          "delta": 684,
+          "U": 4,
+          "V": 120,
+          "answer_sha256": "d8dede6057e535b42dfaba666f23db11e01b66cc2595cb86e67e5a57e1dec292"
+        },
+        {
+          "rid": "2649633",
+          "key": "c4c59a17cc6ceb97b5bb02212b69cb671820eb0c51f6be867ca4422a8f00e2c0",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 3.0,
+          "candidate_writes": 30,
+          "write_total": 826,
+          "cert_before": [
+            336,
+            -60,
+            696,
+            1
+          ],
+          "cert_after": [
+            538,
+            -20,
+            678,
+            0
+          ],
+          "delta": 666,
+          "U": 3,
+          "V": 90,
+          "answer_sha256": "e448427d4e72d64154820421a99b49fddec8849ca9fd82b245d45d1f7823bbf2"
+        },
+        {
+          "rid": "2655172",
+          "key": "4243929c974f4c5e59f07bb22863a6925e41f2a6ab32eb26239ce11a7c61a879",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 4.0,
+          "candidate_writes": 0,
+          "write_total": 826,
+          "cert_before": [
+            538,
+            -20,
+            678,
+            0
+          ],
+          "cert_after": [
+            578,
+            218,
+            678,
+            0
+          ],
+          "delta": 666,
+          "U": 2,
+          "V": 60,
+          "answer_sha256": "e448427d4e72d64154820421a99b49fddec8849ca9fd82b245d45d1f7823bbf2"
+        }
+      ],
+      "fee": 4.0,
+      "writes": 1492,
+      "publication_writes": 666,
+      "published": true,
+      "refusal_reason": null,
+      "final_cert": [
+        578,
+        218,
+        678,
+        0
+      ],
+      "answer_sha256": "e448427d4e72d64154820421a99b49fddec8849ca9fd82b245d45d1f7823bbf2",
+      "published_table_sha256": "e448427d4e72d64154820421a99b49fddec8849ca9fd82b245d45d1f7823bbf2",
+      "branch_tests": 48,
+      "representative_visits": 24,
+      "wrong_epoch_rejected": true
+    },
+    {
+      "epoch": 6,
+      "kind": "unmask",
+      "nonempty": true,
+      "fee_cap": 16,
+      "write_cap": 2400,
+      "initial": {
+        "cert": [
+          -1622,
+          -3790,
+          478,
+          38
+        ],
+        "U": 40,
+        "V": 1200,
+        "delta": 340,
+        "intake_required": 340,
+        "intake_applied": true,
+        "intake_writes": 340,
+        "joint_protected": false,
+        "fee_protected": false
+      },
+      "steps": [
+        {
+          "rid": "2565777",
+          "key": "b39f1c82ab9df0b2c7c9e5383fd472e86711c3b7fcdd6e6130ea25d8f49039a6",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 1.0,
+          "candidate_writes": 30,
+          "write_total": 370,
+          "cert_before": [
+            -1622,
+            -3790,
+            478,
+            38
+          ],
+          "cert_after": [
+            -1528,
+            -3850,
+            472,
+            37
+          ],
+          "delta": 350,
+          "U": 39,
+          "V": 1170,
+          "answer_sha256": "87bbf3791e7e0ef694e459e3f306850738571f2c73087fb2551bd7216f4a7003"
+        },
+        {
+          "rid": "2566194",
+          "key": "eadd0563c91e62716cba57ae3c716a55809d4040486e7f0d1670b8396e6b912e",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 2.0,
+          "candidate_writes": 30,
+          "write_total": 400,
+          "cert_before": [
+            -1528,
+            -3850,
+            472,
+            37
+          ],
+          "cert_after": [
+            -1450,
+            -3870,
+            470,
+            36
+          ],
+          "delta": 356,
+          "U": 38,
+          "V": 1140,
+          "answer_sha256": "0129f1a0fecfac064175f58f43bd35b96c0a530262745b2f6a54ec23234b9ef1"
+        },
+        {
+          "rid": "2566549",
+          "key": "125d213b244ce0d0cd025cd1c45b2e2e666583daf525f06342bba3abc5694fc5",
+          "kind": "audit",
+          "bit": 0,
+          "fee_total": 3.0,
+          "candidate_writes": 0,
+          "write_total": 400,
+          "cert_before": [
+            -1450,
+            -3870,
+            470,
+            36
+          ],
+          "cert_after": [
+            -1450,
+            -3740,
+            470,
+            35
+          ],
+          "delta": 356,
+          "U": 37,
+          "V": 1110,
+          "answer_sha256": "0129f1a0fecfac064175f58f43bd35b96c0a530262745b2f6a54ec23234b9ef1"
+        },
+        {
+          "rid": "2566839",
+          "key": "fd948743d07096ef442a28d23a4c85cac1b3e14ace69cccf89066afbb61b2387",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 4.0,
+          "candidate_writes": 30,
+          "write_total": 430,
+          "cert_before": [
+            -1450,
+            -3740,
+            470,
+            35
+          ],
+          "cert_after": [
+            -1368,
+            -3700,
+            472,
+            34
+          ],
+          "delta": 358,
+          "U": 36,
+          "V": 1080,
+          "answer_sha256": "94acb04bf85b19fbba1045633bf946579dcf2932b382eed4f5d29e6fad9467be"
+        },
+        {
+          "rid": "2567862",
+          "key": "346089bb8cafce1881f3071fcb58d8f62009a79194f4a88b5577ea400682fae7",
+          "kind": "audit",
+          "bit": 0,
+          "fee_total": 5.0,
+          "candidate_writes": 0,
+          "write_total": 430,
+          "cert_before": [
+            -1368,
+            -3700,
+            472,
+            34
+          ],
+          "cert_after": [
+            -1368,
+            -3546,
+            472,
+            33
+          ],
+          "delta": 358,
+          "U": 35,
+          "V": 1050,
+          "answer_sha256": "94acb04bf85b19fbba1045633bf946579dcf2932b382eed4f5d29e6fad9467be"
+        },
+        {
+          "rid": "2593602",
+          "key": "64b295d9d8bb488d5f28f0d13b39331ef105b4deaaf0456f020d2fbeb7fda90c",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 6.0,
+          "candidate_writes": 30,
+          "write_total": 460,
+          "cert_before": [
+            -1368,
+            -3546,
+            472,
+            33
+          ],
+          "cert_after": [
+            -1302,
+            -3446,
+            478,
+            32
+          ],
+          "delta": 356,
+          "U": 34,
+          "V": 1020,
+          "answer_sha256": "11386a562d243d85cb4f4b60c71f56d9f65aff4cd3b1e58e575560fe4ed3848d"
+        },
+        {
+          "rid": "2597904",
+          "key": "65f3595808b5631e72bc8de50773c1a168c8099056848263fd8dccf8a4ddda3a",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 7.0,
+          "candidate_writes": 30,
+          "write_total": 490,
+          "cert_before": [
+            -1302,
+            -3446,
+            478,
+            32
+          ],
+          "cert_after": [
+            -1232,
+            -3306,
+            488,
+            31
+          ],
+          "delta": 350,
+          "U": 33,
+          "V": 990,
+          "answer_sha256": "de7c9fe3990f1992bb63294dc2008333ccc31cce303b49a8e1634bd38f977656"
+        },
+        {
+          "rid": "2598180",
+          "key": "cdaa3fe4c60833483423a1ea2f080b79dd6c6cd28b76eab9e8611020c58cce15",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 8.0,
+          "candidate_writes": 30,
+          "write_total": 520,
+          "cert_before": [
+            -1232,
+            -3306,
+            488,
+            31
+          ],
+          "cert_after": [
+            -1178,
+            -3126,
+            502,
+            30
+          ],
+          "delta": 340,
+          "U": 32,
+          "V": 960,
+          "answer_sha256": "823b74d00854912bbb17c1d63841f5d676bdfa74781ad06376c21d4a40d6b7bc"
+        },
+        {
+          "rid": "2603823",
+          "key": "1cae5cc2bbcd4ecc9f26249e008e05ec5ac9fb46e195ffec4ffdcce3d5c2d274",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 9.0,
+          "candidate_writes": 30,
+          "write_total": 550,
+          "cert_before": [
+            -1178,
+            -3126,
+            502,
+            30
+          ],
+          "cert_after": [
+            -1120,
+            -2906,
+            520,
+            29
+          ],
+          "delta": 326,
+          "U": 31,
+          "V": 930,
+          "answer_sha256": "e37883529a1ec0ea9e0c06215a79db4ad9428ce3fb7a096b01a7721886007640"
+        },
+        {
+          "rid": "2610231",
+          "key": "2f855572d5696ded82846d13de17b5de40f1dd63575bf1f237586752720f4cc8",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 10.0,
+          "candidate_writes": 30,
+          "write_total": 580,
+          "cert_before": [
+            -1120,
+            -2906,
+            520,
+            29
+          ],
+          "cert_after": [
+            -1058,
+            -2646,
+            542,
+            28
+          ],
+          "delta": 308,
+          "U": 30,
+          "V": 900,
+          "answer_sha256": "8748ba9a1c80f61d28aa2366ae484a1cb67ec9d220a6c078b03490e8c3281529"
+        },
+        {
+          "rid": "2579877",
+          "key": "23fcb9c7c861a0c72721567de55feec174111a267e89076c8a069d1a3d505b40",
+          "kind": "audit",
+          "bit": 0,
+          "fee_total": 11.0,
+          "candidate_writes": 0,
+          "write_total": 580,
+          "cert_before": [
+            -1058,
+            -2646,
+            542,
+            28
+          ],
+          "cert_after": [
+            -1058,
+            -2536,
+            542,
+            27
+          ],
+          "delta": 308,
+          "U": 29,
+          "V": 870,
+          "answer_sha256": "8748ba9a1c80f61d28aa2366ae484a1cb67ec9d220a6c078b03490e8c3281529"
+        },
+        {
+          "rid": "2580217",
+          "key": "b50080f4ecf9a236122b6fce1977a4cf2c195f592f3e5718dc356ca8cfbcdf63",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 12.0,
+          "candidate_writes": 30,
+          "write_total": 610,
+          "cert_before": [
+            -1058,
+            -2536,
+            542,
+            27
+          ],
+          "cert_after": [
+            -980,
+            -2536,
+            540,
+            26
+          ],
+          "delta": 322,
+          "U": 28,
+          "V": 840,
+          "answer_sha256": "d07ada6894e6d3ca6aac429cbf6ab3e2cf267c9c85c88a4296fbe1a800d7dc1c"
+        },
+        {
+          "rid": "2580377",
+          "key": "305ef6d4c3fe3f98ba598c6a2406a6e9d18b84c2818da1edd376293421f2cf28",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 13.0,
+          "candidate_writes": 30,
+          "write_total": 640,
+          "cert_before": [
+            -980,
+            -2536,
+            540,
+            26
+          ],
+          "cert_after": [
+            -898,
+            -2496,
+            542,
+            25
+          ],
+          "delta": 332,
+          "U": 27,
+          "V": 810,
+          "answer_sha256": "22c7ab5d9442403e789cef3d965666d3ca8b26601a86fff01f73b39aa4b6b25c"
+        },
+        {
+          "rid": "2580899",
+          "key": "ed6d31900edaa333e7335f84e0b193feb3ff0c22edfff12a33862f8d34e295cb",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 14.0,
+          "candidate_writes": 30,
+          "write_total": 670,
+          "cert_before": [
+            -898,
+            -2496,
+            542,
+            25
+          ],
+          "cert_after": [
+            -832,
+            -2416,
+            548,
+            24
+          ],
+          "delta": 338,
+          "U": 26,
+          "V": 780,
+          "answer_sha256": "6c67100a6e9553d4344f254ac1600a21e354d6f39bdb677fd65c30157e03c2b8"
+        },
+        {
+          "rid": "2581053",
+          "key": "361350a763c66730705e3004d40221fc3f101570855b86e9c88e8f79a9e03eff",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 15.0,
+          "candidate_writes": 30,
+          "write_total": 700,
+          "cert_before": [
+            -832,
+            -2416,
+            548,
+            24
+          ],
+          "cert_after": [
+            -762,
+            -2296,
+            558,
+            23
+          ],
+          "delta": 340,
+          "U": 25,
+          "V": 750,
+          "answer_sha256": "2e55ae64b1c9e4f1bc8962ad39dc2df005b56b0b06c331dd8620f91d0502ad14"
+        },
+        {
+          "rid": "2581195",
+          "key": "f500d118e0925fc7b5e270ebf5adacbd257f6a38562d712ea043f4417c7680eb",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 16.0,
+          "candidate_writes": 30,
+          "write_total": 730,
+          "cert_before": [
+            -762,
+            -2296,
+            558,
+            23
+          ],
+          "cert_after": [
+            -708,
+            -2136,
+            572,
+            22
+          ],
+          "delta": 338,
+          "U": 24,
+          "V": 720,
+          "answer_sha256": "68db9662cd539d2142841888e76519578ffbb83b19c9e1f72dec15c634d64688"
+        }
+      ],
+      "fee": 16.0,
+      "writes": 730,
+      "publication_writes": 0,
+      "published": false,
+      "refusal_reason": "no_admissible_action",
+      "final_cert": [
+        -708,
+        -2136,
+        572,
+        22
+      ],
+      "answer_sha256": "68db9662cd539d2142841888e76519578ffbb83b19c9e1f72dec15c634d64688",
+      "published_table_sha256": "e448427d4e72d64154820421a99b49fddec8849ca9fd82b245d45d1f7823bbf2",
+      "branch_tests": 296,
+      "representative_visits": 156,
+      "wrong_epoch_rejected": true
+    },
+    {
+      "epoch": 7,
+      "kind": "empty",
+      "nonempty": false,
+      "fee_cap": 16,
+      "write_cap": 2400,
+      "initial": {
+        "cert": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "U": 0,
+        "V": 0,
+        "delta": 678,
+        "intake_required": 572,
+        "intake_applied": true,
+        "intake_writes": 572,
+        "joint_protected": true,
+        "fee_protected": true
+      },
+      "steps": [],
+      "fee": 0.0,
+      "writes": 1250,
+      "publication_writes": 678,
+      "published": true,
+      "refusal_reason": null,
+      "final_cert": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "answer_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "published_table_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "branch_tests": 0,
+      "representative_visits": 0,
+      "wrong_epoch_rejected": true
+    },
+    {
+      "epoch": 8,
+      "kind": "reinsert",
+      "nonempty": true,
+      "fee_cap": 16,
+      "write_cap": 2400,
+      "initial": {
+        "cert": [
+          -708,
+          -2136,
+          572,
+          22
+        ],
+        "U": 24,
+        "V": 720,
+        "delta": 572,
+        "intake_required": 572,
+        "intake_applied": true,
+        "intake_writes": 572,
+        "joint_protected": false,
+        "fee_protected": false
+      },
+      "steps": [
+        {
+          "rid": "102654913",
+          "key": "f11f31d3ac8ed0ddc724f2c0d3b95a850e6dfa14c1272a1ee860695fee0fda38",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 1.0,
+          "candidate_writes": 30,
+          "write_total": 602,
+          "cert_before": [
+            -708,
+            -2136,
+            572,
+            22
+          ],
+          "cert_after": [
+            -638,
+            -2216,
+            562,
+            21
+          ],
+          "delta": 562,
+          "U": 23,
+          "V": 690,
+          "answer_sha256": "dbdc10b565c15cb8471f1fa6203383b07d3f896227ef64c1a2429f5568eaa11a"
+        },
+        {
+          "rid": "2506076",
+          "key": "a4f1aa2c06adfe0f024db0f48c760af734d5b70384db00f2d3f28fcaef62b095",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 2.0,
+          "candidate_writes": 30,
+          "write_total": 632,
+          "cert_before": [
+            -638,
+            -2216,
+            562,
+            21
+          ],
+          "cert_after": [
+            -564,
+            -2256,
+            556,
+            20
+          ],
+          "delta": 556,
+          "U": 22,
+          "V": 660,
+          "answer_sha256": "72a31345aa6d85e402bd1aa572121431ee584eee3a437a152935c33d4e6f268c"
+        },
+        {
+          "rid": "2508362",
+          "key": "7dc480901d8415b9aee25e35f6f486e9ade34137d2a7ccac4690432030056d4c",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 3.0,
+          "candidate_writes": 30,
+          "write_total": 662,
+          "cert_before": [
+            -564,
+            -2256,
+            556,
+            20
+          ],
+          "cert_after": [
+            -506,
+            -2256,
+            554,
+            19
+          ],
+          "delta": 554,
+          "U": 21,
+          "V": 630,
+          "answer_sha256": "06c2a2a8ed1a094c6105de97f4e937a9a807a3cf5194865e0f0381b1597ff00f"
+        },
+        {
+          "rid": "2623233",
+          "key": "dd438ea7798194a546093fa2cb007923f5924c65fb7207481563f45c0438ac9a",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 4.0,
+          "candidate_writes": 30,
+          "write_total": 692,
+          "cert_before": [
+            -506,
+            -2256,
+            554,
+            19
+          ],
+          "cert_after": [
+            -448,
+            -2276,
+            552,
+            18
+          ],
+          "delta": 552,
+          "U": 20,
+          "V": 600,
+          "answer_sha256": "be5fa797409f7140540ff94b8d4d58c0882abb8b79d40964b65530615d0394c8"
+        },
+        {
+          "rid": "2514720",
+          "key": "c0ac3bcb017d4ed167f7535942d1dd3c5dce830147a2a4e829a93e93bd6ad480",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 5.0,
+          "candidate_writes": 30,
+          "write_total": 722,
+          "cert_before": [
+            -448,
+            -2276,
+            552,
+            18
+          ],
+          "cert_after": [
+            -386,
+            -2236,
+            554,
+            17
+          ],
+          "delta": 554,
+          "U": 19,
+          "V": 570,
+          "answer_sha256": "17fccedaf1d513572d4875e44d6639cfb7cd9072bdd65b0246b812f59bde48e6"
+        },
+        {
+          "rid": "2523155",
+          "key": "b4f05380bb1fc901bc18d6d27996a8254756096f7ba91ec5b7cd3a23c5eac0c5",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 6.0,
+          "candidate_writes": 0,
+          "write_total": 722,
+          "cert_before": [
+            -386,
+            -2236,
+            554,
+            17
+          ],
+          "cert_after": [
+            -226,
+            -2236,
+            554,
+            17
+          ],
+          "delta": 554,
+          "U": 18,
+          "V": 540,
+          "answer_sha256": "17fccedaf1d513572d4875e44d6639cfb7cd9072bdd65b0246b812f59bde48e6"
+        },
+        {
+          "rid": "2623400",
+          "key": "25a9ef2a133ab13186d7498bc161a000171db2d501ff4bce6a8f90ec9602fd20",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 7.0,
+          "candidate_writes": 30,
+          "write_total": 752,
+          "cert_before": [
+            -226,
+            -2236,
+            554,
+            17
+          ],
+          "cert_after": [
+            -164,
+            -2216,
+            556,
+            16
+          ],
+          "delta": 556,
+          "U": 17,
+          "V": 510,
+          "answer_sha256": "5e3af3532a4f79ae678e63efeead56ce818b79abb0e2329b2d0848110e0aea1e"
+        },
+        {
+          "rid": "2709436",
+          "key": "ac30a05e57b5db8a6500343abbc120c139b18507058e4f9b98cac03a66981028",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 8.0,
+          "candidate_writes": 0,
+          "write_total": 752,
+          "cert_before": [
+            -164,
+            -2216,
+            556,
+            16
+          ],
+          "cert_after": [
+            -4,
+            -2216,
+            556,
+            16
+          ],
+          "delta": 556,
+          "U": 16,
+          "V": 480,
+          "answer_sha256": "5e3af3532a4f79ae678e63efeead56ce818b79abb0e2329b2d0848110e0aea1e"
+        },
+        {
+          "rid": "2515123",
+          "key": "fd34b48a59e78b239f742425dcf45907bce0e01f12a0a6a2ed92698f78b17a55",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 9.0,
+          "candidate_writes": 30,
+          "write_total": 782,
+          "cert_before": [
+            -4,
+            -2216,
+            556,
+            16
+          ],
+          "cert_after": [
+            62,
+            -2136,
+            562,
+            15
+          ],
+          "delta": 562,
+          "U": 15,
+          "V": 450,
+          "answer_sha256": "730ffcb0e1f51402e814025f0364171e66e9e874cb3c09ce0aeea9e7d85fc2d9"
+        },
+        {
+          "rid": "2623476",
+          "key": "b2040f62def3b7310b583b02556a7e0acaba5ded05373914d2813ff3f6b5e008",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 10.0,
+          "candidate_writes": 30,
+          "write_total": 812,
+          "cert_before": [
+            62,
+            -2136,
+            562,
+            15
+          ],
+          "cert_after": [
+            128,
+            -2076,
+            568,
+            14
+          ],
+          "delta": 568,
+          "U": 14,
+          "V": 420,
+          "answer_sha256": "2a73a28b1028c9f63c16a356913cc640bda1156998ae4640c53ae9392c71ef03"
+        },
+        {
+          "rid": "2517288",
+          "key": "40555a3afaaffa2494e650cfddf2ef4c33318d2787bcd9824c8277193e5286e2",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 11.0,
+          "candidate_writes": 30,
+          "write_total": 842,
+          "cert_before": [
+            128,
+            -2076,
+            568,
+            14
+          ],
+          "cert_after": [
+            198,
+            -1956,
+            578,
+            13
+          ],
+          "delta": 578,
+          "U": 13,
+          "V": 390,
+          "answer_sha256": "3530aeeebd4061d038bef30d514e00404936e800f12a999fcbb5b6adb4a0ebf9"
+        },
+        {
+          "rid": "2654012",
+          "key": "85f93011d00a1acdf02be2d4338e0adf845901d21e71a6b20d0821f5e9f79fad",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 12.0,
+          "candidate_writes": 30,
+          "write_total": 872,
+          "cert_before": [
+            198,
+            -1956,
+            578,
+            13
+          ],
+          "cert_after": [
+            268,
+            -1856,
+            588,
+            12
+          ],
+          "delta": 588,
+          "U": 12,
+          "V": 360,
+          "answer_sha256": "02bf822cdd8232d8b3b9b85fbb88b35199c7ec3a914be509d6b85eefcf30fd70"
+        },
+        {
+          "rid": "2519222",
+          "key": "55b37e834b3df162eaef0c2af43fb9c02458e506b0b1ad3706598851155b30f8",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 13.0,
+          "candidate_writes": 30,
+          "write_total": 902,
+          "cert_before": [
+            268,
+            -1856,
+            588,
+            12
+          ],
+          "cert_after": [
+            322,
+            -1696,
+            602,
+            11
+          ],
+          "delta": 602,
+          "U": 11,
+          "V": 330,
+          "answer_sha256": "4bb9b882f4ed2d74f4675222b698e5666e433aa6441603a31e21994efc42533d"
+        },
+        {
+          "rid": "2655611",
+          "key": "87ed3be445490f27a858830651c51bf740b159a0307f0556f42ce69b0310b0e8",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 14.0,
+          "candidate_writes": 30,
+          "write_total": 932,
+          "cert_before": [
+            322,
+            -1696,
+            602,
+            11
+          ],
+          "cert_after": [
+            376,
+            -1556,
+            616,
+            10
+          ],
+          "delta": 616,
+          "U": 10,
+          "V": 300,
+          "answer_sha256": "d5ab15d22d2cf56cce7bf02acc13e1562b7cb244df3fbfdda1c5013be5a0c571"
+        },
+        {
+          "rid": "2524433",
+          "key": "8696a0f7b4fa803cd10dd837bff41864b1220957358cf3979d685203a1a0bbc7",
+          "kind": "audit",
+          "bit": 0,
+          "fee_total": 15.0,
+          "candidate_writes": 0,
+          "write_total": 932,
+          "cert_before": [
+            376,
+            -1556,
+            616,
+            10
+          ],
+          "cert_after": [
+            376,
+            -1342,
+            616,
+            9
+          ],
+          "delta": 616,
+          "U": 9,
+          "V": 270,
+          "answer_sha256": "d5ab15d22d2cf56cce7bf02acc13e1562b7cb244df3fbfdda1c5013be5a0c571"
+        },
+        {
+          "rid": "2537857",
+          "key": "e22ec997deb2741043247a3ea58815a028c04ef002e7e6aa0f8125f17c90490a",
+          "kind": "audit",
+          "bit": 1,
+          "fee_total": 16.0,
+          "candidate_writes": 30,
+          "write_total": 962,
+          "cert_before": [
+            376,
+            -1342,
+            616,
+            9
+          ],
+          "cert_after": [
+            434,
+            -1122,
+            634,
+            8
+          ],
+          "delta": 634,
+          "U": 8,
+          "V": 240,
+          "answer_sha256": "09959a0650f4ad0e51d3a502e91ec0d75f96f6a60b0dc642370fff4739aadeec"
+        }
+      ],
+      "fee": 16.0,
+      "writes": 962,
+      "publication_writes": 0,
+      "published": false,
+      "refusal_reason": "no_admissible_action",
+      "final_cert": [
+        434,
+        -1122,
+        634,
+        8
+      ],
+      "answer_sha256": "09959a0650f4ad0e51d3a502e91ec0d75f96f6a60b0dc642370fff4739aadeec",
+      "published_table_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "branch_tests": 212,
+      "representative_visits": 112,
+      "wrong_epoch_rejected": true
+    }
+  ],
+  "database": "raw_results/materialized_j_v1/databases/live_h_stream2_join_f16_w2400_WQCR.sqlite",
+  "database_sha256": "79dff060421dbed0f5b67a8753b096d8ecbe94df34d0de896b0abc742647706e"
+}

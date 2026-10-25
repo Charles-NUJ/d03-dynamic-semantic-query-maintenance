@@ -1,0 +1,20 @@
+[
+  {
+    "path": "raw_results/materialized_j_v1/source_snapshot/d03_materialized_j.py",
+    "sha256": "e3c3c43a44ce09b8f332bcca9982baed41885d239f5a7301e9d17ccd7a9b5e32",
+    "bytes": 7474,
+    "origin": "src/d03_materialized_j.py"
+  },
+  {
+    "path": "raw_results/materialized_j_v1/source_snapshot/run_d03_materialized_j.py",
+    "sha256": "cbd929b4e20230fbae64cfd05ee2736d7a11b63d0dcbe960ff8f92a7c65a398a",
+    "bytes": 12062,
+    "origin": "src/run_d03_materialized_j.py"
+  },
+  {
+    "path": "raw_results/materialized_j_v1/source_snapshot/verify_d03_materialized_j.py",
+    "sha256": "9f04635a9dd18f2dba420b7896f456f0b0592a39353f7787d48fa213cfeec4b2",
+    "bytes": 12716,
+    "origin": "src/verify_d03_materialized_j.py"
+  }
+]

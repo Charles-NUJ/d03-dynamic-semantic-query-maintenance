@@ -1,0 +1,17 @@
+{
+  "time": "2026-10-19T00:39:03.721921+08:00",
+  "status": "EXECUTION_FINISHED_INDEPENDENT_VERIFICATION_PENDING",
+  "trajectories": 180,
+  "counts": {
+    "events": 1620,
+    "steps": 18725,
+    "writes": 769007,
+    "published": 948,
+    "protected_events": 366
+  },
+  "new_GPU_during_controllers": 0,
+  "new_GPU_prediction_collection": 92,
+  "prediction_pool_sha256": "2f76db65c735f0fe7ea5a5ea631a60ef0b19a2afc86eb37a40a8c91bb54d1435",
+  "post_hoc_workload": true,
+  "formal_submission": false
+}
