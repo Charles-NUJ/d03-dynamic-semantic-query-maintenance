@@ -1,0 +1,9 @@
+degree_bin,method,changed_cells,transition_cells,transition_fraction,selected_cells,selected_transition_cells,repaired_transition_rows,remaining_transition_rows
+3--21,input_change_id,40,0,0.0,20,0,0,0
+3--21,signature_degree_ours,40,0,0.0,0,0,0,0
+23--32,input_change_id,35,7,0.2,10,1,23,188
+23--32,signature_degree_ours,35,7,0.2,10,5,160,51
+35--64,input_change_id,35,8,0.22857142857142856,20,5,251,121
+35--64,signature_degree_ours,35,8,0.22857142857142856,35,8,372,0
+67--1350,input_change_id,35,8,0.22857142857142856,30,8,2512,0
+67--1350,signature_degree_ours,35,8,0.22857142857142856,35,8,2512,0

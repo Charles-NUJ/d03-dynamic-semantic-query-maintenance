@@ -1,0 +1,39 @@
+{
+  "status": "VERIFIED",
+  "checks": {
+    "frozen_before_content": true,
+    "metadata_hash_matches": true,
+    "old_pairs_hash_matches": true,
+    "page_ids_disjoint": true,
+    "64_pairs": true,
+    "revision_content_complete": true,
+    "manifest_contract_hash": true,
+    "manifest_pairs_hash": true,
+    "manifest_revisions_hash": true,
+    "prediction_keys_complete": true,
+    "640_predictions": true,
+    "320_pair_results": true,
+    "receipt_finished": true,
+    "summary_finished": true,
+    "summary_counts_match": true
+  },
+  "counts": {
+    "page_pairs": 64,
+    "predictions": 640,
+    "pair_results": 320,
+    "label_flips": 15,
+    "pages_with_any_flip": 8,
+    "visible_input_changes": 150
+  },
+  "hashes": {
+    "contract": "b56b202687cae38c62a9badf2cf09804d264777952867f39880282a81be0eef1",
+    "pairs": "2d7adad9abf86f7dd13873a647cf3d599adcfa056e54b031f7a41b6e4a4bb13c",
+    "old_pairs": "a72e933c640aa952abc4d838a4612eb317784afd07564f4cc6e7f7bffdf677b3",
+    "revisions": "82f32cb971b3bbcf231a2d12042ff4be75d7e478f1af0464d6612717c4b73fc8",
+    "predictions": "97dfc7cb5e2be5c7b040847b42d74b2affc6f9d2a8e6d2550f4ea42f7ba90187",
+    "pair_results": "46ebedb29320b57e5bdf350cf9a27995039dd3ce486e0591dfe5ea406999ebb6",
+    "summary": "00a6c18aac8b5cd908bf4a99074dea9658df286ea2d38bdd22fe39f81e94d5a0",
+    "receipt": "89076d460b2ebd92af077d594a75ebd86aaf97e5c19341571f7c981d2ed06c19"
+  },
+  "boundary": "This verifies a second time window with page IDs disjoint from the first. Collection process, model, and predicates remain shared."
+}

@@ -1,0 +1,11 @@
+{
+  "status": "FROZEN_BEFORE_CONTENT_AND_LABEL_ACCESS",
+  "time_utc": "2026-11-10T03:40:52.692681+00:00",
+  "metadata_sha256": "2df47492fe29d94a41a39d2718baa1b87efe02b64d2102b9cc43307d70d976bc",
+  "old_pairs_sha256": "a72e933c640aa952abc4d838a4612eb317784afd07564f4cc6e7f7bffdf677b3",
+  "contract_sha256": "b56b202687cae38c62a9badf2cf09804d264777952867f39880282a81be0eef1",
+  "pairs_sha256": "2d7adad9abf86f7dd13873a647cf3d599adcfa056e54b031f7a41b6e4a4bb13c",
+  "candidate_pages_after_exclusion": 429,
+  "selected_pairs": 64,
+  "overlap_with_old_pageids": 0
+}

@@ -1,0 +1,81 @@
+{
+  "status": "FINISHED",
+  "contract": "Same frozen inputs, observable signatures and degrees, call budgets, and external filter/join/group errors.",
+  "methods": {
+    "signature_degree_greedy_ours": "Our registered one-pass degree ordering inside the changed-input layer.",
+    "central_exact_dp_ours": "Our independent centralized dynamic program for the same unit-cost robust objective.",
+    "dual_price_iteration_ours": "Our integer dual-price threshold iteration for the same objective; index order resolves ties."
+  },
+  "budgets": [
+    32,
+    80
+  ],
+  "timing_repeats": 300,
+  "windows": {
+    "window_1": {
+      "cells": 320,
+      "changed_cells": 145,
+      "positive_degree_changed_cells": 145,
+      "full_filter_mass": 139,
+      "full_join_mass": 5912,
+      "full_group_mass": 5912,
+      "inputs": {
+        "pairs": {
+          "path": "inputs\\frozen_pairs.json",
+          "sha256": "a72e933c640aa952abc4d838a4612eb317784afd07564f4cc6e7f7bffdf677b3"
+        },
+        "revisions": {
+          "path": "inputs\\revisions.json",
+          "sha256": "c60eadfec01c7e8980e68746cba2424f9b673f63cec9fa6485e173746c8fbe13"
+        },
+        "rows": {
+          "path": "results\\pair_predicate_results.json",
+          "sha256": "cfb8431962dca8333e783b03ebdc7132cff5cb236d6c563847ff7585b01218d0"
+        },
+        "predictions": {
+          "path": "results\\predictions.json",
+          "sha256": "1c2776a0501d7b641c81aad4d0e60c212f2627bce85c0a0924a0766d60f5c354"
+        }
+      }
+    },
+    "window_2": {
+      "cells": 320,
+      "changed_cells": 150,
+      "positive_degree_changed_cells": 150,
+      "full_filter_mass": 202,
+      "full_join_mass": 7332,
+      "full_group_mass": 7332,
+      "inputs": {
+        "pairs": {
+          "path": "inputs\\second_window_20261110\\frozen\\frozen_pairs.json",
+          "sha256": "2d7adad9abf86f7dd13873a647cf3d599adcfa056e54b031f7a41b6e4a4bb13c"
+        },
+        "revisions": {
+          "path": "inputs\\second_window_20261110\\revision_content\\revisions.json",
+          "sha256": "82f32cb971b3bbcf231a2d12042ff4be75d7e478f1af0464d6612717c4b73fc8"
+        },
+        "rows": {
+          "path": "results\\second_window_20261110\\inference\\pair_predicate_results.json",
+          "sha256": "46ebedb29320b57e5bdf350cf9a27995039dd3ce486e0591dfe5ea406999ebb6"
+        },
+        "predictions": {
+          "path": "results\\second_window_20261110\\inference\\predictions.json",
+          "sha256": "97dfc7cb5e2be5c7b040847b42d74b2affc6f9d2a8e6d2550f4ea42f7ba90187"
+        }
+      }
+    }
+  },
+  "source": {
+    "path": "code\\run_same_contract_strong_methods.py",
+    "sha256": "4c715dcbdb3ff5482430cd9baf0f1013982d60868f1164409bb8684d39351aa3"
+  },
+  "evaluator": {
+    "path": "code\\structured_database_eval.py",
+    "sha256": "a81244aa66eabd396ac4f5bdcf45921fc2ab55e7c3dc6dc6aef1070e951feea7"
+  },
+  "result": {
+    "path": "results\\same_contract_strong_methods_20261111\\same_contract_strong_methods.csv",
+    "sha256": "598fa1a39fe72f3bafd07ad10752929075e7ec82820609ba13ec5eb9672e16da",
+    "rows": 12
+  }
+}

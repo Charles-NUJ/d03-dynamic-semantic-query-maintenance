@@ -1,0 +1,39 @@
+{
+  "contract_id": "D03-NATURAL-REVISION-PILOT-20261101",
+  "status": "FROZEN_BEFORE_CONTENT_AND_LABEL_ACCESS",
+  "source": "English Wikipedia MediaWiki API recentchanges, main namespace, edit events, non-bot filter",
+  "metadata_file": "inputs/recentchanges_raw.json",
+  "metadata_sha256": "D9FF513E3F4FE0B8D0FBD1C1EA7A0ACE06A9E0C8451711589B2B95BA8CBEE03A",
+  "selection_seed": 20261101,
+  "target_pairs": 64,
+  "selection_rule": "one latest observed edit event per page in the downloaded response; sort by pageid; seeded sample without replacement",
+  "semantic_predicates": [
+    "The main subject is a living person.",
+    "The main subject is an organization.",
+    "The document describes an event that has already occurred.",
+    "The document describes a planned or future event.",
+    "The document states that the main subject currently holds an official position."
+  ],
+  "model": "local Qwen2.5-0.5B-Instruct",
+  "decoding": {
+    "temperature": 0,
+    "max_input_tokens": 768,
+    "max_new_tokens": 2,
+    "required_output": "0 or 1"
+  },
+  "query_fanout_rule": "1 + first eight bytes of SHA-256(pageid) modulo 8",
+  "primary_metrics": [
+    "fraction of version-predicate pairs whose fixed-model label changes",
+    "fraction of page pairs with at least one label change",
+    "reuse filter error across the sampled page population",
+    "fanout-weighted join error",
+    "full-recompute calls divided by observed changed-label calls"
+  ],
+  "scientific_boundaries": [
+    "This is a small recent-edit pilot, not a population estimate for all document systems.",
+    "The model sees the first 768 tokens of raw wikitext after light cleaning.",
+    "Model transitions are not human semantic truth.",
+    "Recent edits may include vandalism and reverts even after excluding bot edits.",
+    "The sample is frozen before revision contents and model labels are read."
+  ]
+}

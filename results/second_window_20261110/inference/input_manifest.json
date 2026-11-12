@@ -1,0 +1,55 @@
+{
+  "contract": {
+    "path": "inputs\\second_window_20261110\\frozen\\contract.json",
+    "sha256": "b56b202687cae38c62a9badf2cf09804d264777952867f39880282a81be0eef1"
+  },
+  "pairs": {
+    "path": "inputs\\second_window_20261110\\frozen\\frozen_pairs.json",
+    "sha256": "2d7adad9abf86f7dd13873a647cf3d599adcfa056e54b031f7a41b6e4a4bb13c"
+  },
+  "revisions": {
+    "path": "inputs\\second_window_20261110\\revision_content\\revisions.json",
+    "sha256": "82f32cb971b3bbcf231a2d12042ff4be75d7e478f1af0464d6612717c4b73fc8"
+  },
+  "script": {
+    "path": "code\\run_second_window_inference.py",
+    "sha256": "70d3ef5498c328aae9873c79a29ba5ee4e80b25de31d39178002647b5fde70ec"
+  },
+  "model_files": [
+    {
+      "name": "config.json",
+      "bytes": 659,
+      "sha256": "18e18afcaccafade98daf13a54092927904649e1dd4eba8299ab717d5d94ff45"
+    },
+    {
+      "name": "generation_config.json",
+      "bytes": 242,
+      "sha256": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6"
+    },
+    {
+      "name": "merges.txt",
+      "bytes": 1671839,
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+    },
+    {
+      "name": "model.safetensors",
+      "bytes": 988097824,
+      "sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe"
+    },
+    {
+      "name": "tokenizer.json",
+      "bytes": 7031645,
+      "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "bytes": 7305,
+      "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+    },
+    {
+      "name": "vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "input_csv": "results\\icde_gain_source_20261112\\gain_source_all_cells.csv",
+  "input_sha256": "EAA84FE512A69335A44F7435DC2D4D88486C2DBBAE4E2E09E7E4D71F97C01D95",
+  "input_cells": 64,
+  "interpretation": {
+    "degree_heterogeneity": "Median robust and realized gains rise from the uniform-degree boundary as degree CV increases.",
+    "budget_position": "A partial budget exposes the ranking choice; full changed-input coverage removes it.",
+    "realized_reversals": "All negative realized cells occur at uniform degree, where causal methods share the same robust value and tie-breaking determines realized selection."
+  },
+  "degree_cv": [
+    {
+      "factor": "target_degree_cv",
+      "value": 0.0,
+      "cells": 16,
+      "mean_realized_gain_pp": -0.1922212230215936,
+      "median_realized_gain_pp": 0.0,
+      "min_realized_gain_pp": -0.9892086330935829,
+      "max_realized_gain_pp": 0.0,
+      "mean_robust_gain_pp": 0.0,
+      "median_robust_gain_pp": 0.0,
+      "negative_realized_cells": 5,
+      "realized_gain_at_most_one_pp_cells": 16
+    },
+    {
+      "factor": "target_degree_cv",
+      "value": 0.5,
+      "cells": 16,
+      "mean_realized_gain_pp": 1.1749509252283783,
+      "median_realized_gain_pp": 1.4150471043421264,
+      "min_realized_gain_pp": 0.0,
+      "max_realized_gain_pp": 2.6294267177909516,
+      "mean_robust_gain_pp": 8.115518172348018,
+      "median_robust_gain_pp": 9.335336838523128,
+      "negative_realized_cells": 0,
+      "realized_gain_at_most_one_pp_cells": 7
+    },
+    {
+      "factor": "target_degree_cv",
+      "value": 1.0,
+      "cells": 16,
+      "mean_realized_gain_pp": 2.223695084697324,
+      "median_realized_gain_pp": 2.7599943640129245,
+      "min_realized_gain_pp": 0.0,
+      "max_realized_gain_pp": 5.054280923538547,
+      "mean_robust_gain_pp": 13.719570221888025,
+      "median_robust_gain_pp": 16.703349927010102,
+      "negative_realized_cells": 0,
+      "realized_gain_at_most_one_pp_cells": 7
+    },
+    {
+      "factor": "target_degree_cv",
+      "value": 1.88,
+      "cells": 16,
+      "mean_realized_gain_pp": 2.7194301230178826,
+      "median_realized_gain_pp": 2.8590381201407142,
+      "min_realized_gain_pp": 0.0,
+      "max_realized_gain_pp": 8.161541757500935,
+      "mean_robust_gain_pp": 16.342726159202922,
+      "median_robust_gain_pp": 17.04581531091023,
+      "negative_realized_cells": 0,
+      "realized_gain_at_most_one_pp_cells": 7
+    }
+  ],
+  "budget_fraction": [
+    {
+      "factor": "budget_fraction_of_changed",
+      "value": 0.1,
+      "cells": 16,
+      "mean_realized_gain_pp": 1.4700354750867608,
+      "median_realized_gain_pp": 1.4150471043421264,
+      "min_realized_gain_pp": -0.9892086330935829,
+      "max_realized_gain_pp": 5.330638054926467,
+      "mean_robust_gain_pp": 10.127953003787992,
+      "median_robust_gain_pp": 9.335336838523128,
+      "negative_realized_cells": 4,
+      "realized_gain_at_most_one_pp_cells": 7
+    },
+    {
+      "factor": "budget_fraction_of_changed",
+      "value": 0.25,
+      "cells": 16,
+      "mean_realized_gain_pp": 2.3215250841931754,
+      "median_realized_gain_pp": 2.4010360567567828,
+      "min_realized_gain_pp": -0.66906474820147,
+      "max_realized_gain_pp": 8.161541757500935,
+      "mean_robust_gain_pp": 14.329506295912148,
+      "median_robust_gain_pp": 16.16083507601305,
+      "negative_realized_cells": 1,
+      "realized_gain_at_most_one_pp_cells": 7
+    },
+    {
+      "factor": "budget_fraction_of_changed",
+      "value": 0.55,
+      "cells": 16,
+      "mean_realized_gain_pp": 2.1342943506420546,
+      "median_realized_gain_pp": 2.0755676078430225,
+      "min_realized_gain_pp": 0.0,
+      "max_realized_gain_pp": 5.727238594136355,
+      "mean_robust_gain_pp": 13.720355253738827,
+      "median_robust_gain_pp": 16.7919734729743,
+      "negative_realized_cells": 0,
+      "realized_gain_at_most_one_pp_cells": 7
+    },
+    {
+      "factor": "budget_fraction_of_changed",
+      "value": 1.0,
+      "cells": 16,
+      "mean_realized_gain_pp": 0.0,
+      "median_realized_gain_pp": 0.0,
+      "min_realized_gain_pp": 0.0,
+      "max_realized_gain_pp": 0.0,
+      "mean_robust_gain_pp": 0.0,
+      "median_robust_gain_pp": 0.0,
+      "negative_realized_cells": 0,
+      "realized_gain_at_most_one_pp_cells": 16
+    }
+  ]
+}

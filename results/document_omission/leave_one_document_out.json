@@ -1,0 +1,93 @@
+{
+  "boundary": "The 64 omissions overlap and are a sensitivity analysis, not 64 independent workload traces or evidence of production frequency.",
+  "budget": 80,
+  "design": "Leave one document out at a fixed 80-call cap; reuse frozen semantic outcomes and recompute only selection and query errors.",
+  "documents": 64,
+  "input_sha256": {
+    "pair_results": "cfb8431962dca8333e783b03ebdc7132cff5cb236d6c563847ff7585b01218d0",
+    "pairs": "a72e933c640aa952abc4d838a4612eb317784afd07564f4cc6e7f7bffdf677b3",
+    "predictions": "1c2776a0501d7b641c81aad4d0e60c212f2627bce85c0a0924a0766d60f5c354",
+    "revisions": "c60eadfec01c7e8980e68746cba2424f9b673f63cec9fa6485e173746c8fbe13"
+  },
+  "join_error_percent": {
+    "input_change_id": {
+      "max": 6.491596638655463,
+      "mean": 4.915470045126853,
+      "median": 5.2328608674943595,
+      "min": 3.6623108665749657
+    },
+    "link_degree": {
+      "max": 15.231092436974789,
+      "mean": 12.274669332131918,
+      "median": 12.376237984415681,
+      "min": 10.21291327678726
+    },
+    "proxy_degree": {
+      "max": 10.273109243697478,
+      "mean": 8.27868597631573,
+      "median": 8.347559137074853,
+      "min": 6.757221458046768
+    },
+    "signature_degree_ours": {
+      "max": 1.0714285714285714,
+      "mean": 0.8635398802267117,
+      "median": 0.8715719074094324,
+      "min": 0.39089055064581923
+    }
+  },
+  "methods": [
+    "signature_degree_ours",
+    "input_change_id",
+    "link_degree",
+    "proxy_degree"
+  ],
+  "ours_against_best_control": {
+    "gain_pp": {
+      "max": 5.420168067226892,
+      "mean": 4.051930164900142,
+      "median": 4.3747350886729475,
+      "min": 2.785419532324622
+    },
+    "losses": 0,
+    "ties": 0,
+    "wins": 64
+  },
+  "ours_against_controls": {
+    "input_change_id": {
+      "gain_pp": {
+        "max": 5.420168067226892,
+        "mean": 4.051930164900142,
+        "median": 4.3747350886729475,
+        "min": 2.785419532324622
+      },
+      "losses": 0,
+      "ties": 0,
+      "wins": 64
+    },
+    "link_degree": {
+      "gain_pp": {
+        "max": 14.159663865546218,
+        "mean": 11.411129451905207,
+        "median": 11.505633657236096,
+        "min": 9.330102129132769
+      },
+      "losses": 0,
+      "ties": 0,
+      "wins": 64
+    },
+    "proxy_degree": {
+      "gain_pp": {
+        "max": 9.201680672268907,
+        "mean": 7.4151460960890185,
+        "median": 7.476954809895267,
+        "min": 5.8803301237964245
+      },
+      "losses": 0,
+      "ties": 0,
+      "wins": 64
+    }
+  },
+  "rows": 256,
+  "script_sha256": "8cab97a7e84f7242646b9738c5a4c1ca911ecf192fe457cd3ab1d7cca359147d",
+  "status": "FINISHED"
+}

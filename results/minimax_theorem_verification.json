@@ -1,0 +1,37 @@
+{
+  "status": "VERIFIED",
+  "scope": {
+    "semantic_cells": 4,
+    "degree_values": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "input_change_patterns": 16,
+    "budgets": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "instances": 20480,
+  "feasible_actions_checked": 196608,
+  "adversary_patterns_checked": 995328,
+  "checks": {
+    "worst_case_identity": true,
+    "top_degree_minimax_optimality": true,
+    "all_changed_equals_degree_greedy": true,
+    "uniform_changed_degrees_equal_changed_first": true,
+    "sufficient_budget_zero_residual": true
+  },
+  "ordinary_regime_instances": {
+    "all_changed": 1280,
+    "uniform_changed_degrees": 7380,
+    "sufficient_budget": 12288
+  },
+  "boundary": "Finite exhaustive verification supports but does not replace the general exchange proof.",
+  "script_sha256_before_output": "e438b34f7644dcd9875042255529c92bcd9fba0a74c2e2380701d854fdbe1df2"
+}

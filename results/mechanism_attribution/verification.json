@@ -1,0 +1,29 @@
+{
+  "status": "VERIFIED",
+  "checks": {
+    "experiment_status_verified": true,
+    "complete_factor_grid": true,
+    "complete_decomposition_grid": true,
+    "output_hashes_match_record": true,
+    "published_budget_rows_reproduced": true,
+    "gate_has_zero_stable_calls_through_threshold": true,
+    "ours_maximizes_changed_degree_coverage": true,
+    "ours_minimizes_realized_join_error": true,
+    "threshold_boundary_holds": true,
+    "gated_methods_stop_at_changed_set": true,
+    "all_methods_respect_budget_cap": true,
+    "factorial_terms_recompute": true
+  },
+  "counts": {
+    "mechanism_rows": 48,
+    "decomposition_rows": 12,
+    "published_matches": 8,
+    "published_match_total": 8
+  },
+  "hashes": {
+    "mechanism_attribution_csv": "9cc175965508f225e79cb42a5f4cd9149f52d0c23cb8e240016a041bbfd612d7",
+    "factorial_decomposition_csv": "f0d5f60f556a244a47b2fee4a51fec1f8b69ed72922ed04231020a2eedb1ead1",
+    "experiment_json": "2bb78ab7f898c9c035a6ee80729ad063f41a6042d0dd129a752d7f35a58a3f47",
+    "method_results": "365b08d8437a59d5c1594294ad9c8ed8d83a4f7c5fd16ae42f66a867ae318bc6"
+  }
+}

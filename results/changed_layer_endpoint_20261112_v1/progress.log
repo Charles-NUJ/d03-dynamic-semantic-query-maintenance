@@ -1,0 +1,6 @@
+2026-11-12T03:36:28.958823+08:00 loading local fixed semantic operator
+2026-11-12T03:36:36.469157+08:00 warm resident model ready
+2026-11-12T03:36:45.773596+08:00 rep=0 method=input_change_id calls=145 join_error=0.000000 total=9.3058s
+2026-11-12T03:36:55.078171+08:00 rep=1 method=input_change_id calls=145 join_error=0.000000 total=9.3004s
+2026-11-12T03:37:04.230966+08:00 rep=2 method=input_change_id calls=145 join_error=0.000000 total=9.1513s
+2026-11-12T03:37:04.248845+08:00 local end-to-end experiment finished

@@ -1,0 +1,23 @@
+{
+  "status": "VERIFIED",
+  "checks": {
+    "json_byte_identical": true,
+    "csv_byte_identical": true,
+    "document_count_64": true,
+    "cell_partition_320": true,
+    "transition_count_23": true,
+    "transition_documents_13": true,
+    "exact_reuse_consistent": true,
+    "positive_external_denominators": true,
+    "reuse_all_is_materially_wrong": true,
+    "changed_full_reaches_zero": true,
+    "ours_80_matches_manuscript": true,
+    "document_totals_reconcile": true
+  },
+  "evidence": {
+    "primary_json_sha256": "1c825062a31d8efd7843a50fd57f6391eeb22618099e3e4e223ba975f232ef1f",
+    "reproduced_json_sha256": "1c825062a31d8efd7843a50fd57f6391eeb22618099e3e4e223ba975f232ef1f",
+    "primary_csv_sha256": "ce193e4f4d4edee6232e1b582524bd8f7b162ca546974a52e19381f276f139b8",
+    "reproduced_csv_sha256": "ce193e4f4d4edee6232e1b582524bd8f7b162ca546974a52e19381f276f139b8"
+  }
+}

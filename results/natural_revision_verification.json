@@ -1,0 +1,19 @@
+{
+  "status": "VERIFIED",
+  "checks": {
+    "contract_hash": true,
+    "pairs_hash": true,
+    "revisions_hash": true,
+    "prediction_count": true,
+    "unique_prediction_keys": true,
+    "label_flips": true,
+    "pages_with_flip": true,
+    "visible_input_changes": true,
+    "per_predicate_flips": true,
+    "per_predicate_join_error": true
+  },
+  "verified": {
+    "predictions_sha256": "1c2776a0501d7b641c81aad4d0e60c212f2627bce85c0a0924a0766d60f5c354",
+    "summary_sha256": "9056460081da576f9d351461ebf17594f051be36c660140cf17ee2e0209aa344"
+  }
+}

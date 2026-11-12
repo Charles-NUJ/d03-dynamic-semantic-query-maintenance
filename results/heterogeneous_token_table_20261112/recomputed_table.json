@@ -1,0 +1,181 @@
+{
+  "checks": {
+    "dp_internal_value_mismatches": 0
+  },
+  "inputs": {
+    "artifact\\results\\pair_predicate_results.json": "cfb8431962dca8333e783b03ebdc7132cff5cb236d6c563847ff7585b01218d0",
+    "artifact\\results\\predictions.json": "1c2776a0501d7b641c81aad4d0e60c212f2627bce85c0a0924a0766d60f5c354",
+    "artifact\\results\\reference_relation.json": "91f254db2e99a4cfa94d9491d5915e31cca752bcba1ac29a7bbacaf3086d566b"
+  },
+  "records": [
+    {
+      "budget": 24576,
+      "calls": 36,
+      "join_error_fraction": 0.10994587280108255,
+      "method": "signature_knapsack_dp_ours",
+      "repetitions": 1,
+      "robust_residual_fraction": 0.24618235730170496,
+      "selection_seconds": 0.006205199999385513,
+      "used_cost": 24408
+    },
+    {
+      "budget": 24576,
+      "calls": 36,
+      "join_error_fraction": 0.10994587280108255,
+      "method": "degree_per_cost_ours",
+      "repetitions": 1,
+      "robust_residual_fraction": 0.24618235730170496,
+      "selection_seconds": 0.0,
+      "used_cost": 24407
+    },
+    {
+      "budget": 24576,
+      "calls": 32,
+      "join_error_fraction": 0.0986129905277402,
+      "method": "largest_degree_ours",
+      "repetitions": 1,
+      "robust_residual_fraction": 0.2513713862120089,
+      "selection_seconds": 0.0,
+      "used_cost": 24576
+    },
+    {
+      "budget": 24576,
+      "calls": 34,
+      "join_error_fraction": 0.2677604871447903,
+      "method": "identifier_control_ours",
+      "repetitions": 1,
+      "robust_residual_fraction": 0.37790956263899184,
+      "selection_seconds": 0.0,
+      "used_cost": 24544
+    },
+    {
+      "budget": 24576,
+      "calls": 40.574,
+      "join_error_fraction": 0.3778095399188092,
+      "method": "random_control_ours",
+      "repetitions": 1000,
+      "robust_residual_fraction": 0.7298784284655301,
+      "selection_seconds": 0.0,
+      "used_cost": 24493.245
+    },
+    {
+      "budget": 58592,
+      "calls": 88,
+      "join_error_fraction": 0.02486468200270636,
+      "method": "signature_knapsack_dp_ours",
+      "repetitions": 1,
+      "robust_residual_fraction": 0.0782060785767235,
+      "selection_seconds": 0.020026400001370348,
+      "used_cost": 58575
+    },
+    {
+      "budget": 58592,
+      "calls": 90,
+      "join_error_fraction": 0.035690121786197564,
+      "method": "degree_per_cost_ours",
+      "repetitions": 1,
+      "robust_residual_fraction": 0.0782060785767235,
+      "selection_seconds": 0.0,
+      "used_cost": 58430
+    },
+    {
+      "budget": 58592,
+      "calls": 80,
+      "join_error_fraction": 0.008626522327469554,
+      "method": "largest_degree_ours",
+      "repetitions": 1,
+      "robust_residual_fraction": 0.08710155670867309,
+      "selection_seconds": 0.0,
+      "used_cost": 58592
+    },
+    {
+      "budget": 58592,
+      "calls": 88,
+      "join_error_fraction": 0.03974966170500677,
+      "method": "identifier_control_ours",
+      "repetitions": 1,
+      "robust_residual_fraction": 0.13958487768717567,
+      "selection_seconds": 0.0,
+      "used_cost": 58478
+    },
+    {
+      "budget": 58592,
+      "calls": 95.855,
+      "join_error_fraction": 0.1809901894451962,
+      "method": "random_control_ours",
+      "repetitions": 1000,
+      "robust_residual_fraction": 0.34326604892512974,
+      "selection_seconds": 0.0,
+      "used_cost": 58509.973
+    },
+    {
+      "budget": 77630,
+      "calls": 118,
+      "join_error_fraction": 0.0038903924221921514,
+      "method": "signature_knapsack_dp_ours",
+      "repetitions": 1,
+      "robust_residual_fraction": 0.02335063009636768,
+      "selection_seconds": 0.03695759999754955,
+      "used_cost": 77552
+    },
+    {
+      "budget": 77630,
+      "calls": 118,
+      "join_error_fraction": 0.0038903924221921514,
+      "method": "degree_per_cost_ours",
+      "repetitions": 1,
+      "robust_residual_fraction": 0.023498888065233505,
+      "selection_seconds": 0.0,
+      "used_cost": 77464
+    },
+    {
+      "budget": 77630,
+      "calls": 112,
+      "join_error_fraction": 0.0,
+      "method": "largest_degree_ours",
+      "repetitions": 1,
+      "robust_residual_fraction": 0.026908821349147516,
+      "selection_seconds": 0.0,
+      "used_cost": 77630
+    },
+    {
+      "budget": 77630,
+      "calls": 119,
+      "join_error_fraction": 0.018775372124492557,
+      "method": "identifier_control_ours",
+      "repetitions": 1,
+      "robust_residual_fraction": 0.0446997776130467,
+      "selection_seconds": 0.0,
+      "used_cost": 77454
+    },
+    {
+      "budget": 77630,
+      "calls": 126.773,
+      "join_error_fraction": 0.06409573748308524,
+      "method": "random_control_ours",
+      "repetitions": 1000,
+      "robust_residual_fraction": 0.1252596738324685,
+      "selection_seconds": 0.0,
+      "used_cost": 77527.218
+    }
+  ],
+  "scope": {
+    "budgets": [
+      24576,
+      58592,
+      77630
+    ],
+    "changed_positive_degree_cells": 145,
+    "degree_prefix_counts": [
+      32,
+      80,
+      112
+    ],
+    "full_join_mass": 5912,
+    "max_tokens": 768,
+    "random_repetitions": 1000,
+    "seed": 20261112,
+    "total_changed_degree": 13490
+  },
+  "status": "VERIFIED"
+}

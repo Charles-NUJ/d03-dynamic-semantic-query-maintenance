@@ -1,0 +1,45 @@
+{
+  "boundary": "This verifies a disjoint temporal-half sensitivity inside one frozen trace. It does not establish independent temporal, model, predicate, or production replication.",
+  "checks": {
+    "each_half_has_32_documents_and_160_cells": true,
+    "each_half_uses_25_percent_call_budget": true,
+    "early_counterexample_mechanism_recorded": true,
+    "early_realized_counterexample_recorded": true,
+    "gated_methods_spend_no_stable_calls": true,
+    "halves_are_disjoint": true,
+    "halves_cover_all_documents": true,
+    "input_hashes_match": true,
+    "late_gain_mechanism_recorded": true,
+    "late_realized_gain_recorded": true,
+    "nine_causal_methods_recorded": true,
+    "ours_has_lower_worst_case_residual_in_both_halves": true,
+    "scope_does_not_claim_independence": true,
+    "status_finished": true,
+    "temporal_halves_match_source": true
+  },
+  "derived": {
+    "early_realized_join_error_percent": {
+      "input_change_id": 9.419454056132256,
+      "ours": 12.802768166089965
+    },
+    "early_worst_case_residual_percent": {
+      "input_change_id": 37.77089783281734,
+      "ours": 22.910216718266252
+    },
+    "late_realized_join_error_percent": {
+      "input_change_id": 1.9329507701600726,
+      "ours": 0.0
+    },
+    "late_worst_case_residual_percent": {
+      "input_change_id": 6.535569693464427,
+      "ours": 3.1810294968189656
+    }
+  },
+  "files": {
+    "record": "results\\disjoint_half_sensitivity\\disjoint_half_sensitivity.json",
+    "record_sha256": "4e3cc14d6dd4ef001df9434acdb93159e305a2cb23eb5a959cd06042d48d21fc",
+    "runner_sha256": "21300a5a6fd3d32d2892a118dcce563516f61a0cbaed075cfedfa796ed0aed94",
+    "verifier_sha256_before_output": "393061c5b484448b954f2f5f5bf4778da3fc8df901ed1db12c2ffd9fe623b1a3"
+  },
+  "status": "VERIFIED"
+}

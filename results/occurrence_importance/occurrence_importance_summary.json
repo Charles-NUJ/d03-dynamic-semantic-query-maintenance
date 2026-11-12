@@ -1,0 +1,78 @@
+{
+  "status": "FINISHED",
+  "purpose": "Measure occurrence and reader-visible importance in the frozen natural commit without treating one trace as a production-frequency estimate.",
+  "inputs": {
+    "pair_results": {
+      "path": "pair_predicate_results.json",
+      "sha256": "cfb8431962dca8333e783b03ebdc7132cff5cb236d6c563847ff7585b01218d0"
+    },
+    "predictions": {
+      "path": "predictions.json",
+      "sha256": "1c2776a0501d7b641c81aad4d0e60c212f2627bce85c0a0924a0766d60f5c354"
+    },
+    "revisions": {
+      "path": "revisions.json",
+      "sha256": "c60eadfec01c7e8980e68746cba2424f9b673f63cec9fa6485e173746c8fbe13"
+    },
+    "pairs": {
+      "path": "frozen_pairs.json",
+      "sha256": "a72e933c640aa952abc4d838a4612eb317784afd07564f4cc6e7f7bffdf677b3"
+    }
+  },
+  "window": {
+    "documents": 64,
+    "duration_seconds": 723.0,
+    "duration_minutes": 12.05
+  },
+  "occurrence": {
+    "semantic_cells": 320,
+    "stable_cells": 175,
+    "stable_fraction": 0.546875,
+    "changed_cells": 145,
+    "changed_fraction": 0.453125,
+    "transition_cells": 23,
+    "transition_fraction_all_cells": 0.071875,
+    "transition_fraction_changed_cells": 0.15862068965517243,
+    "documents_with_changed_inputs": 29,
+    "documents_with_transitions": 13,
+    "transitions_on_unchanged_inputs": 0
+  },
+  "external_importance": {
+    "full_filter_rows": 139,
+    "full_join_rows": 5912,
+    "full_group_mass": 5912,
+    "reuse_all": {
+      "filter_error": 23,
+      "filter_error_fraction": 0.16546762589928057,
+      "join_row_error": 3095,
+      "join_row_error_fraction": 0.5235115020297699,
+      "group_l1_error": 2983,
+      "group_l1_error_fraction": 0.5045669824086604
+    },
+    "changed_full_calls": 145,
+    "changed_full": {
+      "filter_error": 0,
+      "filter_error_fraction": 0.0,
+      "join_row_error": 0,
+      "join_row_error_fraction": 0.0,
+      "group_l1_error": 0,
+      "group_l1_error_fraction": 0.0
+    },
+    "ours_80_calls": 80,
+    "ours_80": {
+      "filter_error": 2,
+      "filter_error_fraction": 0.014388489208633094,
+      "join_row_error": 51,
+      "join_row_error_fraction": 0.008626522327469554,
+      "group_l1_error": 51,
+      "group_l1_error_fraction": 0.008626522327469554
+    },
+    "call_reduction_changed_full_vs_all": 0.546875,
+    "call_reduction_ours_80_vs_all": 0.75,
+    "call_reduction_ours_80_vs_changed_full": 0.4482758620689655,
+    "top_1_transition_degree_fraction": 0.43618739903069464,
+    "top_5_transition_degree_fraction": 0.6998384491114701,
+    "top_10_transition_degree_fraction": 0.8491114701130856
+  },
+  "boundary": "These values establish occurrence and external query impact in one frozen natural window. They do not estimate production frequency, SLA value, or end-to-end latency."
+}

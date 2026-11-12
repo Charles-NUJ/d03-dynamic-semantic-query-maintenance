@@ -1,0 +1,21 @@
+{
+  "status": "VERIFIED",
+  "checks": {
+    "primary_and_reproduced_json_identical": true,
+    "primary_and_reproduced_csv_identical": true,
+    "twenty_deterministic_cells": true,
+    "positive_recorded_denominators": true,
+    "error_numerators_match_missed_transitions": true,
+    "our_rule_uses_no_stable_calls": true,
+    "our_and_input_change_close_at_changed_count": true,
+    "link_degree_flatness_explained": true,
+    "filter_tie_and_join_difference_explained": true,
+    "csv_reopens_with_twenty_rows": true
+  },
+  "evidence": {
+    "primary_json_sha256": "60ee3186e187fe741da22ca91b0d45b4ac67982760d1178d7d1cb2b62190f4e1",
+    "reproduced_json_sha256": "60ee3186e187fe741da22ca91b0d45b4ac67982760d1178d7d1cb2b62190f4e1",
+    "primary_csv_sha256": "b83c47929fa9eb5e4958ab376b9c4062b3bea44ad3d975cfaca1e1b41cbfb2c3",
+    "reproduced_csv_sha256": "b83c47929fa9eb5e4958ab376b9c4062b3bea44ad3d975cfaca1e1b41cbfb2c3"
+  }
+}

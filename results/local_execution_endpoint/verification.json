@@ -1,0 +1,175 @@
+{
+  "status": "VERIFIED",
+  "checks_passed": 15,
+  "checks_total": 15,
+  "checks": [
+    {
+      "name": "experiment finished",
+      "passed": true,
+      "evidence": "EXECUTED_AWAITING_INDEPENDENT_VERIFICATION"
+    },
+    {
+      "name": "eighteen method runs",
+      "passed": true,
+      "evidence": 18
+    },
+    {
+      "name": "method set exact",
+      "passed": true,
+      "evidence": [
+        "full_recompute",
+        "input_change_id",
+        "link_degree",
+        "proxy_degree",
+        "reuse_all",
+        "signature_degree_ours"
+      ]
+    },
+    {
+      "name": "three repetitions each",
+      "passed": true,
+      "evidence": {
+        "full_recompute": 3,
+        "proxy_degree": 3,
+        "reuse_all": 3,
+        "link_degree": 3,
+        "input_change_id": 3,
+        "signature_degree_ours": 3
+      }
+    },
+    {
+      "name": "positive external denominators",
+      "passed": true,
+      "evidence": [
+        [
+          5912,
+          139
+        ]
+      ]
+    },
+    {
+      "name": "ours uses eighty changed calls",
+      "passed": true,
+      "evidence": [
+        [
+          80,
+          0
+        ],
+        [
+          80,
+          0
+        ],
+        [
+          80,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "ours join error matches frozen result",
+      "passed": true,
+      "evidence": [
+        0.008626522327469554,
+        0.008626522327469554,
+        0.008626522327469554
+      ]
+    },
+    {
+      "name": "full recomputation reaches zero",
+      "passed": true,
+      "evidence": [
+        [
+          320,
+          0,
+          0
+        ],
+        [
+          320,
+          0,
+          0
+        ],
+        [
+          320,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "reuse all exposes event impact",
+      "passed": true,
+      "evidence": [
+        [
+          0,
+          3095
+        ],
+        [
+          0,
+          3095
+        ],
+        [
+          0,
+          3095
+        ]
+      ]
+    },
+    {
+      "name": "timings nonnegative",
+      "passed": true,
+      "evidence": "all timing fields"
+    },
+    {
+      "name": "semantic time positive for called methods",
+      "passed": true,
+      "evidence": [
+        3.9940404999942984,
+        4.5274179999832995,
+        4.522732299985364,
+        4.2158121000102255,
+        15.740544500004034,
+        4.04573410001467,
+        4.50188930000877,
+        4.463952000020072,
+        4.29939739999827,
+        15.679169700015336,
+        4.506623799999943,
+        4.463227899977937,
+        4.286873800010653,
+        15.728947299998254,
+        4.053320700011682
+      ]
+    },
+    {
+      "name": "total covers measured parts",
+      "passed": true,
+      "evidence": "sum of measured components"
+    },
+    {
+      "name": "input hashes reopen",
+      "passed": true,
+      "evidence": [
+        "predictions",
+        "reference",
+        "revisions",
+        "rows"
+      ]
+    },
+    {
+      "name": "summary csv complete",
+      "passed": true,
+      "evidence": [
+        "full_recompute",
+        "input_change_id",
+        "link_degree",
+        "proxy_degree",
+        "reuse_all",
+        "signature_degree_ours"
+      ]
+    },
+    {
+      "name": "recorded output hashes reopen",
+      "passed": true,
+      "evidence": 8
+    }
+  ]
+}

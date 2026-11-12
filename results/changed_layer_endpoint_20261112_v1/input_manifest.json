@@ -1,0 +1,71 @@
+{
+  "script": {
+    "path": "code\\five_recommendations_20261112\\run_changed_layer_endpoint.py",
+    "sha256": "63a849eab9c6921688ae8d33bcb8d30f47bda5204bee6f47d845ace4f4b77ec3"
+  },
+  "inputs": {
+    "revisions": {
+      "path": "inputs\\revisions.json",
+      "bytes": 3838659,
+      "sha256": "c60eadfec01c7e8980e68746cba2424f9b673f63cec9fa6485e173746c8fbe13"
+    },
+    "rows": {
+      "path": "results\\pair_predicate_results.json",
+      "bytes": 161911,
+      "sha256": "cfb8431962dca8333e783b03ebdc7132cff5cb236d6c563847ff7585b01218d0"
+    },
+    "predictions": {
+      "path": "results\\predictions.json",
+      "bytes": 334572,
+      "sha256": "1c2776a0501d7b641c81aad4d0e60c212f2627bce85c0a0924a0766d60f5c354"
+    },
+    "reference": {
+      "path": "results\\reference_relation.json",
+      "bytes": 412227,
+      "sha256": "91f254db2e99a4cfa94d9491d5915e31cca752bcba1ac29a7bbacaf3086d566b"
+    }
+  },
+  "model": [
+    {
+      "name": "config.json",
+      "bytes": 659,
+      "sha256": "18e18afcaccafade98daf13a54092927904649e1dd4eba8299ab717d5d94ff45"
+    },
+    {
+      "name": "generation_config.json",
+      "bytes": 242,
+      "sha256": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6"
+    },
+    {
+      "name": "merges.txt",
+      "bytes": 1671839,
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+    },
+    {
+      "name": "model.safetensors",
+      "bytes": 988097824,
+      "sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe"
+    },
+    {
+      "name": "tokenizer.json",
+      "bytes": 7031645,
+      "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "bytes": 7305,
+      "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+    },
+    {
+      "name": "vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  ],
+  "arguments": {
+    "budget": 145,
+    "repetitions": 3,
+    "batch_size": 8,
+    "max_tokens": 768
+  }
+}

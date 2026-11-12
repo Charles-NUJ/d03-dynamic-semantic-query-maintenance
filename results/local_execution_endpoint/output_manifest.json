@@ -1,0 +1,34 @@
+{
+  "environment.json": {
+    "bytes": 460,
+    "sha256": "17f98fd84b947cfce861d9859e23f3f270de84dfd9243b949a0d68e100c22657"
+  },
+  "execution_receipt.json": {
+    "bytes": 262,
+    "sha256": "1073019dfee22bce6bfd93e56f57d9f73fbb1311c11ad7c5abcc55d7802fcdaf"
+  },
+  "input_manifest.json": {
+    "bytes": 2164,
+    "sha256": "6a7aa245ca52fa6a5afa7fbe9e2e8c6209085f47053fb4ebaa3d6c54342e1221"
+  },
+  "progress.log": {
+    "bytes": 2090,
+    "sha256": "39eccd59473d3ccbbfd809206ea5134dff5b415971514523d6198800d8c14a7f"
+  },
+  "records.json": {
+    "bytes": 12086,
+    "sha256": "da7d4cc02986d72cab4fd721978f0e66d53b03b9048fd457a8e4cc609cf91319"
+  },
+  "records_partial.json": {
+    "bytes": 12086,
+    "sha256": "da7d4cc02986d72cab4fd721978f0e66d53b03b9048fd457a8e4cc609cf91319"
+  },
+  "summary.csv": {
+    "bytes": 2538,
+    "sha256": "7e4a05f0cf69a62d1b660729978bba58e9c11d0a25bce970581c4695e937852f"
+  },
+  "summary.json": {
+    "bytes": 6618,
+    "sha256": "e4b50d7484f1d8147bea4eda55c18bac2ba6155590a1f5e990c3204b746ebfc2"
+  }
+}

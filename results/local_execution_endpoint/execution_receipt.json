@@ -1,0 +1,13 @@
+{
+  "status": "LOCAL_RUN_FINISHED",
+  "time": "2026-11-08T19:05:24.250142+08:00",
+  "records": 18,
+  "methods": [
+    "reuse_all",
+    "input_change_id",
+    "link_degree",
+    "proxy_degree",
+    "signature_degree_ours",
+    "full_recompute"
+  ]
+}

@@ -1,0 +1,648 @@
+{
+  "contract_id": "D03-NATURAL-REVISION-PILOT-20261101",
+  "status": "FROZEN_BEFORE_CONTENT_AND_LABEL_ACCESS",
+  "metadata_sha256": "d9ff513e3f4fe0b8d0fbd1c1ea7a0ace06a9e0c8451711589b2b95ba8cbee03a",
+  "candidate_pages": 417,
+  "pairs": [
+    {
+      "sample_index": 0,
+      "pageid": 2175,
+      "title": "American cuisine",
+      "old_revid": 1383148754,
+      "new_revid": 1383163885,
+      "timestamp": "2026-11-01T08:35:04Z",
+      "oldlen": 231063,
+      "newlen": 231097
+    },
+    {
+      "sample_index": 1,
+      "pageid": 177866,
+      "title": "No More Tears",
+      "old_revid": 1379965686,
+      "new_revid": 1383163839,
+      "timestamp": "2026-11-01T08:34:29Z",
+      "oldlen": 22643,
+      "newlen": 22623
+    },
+    {
+      "sample_index": 2,
+      "pageid": 206511,
+      "title": "Supachai Panitchpakdi",
+      "old_revid": 1383120511,
+      "new_revid": 1383163352,
+      "timestamp": "2026-11-01T08:29:09Z",
+      "oldlen": 7597,
+      "newlen": 7623
+    },
+    {
+      "sample_index": 3,
+      "pageid": 306344,
+      "title": "Hallowe'en Party",
+      "old_revid": 1378709784,
+      "new_revid": 1383163556,
+      "timestamp": "2026-11-01T08:31:13Z",
+      "oldlen": 19063,
+      "newlen": 19071
+    },
+    {
+      "sample_index": 4,
+      "pageid": 578092,
+      "title": "Key exchange",
+      "old_revid": 1367212119,
+      "new_revid": 1383163968,
+      "timestamp": "2026-11-01T08:35:56Z",
+      "oldlen": 12194,
+      "newlen": 12190
+    },
+    {
+      "sample_index": 5,
+      "pageid": 603791,
+      "title": "Nezha",
+      "old_revid": 1379360552,
+      "new_revid": 1383163703,
+      "timestamp": "2026-11-01T08:32:52Z",
+      "oldlen": 29253,
+      "newlen": 29540
+    },
+    {
+      "sample_index": 6,
+      "pageid": 741859,
+      "title": "De gustibus non est disputandum",
+      "old_revid": 1383164138,
+      "new_revid": 1383164287,
+      "timestamp": "2026-11-01T08:39:47Z",
+      "oldlen": 3212,
+      "newlen": 3192
+    },
+    {
+      "sample_index": 7,
+      "pageid": 1635114,
+      "title": "RNAS Culham",
+      "old_revid": 1367372427,
+      "new_revid": 1383163455,
+      "timestamp": "2026-11-01T08:30:09Z",
+      "oldlen": 17996,
+      "newlen": 18020
+    },
+    {
+      "sample_index": 8,
+      "pageid": 1791317,
+      "title": "Pithom",
+      "old_revid": 1382182651,
+      "new_revid": 1383164316,
+      "timestamp": "2026-11-01T08:40:06Z",
+      "oldlen": 15772,
+      "newlen": 15772
+    },
+    {
+      "sample_index": 9,
+      "pageid": 2118636,
+      "title": "Okarito kiwi",
+      "old_revid": 1383000371,
+      "new_revid": 1383163584,
+      "timestamp": "2026-11-01T08:31:28Z",
+      "oldlen": 13723,
+      "newlen": 13727
+    },
+    {
+      "sample_index": 10,
+      "pageid": 2118637,
+      "title": "North Island brown kiwi",
+      "old_revid": 1383004533,
+      "new_revid": 1383163462,
+      "timestamp": "2026-11-01T08:30:17Z",
+      "oldlen": 34952,
+      "newlen": 34956
+    },
+    {
+      "sample_index": 11,
+      "pageid": 2311410,
+      "title": "The Block (Australian TV series)",
+      "old_revid": 1382975282,
+      "new_revid": 1383163710,
+      "timestamp": "2026-11-01T08:32:56Z",
+      "oldlen": 174732,
+      "newlen": 174737
+    },
+    {
+      "sample_index": 12,
+      "pageid": 4377725,
+      "title": "Antoin Sevruguin",
+      "old_revid": 1356356701,
+      "new_revid": 1383163513,
+      "timestamp": "2026-11-01T08:30:50Z",
+      "oldlen": 13801,
+      "newlen": 13779
+    },
+    {
+      "sample_index": 13,
+      "pageid": 4966415,
+      "title": "Primorsko",
+      "old_revid": 1378967389,
+      "new_revid": 1383164059,
+      "timestamp": "2026-11-01T08:36:52Z",
+      "oldlen": 7572,
+      "newlen": 7683
+    },
+    {
+      "sample_index": 14,
+      "pageid": 5046719,
+      "title": "Albert Ellis (prospector)",
+      "old_revid": 1383160623,
+      "new_revid": 1383163895,
+      "timestamp": "2026-11-01T08:35:09Z",
+      "oldlen": 6319,
+      "newlen": 6355
+    },
+    {
+      "sample_index": 15,
+      "pageid": 7105098,
+      "title": "Pridiyathorn Devakula",
+      "old_revid": 1383122194,
+      "new_revid": 1383163306,
+      "timestamp": "2026-11-01T08:28:44Z",
+      "oldlen": 24824,
+      "newlen": 24850
+    },
+    {
+      "sample_index": 16,
+      "pageid": 7154969,
+      "title": "Surayud Chulanont",
+      "old_revid": 1383122253,
+      "new_revid": 1383163297,
+      "timestamp": "2026-11-01T08:28:41Z",
+      "oldlen": 114882,
+      "newlen": 114908
+    },
+    {
+      "sample_index": 17,
+      "pageid": 7923922,
+      "title": "Anti-rival good",
+      "old_revid": 1344199199,
+      "new_revid": 1383163996,
+      "timestamp": "2026-11-01T08:36:13Z",
+      "oldlen": 4738,
+      "newlen": 4547
+    },
+    {
+      "sample_index": 18,
+      "pageid": 9553190,
+      "title": "Diocese of Chitré",
+      "old_revid": 1381814670,
+      "new_revid": 1383164251,
+      "timestamp": "2026-11-01T08:39:30Z",
+      "oldlen": 3768,
+      "newlen": 4077
+    },
+    {
+      "sample_index": 19,
+      "pageid": 13476697,
+      "title": "347th Rescue Wing",
+      "old_revid": 1367764813,
+      "new_revid": 1383164304,
+      "timestamp": "2026-11-01T08:39:59Z",
+      "oldlen": 26088,
+      "newlen": 26090
+    },
+    {
+      "sample_index": 20,
+      "pageid": 17615106,
+      "title": "John Casimir, Count Palatine of Kleeburg",
+      "old_revid": 1382960605,
+      "new_revid": 1383163521,
+      "timestamp": "2026-11-01T08:30:54Z",
+      "oldlen": 7432,
+      "newlen": 7692
+    },
+    {
+      "sample_index": 21,
+      "pageid": 18457137,
+      "title": "Personal computer",
+      "old_revid": 1382860666,
+      "new_revid": 1383163866,
+      "timestamp": "2026-11-01T08:34:47Z",
+      "oldlen": 100678,
+      "newlen": 100666
+    },
+    {
+      "sample_index": 22,
+      "pageid": 18640799,
+      "title": "Ghajini (2008 film)",
+      "old_revid": 1373564589,
+      "new_revid": 1383163478,
+      "timestamp": "2026-11-01T08:30:24Z",
+      "oldlen": 56291,
+      "newlen": 56288
+    },
+    {
+      "sample_index": 23,
+      "pageid": 18902244,
+      "title": "Switzerland in the Eurovision Song Contest 1957",
+      "old_revid": 1383163227,
+      "new_revid": 1383163941,
+      "timestamp": "2026-11-01T08:35:37Z",
+      "oldlen": 26780,
+      "newlen": 26784
+    },
+    {
+      "sample_index": 24,
+      "pageid": 19278230,
+      "title": "Maksim Tsyhalka",
+      "old_revid": 1382905204,
+      "new_revid": 1383164279,
+      "timestamp": "2026-11-01T08:39:41Z",
+      "oldlen": 8716,
+      "newlen": 8468
+    },
+    {
+      "sample_index": 25,
+      "pageid": 19739162,
+      "title": "Ekumeku Movement",
+      "old_revid": 1375328719,
+      "new_revid": 1383163551,
+      "timestamp": "2026-11-01T08:31:13Z",
+      "oldlen": 3160,
+      "newlen": 3190
+    },
+    {
+      "sample_index": 26,
+      "pageid": 20764813,
+      "title": "Yasuomi Umetsu",
+      "old_revid": 1383130881,
+      "new_revid": 1383164242,
+      "timestamp": "2026-11-01T08:39:26Z",
+      "oldlen": 47123,
+      "newlen": 47128
+    },
+    {
+      "sample_index": 27,
+      "pageid": 22357528,
+      "title": "Žarko Puhovski",
+      "old_revid": 1372570547,
+      "new_revid": 1383163897,
+      "timestamp": "2026-11-01T08:35:10Z",
+      "oldlen": 5035,
+      "newlen": 5102
+    },
+    {
+      "sample_index": 28,
+      "pageid": 23138813,
+      "title": "Adulakit Kitiyakara",
+      "old_revid": 1383122037,
+      "new_revid": 1383163317,
+      "timestamp": "2026-11-01T08:28:49Z",
+      "oldlen": 7730,
+      "newlen": 7782
+    },
+    {
+      "sample_index": 29,
+      "pageid": 23417285,
+      "title": "Names of Georgia",
+      "old_revid": 1374250716,
+      "new_revid": 1383163602,
+      "timestamp": "2026-11-01T08:31:38Z",
+      "oldlen": 28172,
+      "newlen": 27949
+    },
+    {
+      "sample_index": 30,
+      "pageid": 23419355,
+      "title": "Andabil, Ardabil",
+      "old_revid": 1377062420,
+      "new_revid": 1383163305,
+      "timestamp": "2026-11-01T08:28:43Z",
+      "oldlen": 7207,
+      "newlen": 6974
+    },
+    {
+      "sample_index": 31,
+      "pageid": 26455146,
+      "title": "List of digital television channels in Australia",
+      "old_revid": 1382340277,
+      "new_revid": 1383163543,
+      "timestamp": "2026-11-01T08:31:08Z",
+      "oldlen": 54596,
+      "newlen": 54561
+    },
+    {
+      "sample_index": 32,
+      "pageid": 28390888,
+      "title": "Omid Alishah",
+      "old_revid": 1382746505,
+      "new_revid": 1383164047,
+      "timestamp": "2026-11-01T08:36:41Z",
+      "oldlen": 20488,
+      "newlen": 20488
+    },
+    {
+      "sample_index": 33,
+      "pageid": 29261482,
+      "title": "Basanta Choudhury",
+      "old_revid": 1376798216,
+      "new_revid": 1383163388,
+      "timestamp": "2026-11-01T08:29:34Z",
+      "oldlen": 8965,
+      "newlen": 8970
+    },
+    {
+      "sample_index": 34,
+      "pageid": 29483261,
+      "title": "Juan Arévalo",
+      "old_revid": 1360601348,
+      "new_revid": 1383163985,
+      "timestamp": "2026-11-01T08:36:05Z",
+      "oldlen": 1350,
+      "newlen": 1408
+    },
+    {
+      "sample_index": 35,
+      "pageid": 33534606,
+      "title": "Wairoa Aerodrome",
+      "old_revid": 1362725484,
+      "new_revid": 1383163544,
+      "timestamp": "2026-11-01T08:31:09Z",
+      "oldlen": 2621,
+      "newlen": 2628
+    },
+    {
+      "sample_index": 36,
+      "pageid": 33687126,
+      "title": "San'yō Shinkansen",
+      "old_revid": 1376536110,
+      "new_revid": 1383163231,
+      "timestamp": "2026-11-01T08:28:09Z",
+      "oldlen": 25240,
+      "newlen": 25313
+    },
+    {
+      "sample_index": 37,
+      "pageid": 35187013,
+      "title": "Korn Dabbaransi",
+      "old_revid": 1383122782,
+      "new_revid": 1383163275,
+      "timestamp": "2026-11-01T08:28:29Z",
+      "oldlen": 12518,
+      "newlen": 12544
+    },
+    {
+      "sample_index": 38,
+      "pageid": 37014828,
+      "title": "Domenico Berardi",
+      "old_revid": 1382582009,
+      "new_revid": 1383163616,
+      "timestamp": "2026-11-01T08:31:49Z",
+      "oldlen": 60818,
+      "newlen": 60818
+    },
+    {
+      "sample_index": 39,
+      "pageid": 40138777,
+      "title": "Prampram",
+      "old_revid": 1381741091,
+      "new_revid": 1383164215,
+      "timestamp": "2026-11-01T08:39:08Z",
+      "oldlen": 6028,
+      "newlen": 5979
+    },
+    {
+      "sample_index": 40,
+      "pageid": 41156833,
+      "title": "Banthoon Lamsam",
+      "old_revid": 1383122855,
+      "new_revid": 1383163253,
+      "timestamp": "2026-11-01T08:28:19Z",
+      "oldlen": 12453,
+      "newlen": 12479
+    },
+    {
+      "sample_index": 41,
+      "pageid": 43655336,
+      "title": "Mino (straw cape)",
+      "old_revid": 1365516583,
+      "new_revid": 1383164107,
+      "timestamp": "2026-11-01T08:37:34Z",
+      "oldlen": 5706,
+      "newlen": 5725
+    },
+    {
+      "sample_index": 42,
+      "pageid": 44443493,
+      "title": "Sose Tanda Soubhagya",
+      "old_revid": 1383154432,
+      "new_revid": 1383163542,
+      "timestamp": "2026-11-01T08:31:09Z",
+      "oldlen": 5314,
+      "newlen": 5193
+    },
+    {
+      "sample_index": 43,
+      "pageid": 47819636,
+      "title": "Akanat Promphan",
+      "old_revid": 1383122985,
+      "new_revid": 1383163243,
+      "timestamp": "2026-11-01T08:28:13Z",
+      "oldlen": 5628,
+      "newlen": 5654
+    },
+    {
+      "sample_index": 44,
+      "pageid": 49204570,
+      "title": "Vichayut Limratanamongkol",
+      "old_revid": 1383123017,
+      "new_revid": 1383163237,
+      "timestamp": "2026-11-01T08:28:11Z",
+      "oldlen": 7115,
+      "newlen": 7141
+    },
+    {
+      "sample_index": 45,
+      "pageid": 55514156,
+      "title": "Apirat Kongsompong",
+      "old_revid": 1383123104,
+      "new_revid": 1383163228,
+      "timestamp": "2026-11-01T08:28:05Z",
+      "oldlen": 26114,
+      "newlen": 26140
+    },
+    {
+      "sample_index": 46,
+      "pageid": 61709539,
+      "title": "List of countries in Eurovision Young Musicians",
+      "old_revid": 1382822369,
+      "new_revid": 1383164105,
+      "timestamp": "2026-11-01T08:37:27Z",
+      "oldlen": 60315,
+      "newlen": 60341
+    },
+    {
+      "sample_index": 47,
+      "pageid": 64589109,
+      "title": "Unreleased Half-Life games",
+      "old_revid": 1383163798,
+      "new_revid": 1383164318,
+      "timestamp": "2026-11-01T08:40:08Z",
+      "oldlen": 31508,
+      "newlen": 31455
+    },
+    {
+      "sample_index": 48,
+      "pageid": 66313313,
+      "title": "Dominik Tarczyński",
+      "old_revid": 1383163498,
+      "new_revid": 1383163772,
+      "timestamp": "2026-11-01T08:33:35Z",
+      "oldlen": 12251,
+      "newlen": 12256
+    },
+    {
+      "sample_index": 49,
+      "pageid": 69079724,
+      "title": "Wales women's national rugby league team",
+      "old_revid": 1381935188,
+      "new_revid": 1383163969,
+      "timestamp": "2026-11-01T08:35:55Z",
+      "oldlen": 28763,
+      "newlen": 28764
+    },
+    {
+      "sample_index": 50,
+      "pageid": 70839236,
+      "title": "Ollie Tanner",
+      "old_revid": 1381874504,
+      "new_revid": 1383163338,
+      "timestamp": "2026-11-01T08:29:00Z",
+      "oldlen": 20404,
+      "newlen": 20404
+    },
+    {
+      "sample_index": 51,
+      "pageid": 70888565,
+      "title": "Mann Sundar",
+      "old_revid": 1383022287,
+      "new_revid": 1383163770,
+      "timestamp": "2026-11-01T08:33:34Z",
+      "oldlen": 24281,
+      "newlen": 24291
+    },
+    {
+      "sample_index": 52,
+      "pageid": 74771569,
+      "title": "Tidiam Gomis",
+      "old_revid": 1382893586,
+      "new_revid": 1383164260,
+      "timestamp": "2026-11-01T08:39:35Z",
+      "oldlen": 10289,
+      "newlen": 10341
+    },
+    {
+      "sample_index": 53,
+      "pageid": 76887648,
+      "title": "Sde Teiman",
+      "old_revid": 1383163585,
+      "new_revid": 1383163688,
+      "timestamp": "2026-11-01T08:32:42Z",
+      "oldlen": 47885,
+      "newlen": 47769
+    },
+    {
+      "sample_index": 54,
+      "pageid": 78398885,
+      "title": "European Society of Health and Medical Sociology",
+      "old_revid": 1383163437,
+      "new_revid": 1383164167,
+      "timestamp": "2026-11-01T08:38:18Z",
+      "oldlen": 15385,
+      "newlen": 15388
+    },
+    {
+      "sample_index": 55,
+      "pageid": 81004213,
+      "title": "Spillover of the Soviet–Afghan War in Pakistan",
+      "old_revid": 1383163826,
+      "new_revid": 1383163890,
+      "timestamp": "2026-11-01T08:35:05Z",
+      "oldlen": 74270,
+      "newlen": 74270
+    },
+    {
+      "sample_index": 56,
+      "pageid": 81782815,
+      "title": "List of EastEnders characters introduced in 2026",
+      "old_revid": 1383163884,
+      "new_revid": 1383164294,
+      "timestamp": "2026-11-01T08:39:52Z",
+      "oldlen": 64055,
+      "newlen": 64057
+    },
+    {
+      "sample_index": 57,
+      "pageid": 81809347,
+      "title": "Total Chess World Championship 2026",
+      "old_revid": 1382068187,
+      "new_revid": 1383163865,
+      "timestamp": "2026-11-01T08:34:47Z",
+      "oldlen": 35766,
+      "newlen": 35523
+    },
+    {
+      "sample_index": 58,
+      "pageid": 81866529,
+      "title": "Tropical cyclones in 2026",
+      "old_revid": 1383159996,
+      "new_revid": 1383163548,
+      "timestamp": "2026-11-01T08:31:11Z",
+      "oldlen": 96286,
+      "newlen": 96287
+    },
+    {
+      "sample_index": 59,
+      "pageid": 83197366,
+      "title": "Mason Edwards",
+      "old_revid": 1363704588,
+      "new_revid": 1383163864,
+      "timestamp": "2026-11-01T08:34:47Z",
+      "oldlen": 3062,
+      "newlen": 3075
+    },
+    {
+      "sample_index": 60,
+      "pageid": 84606947,
+      "title": "2026 Toray Pan Pacific Open – Doubles",
+      "old_revid": 1383163049,
+      "new_revid": 1383163904,
+      "timestamp": "2026-11-01T08:35:14Z",
+      "oldlen": 7596,
+      "newlen": 7604
+    },
+    {
+      "sample_index": 61,
+      "pageid": 84668755,
+      "title": "Congo saw-wing",
+      "old_revid": 1383155924,
+      "new_revid": 1383164195,
+      "timestamp": "2026-11-01T08:38:47Z",
+      "oldlen": 3551,
+      "newlen": 3611
+    },
+    {
+      "sample_index": 62,
+      "pageid": 84668960,
+      "title": "2003 Sporting Cristal season",
+      "old_revid": 1383163295,
+      "new_revid": 1383163398,
+      "timestamp": "2026-11-01T08:29:38Z",
+      "oldlen": 4344,
+      "newlen": 4672
+    },
+    {
+      "sample_index": 63,
+      "pageid": 84669010,
+      "title": "Jennifer Grout",
+      "old_revid": 1383164027,
+      "new_revid": 1383164033,
+      "timestamp": "2026-11-01T08:36:36Z",
+      "oldlen": 81,
+      "newlen": 91
+    }
+  ]
+}

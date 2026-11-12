@@ -1,0 +1,72 @@
+{
+  "source_csv": "results\\structure_map\\structural_regime_map.csv",
+  "source_sha256": "5A02DFE9B606B5B7355E8561D79A2618C7CD1075403A99C65B66ADCD3DFC7C47",
+  "source_rows": 384,
+  "factor_cells": 64,
+  "controls": [
+    "input_change_id",
+    "degree_all",
+    "random_changed"
+  ],
+  "comparison_contract": "same changed fraction, degree CV, changed-budget fraction, and 200 assignments",
+  "cells_with_negative_realized_gain": 5,
+  "cells_with_realized_gain_at_most_one_point": 37,
+  "selected_regimes": {
+    "amplified_sparse_heterogeneous_partial_budget": {
+      "changed_fraction": 0.1,
+      "target_degree_cv": 1.88,
+      "budget_fraction_of_changed": 0.25,
+      "repetitions": 200,
+      "ours_robust_fraction": 0.28445203450739004,
+      "best_control_robust_method": "input_change_id",
+      "best_control_robust_fraction": 0.7249447207733735,
+      "robust_gain_percentage_points": 44.04926862659834,
+      "ours_realized_fraction": 0.045443833473237216,
+      "best_control_realized_method": "degree_all",
+      "best_control_realized_fraction": 0.12705925104824656,
+      "realized_gain_percentage_points": 8.161541757500935
+    },
+    "trace_matched_structure": {
+      "changed_fraction": 0.453125,
+      "target_degree_cv": 1.88,
+      "budget_fraction_of_changed": 0.55,
+      "repetitions": 200,
+      "ours_robust_fraction": 0.06333807855748946,
+      "best_control_robust_method": "degree_all",
+      "best_control_robust_fraction": 0.23346663799864067,
+      "robust_gain_percentage_points": 17.01285594411512,
+      "ours_realized_fraction": 0.010999307194166776,
+      "best_control_realized_method": "degree_all",
+      "best_control_realized_fraction": 0.039652574907602614,
+      "realized_gain_percentage_points": 2.8653267713435837
+    },
+    "uniform_degree_boundary": {
+      "changed_fraction": 1.0,
+      "target_degree_cv": 0.0,
+      "budget_fraction_of_changed": 0.1,
+      "repetitions": 200,
+      "ours_robust_fraction": 0.9000000000000032,
+      "best_control_robust_method": "input_change_id",
+      "best_control_robust_fraction": 0.9000000000000032,
+      "robust_gain_percentage_points": 0.0,
+      "ours_realized_fraction": 0.1582733812949646,
+      "best_control_realized_method": "random_changed",
+      "best_control_realized_fraction": 0.14838129496402877,
+      "realized_gain_percentage_points": -0.9892086330935829
+    },
+    "full_changed_budget_boundary": {
+      "changed_fraction": 0.453125,
+      "target_degree_cv": 1.88,
+      "budget_fraction_of_changed": 1.0,
+      "repetitions": 200,
+      "ours_robust_fraction": 0.0,
+      "best_control_robust_method": "input_change_id",
+      "best_control_robust_fraction": 0.0,
+      "robust_gain_percentage_points": 0.0,
+      "ours_realized_fraction": 0.0,
+      "best_control_realized_method": "input_change_id",
+      "best_control_realized_fraction": 0.0,
+      "realized_gain_percentage_points": 0.0
+    }
+  }
+}

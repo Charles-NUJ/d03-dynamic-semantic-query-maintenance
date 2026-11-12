@@ -1,0 +1,53 @@
+{
+  "status": "VERIFIED",
+  "checks": {
+    "summary_finished": true,
+    "receipt_finished": true,
+    "documents_match": true,
+    "semantic_cells_match": true,
+    "reference_rows_match": true,
+    "transitions_match": true,
+    "changed_inputs_match": true,
+    "unchanged_inputs_match": true,
+    "fixed_input_invariance_observed": true,
+    "no_duplicate_reference_rows": true,
+    "positive_filter_denominator": true,
+    "positive_join_denominator": true,
+    "positive_group_denominator": true,
+    "method_source_map_complete": true,
+    "ours_identified": true,
+    "literature_adaptations_identified": true,
+    "fair_query_aware_controls_present": true,
+    "full_recompute_zero_error": true,
+    "result_budgets_present": true,
+    "all_methods_respect_budget_cap": true,
+    "gated_methods_stop_at_changed_set": true,
+    "input_change_label_matches_manuscript": true,
+    "displayed_method_labels_match_manuscript": true,
+    "random_control_action_matches_manuscript": true,
+    "structural_ablation_complete": true,
+    "receipt_hashes_match": true
+  },
+  "hash_checks": {
+    "structured_database.sqlite": true,
+    "method_source_map.json": true,
+    "reference_relation.json": true,
+    "method_results.csv": true,
+    "structural_ablation.csv": true,
+    "summary.json": true
+  },
+  "database_counts": {
+    "document": 64,
+    "semantic_cell_old": 320,
+    "semantic_input_state": 320,
+    "oracle_semantic_cell_new": 320,
+    "reference_new": 5933,
+    "semantic_transitions": 23,
+    "duplicate_reference_rows": 0,
+    "changed_inputs": 145,
+    "transitions_on_unchanged_inputs": 0
+  },
+  "summary_sha256": "3589df64a9ca7cedd2a55b1147de22bdcd59650c6e56e54ad3851232d5f72ad2",
+  "database_sha256": "a11bdfeec802775c88391da41736e96e30dd00aba6788fd53e21fd269fe37a39",
+  "results_sha256": "365b08d8437a59d5c1594294ad9c8ed8d83a4f7c5fd16ae42f66a867ae318bc6"
+}

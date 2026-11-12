@@ -1,0 +1,40 @@
+{
+  "status": "EXECUTED_AWAITING_INDEPENDENT_VERIFICATION",
+  "experiment_id": "D03-CHANGED-LAYER-ENDPOINT-20261112-V1",
+  "contract": {
+    "external_target": "filter and join output relative to full execution of the same fixed operator",
+    "resource": "semantic calls completed before one publication",
+    "timing_scope": "canonical input construction, signature check, selection, warm-resident local model calls, and in-memory SQLite publication",
+    "excluded": [
+      "model loading",
+      "remote network delay",
+      "queueing",
+      "production storage I/O"
+    ]
+  },
+  "summaries": [
+    {
+      "method": "input_change_id",
+      "repetitions": 3,
+      "calls": 145,
+      "stable_calls": 0,
+      "join_error_fraction": 0.0,
+      "filter_error_fraction": 0.0,
+      "prepare_seconds_median": 2.4256973000010476,
+      "prepare_seconds_min": 2.3298463999999512,
+      "prepare_seconds_max": 2.4380320999989635,
+      "selection_seconds_median": 8.739999975659885e-05,
+      "selection_seconds_min": 8.719999823370017e-05,
+      "selection_seconds_max": 9.169999975711107e-05,
+      "semantic_seconds_median": 6.861049199997069,
+      "semantic_seconds_min": 6.820000200001232,
+      "semantic_seconds_max": 6.878270100001828,
+      "publish_seconds_median": 0.0008654000012029428,
+      "publish_seconds_min": 0.0008261999973910861,
+      "publish_seconds_max": 0.0012616999993042555,
+      "total_seconds_median": 9.300444900000002,
+      "total_seconds_min": 9.151295600000594,
+      "total_seconds_max": 9.305787900000723
+    }
+  ]
+}

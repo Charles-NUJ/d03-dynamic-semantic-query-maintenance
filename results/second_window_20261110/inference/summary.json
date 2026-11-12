@@ -1,0 +1,11 @@
+{
+  "status": "INFERENCE_FINISHED",
+  "page_pairs": 64,
+  "predicates": 5,
+  "pair_predicates": 320,
+  "label_flips": 15,
+  "pages_with_any_flip": 8,
+  "visible_input_changes": 150,
+  "boundary": "Second recent-edit window; same fixed model and predicates; page IDs disjoint from the first window; model-relative labels.",
+  "elapsed_seconds": 27.505653381347656
+}

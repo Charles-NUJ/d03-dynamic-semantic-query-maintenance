@@ -1,0 +1,60 @@
+{
+  "status": "VERIFIED",
+  "study_type": "controlled information-structure study",
+  "control_boundary": "The protocol control remains z_i. False-positive fraction and degree bins coarsen observable metadata and are experimental factors, not deployable actions.",
+  "counts": {
+    "affected_cells": 320,
+    "changed_input_cells": 145,
+    "unchanged_input_cells": 175,
+    "semantic_transitions": 23,
+    "full_join_rows": 5912
+  },
+  "factors": {
+    "signature_false_positive_fraction": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "degree_bins": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      "exact"
+    ],
+    "budgets": [
+      32,
+      80,
+      160
+    ],
+    "random_repetitions": 500
+  },
+  "checks": {
+    "base_change_degree_matches_experiment_b32": true,
+    "base_change_degree_matches_experiment_b80": true,
+    "all_affected_change_degree_equals_link_degree_b32": true,
+    "all_affected_change_degree_equals_link_degree_b80": true,
+    "sufficient_budget_zero_at_exact_signature": true,
+    "one_degree_bin_matches_change_id": true,
+    "exact_degree_matches_change_degree": true
+  },
+  "selected_results": {
+    "exact_signature_b32_change_degree": 0.0986129905277402,
+    "all_affected_b32_change_degree": 0.12263193504736129,
+    "all_affected_b32_link_degree": 0.12263193504736129,
+    "exact_signature_b80_change_degree": 0.008626522327469554,
+    "all_affected_b80_change_degree": 0.12263193504736129,
+    "all_affected_b80_link_degree": 0.12263193504736129
+  },
+  "hashes": {
+    "database": "a11bdfeec802775c88391da41736e96e30dd00aba6788fd53e21fd269fe37a39",
+    "method_results": "ff49df61ef8728dd2e3e2b78ad75b7142d2d32ae7a46d5031fab4f94695056ca",
+    "script": "d991beb79faaebaa7f9e8a519085be5f37d390e9e09af917f0925edf280b1a14",
+    "signature_coarsening_csv": "d9278fc7f5d527850f69455fdfe7d32e13ecf8cb7dcc7a7dc14e37d0473e2f57",
+    "degree_resolution_csv": "68be81e3f197cfce0e96fdcb5832e6fe2d698be7fb4faa3767e3f9e045f557a7"
+  },
+  "evidence_boundary": "The study reuses one frozen workload. It identifies structural transitions inside that workload and does not estimate production occurrence frequency."
+}

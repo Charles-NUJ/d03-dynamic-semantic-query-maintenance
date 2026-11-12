@@ -1,0 +1,21 @@
+2026-11-08T19:02:55.519506+08:00 loading local fixed semantic operator
+2026-11-08T19:03:02.726359+08:00 warm resident model ready
+2026-11-08T19:03:04.974918+08:00 rep=0 method=reuse_all calls=0 join_error=0.523512 total=2.2464s
+2026-11-08T19:03:11.211545+08:00 rep=0 method=input_change_id calls=80 join_error=0.052267 total=6.2337s
+2026-11-08T19:03:18.040270+08:00 rep=0 method=link_degree calls=80 join_error=0.122632 total=6.8252s
+2026-11-08T19:03:24.869602+08:00 rep=0 method=proxy_degree calls=80 join_error=0.082713 total=6.8275s
+2026-11-08T19:03:31.421821+08:00 rep=0 method=signature_degree_ours calls=80 join_error=0.008627 total=6.5490s
+2026-11-08T19:03:49.459770+08:00 rep=0 method=full_recompute calls=320 join_error=0.000000 total=18.0362s
+2026-11-08T19:03:55.868438+08:00 rep=1 method=input_change_id calls=80 join_error=0.052267 total=6.4072s
+2026-11-08T19:04:02.713352+08:00 rep=1 method=link_degree calls=80 join_error=0.122632 total=6.8434s
+2026-11-08T19:04:09.544027+08:00 rep=1 method=proxy_degree calls=80 join_error=0.082713 total=6.8291s
+2026-11-08T19:04:16.185283+08:00 rep=1 method=signature_degree_ours calls=80 join_error=0.008627 total=6.6394s
+2026-11-08T19:04:34.212315+08:00 rep=1 method=full_recompute calls=320 join_error=0.000000 total=18.0247s
+2026-11-08T19:04:36.566217+08:00 rep=1 method=reuse_all calls=0 join_error=0.523512 total=2.3519s
+2026-11-08T19:04:43.404576+08:00 rep=2 method=link_degree calls=80 join_error=0.122632 total=6.8370s
+2026-11-08T19:04:50.193725+08:00 rep=2 method=proxy_degree calls=80 join_error=0.082713 total=6.7878s
+2026-11-08T19:04:56.796826+08:00 rep=2 method=signature_degree_ours calls=80 join_error=0.008627 total=6.6003s
+2026-11-08T19:05:14.907554+08:00 rep=2 method=full_recompute calls=320 join_error=0.000000 total=18.1123s
+2026-11-08T19:05:17.705734+08:00 rep=2 method=reuse_all calls=0 join_error=0.523512 total=2.7936s
+2026-11-08T19:05:24.197597+08:00 rep=2 method=input_change_id calls=80 join_error=0.052267 total=6.4895s
+2026-11-08T19:05:24.250609+08:00 local end-to-end experiment finished

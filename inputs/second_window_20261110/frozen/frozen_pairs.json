@@ -1,0 +1,650 @@
+{
+  "contract_id": "D03-SECOND-WINDOW-20261110",
+  "status": "FROZEN_BEFORE_CONTENT_AND_LABEL_ACCESS",
+  "metadata_sha256": "2df47492fe29d94a41a39d2718baa1b87efe02b64d2102b9cc43307d70d976bc",
+  "excluded_old_pairs_sha256": "a72e933c640aa952abc4d838a4612eb317784afd07564f4cc6e7f7bffdf677b3",
+  "candidate_pages_after_exclusion": 429,
+  "excluded_page_count": 64,
+  "pairs": [
+    {
+      "sample_index": 0,
+      "pageid": 302084,
+      "title": "Decolonization",
+      "old_revid": 1384802505,
+      "new_revid": 1384802712,
+      "timestamp": "2026-11-10T03:35:06Z",
+      "oldlen": 113165,
+      "newlen": 113182
+    },
+    {
+      "sample_index": 1,
+      "pageid": 609947,
+      "title": "The Scottish Play",
+      "old_revid": 1384425719,
+      "new_revid": 1384803435,
+      "timestamp": "2026-11-10T03:38:17Z",
+      "oldlen": 14662,
+      "newlen": 14671
+    },
+    {
+      "sample_index": 2,
+      "pageid": 1049134,
+      "title": "Parramatta Road",
+      "old_revid": 1384802589,
+      "new_revid": 1384803283,
+      "timestamp": "2026-11-10T03:37:39Z",
+      "oldlen": 30456,
+      "newlen": 30656
+    },
+    {
+      "sample_index": 3,
+      "pageid": 1469933,
+      "title": "James Bateman (horticulturist)",
+      "old_revid": 1384803075,
+      "new_revid": 1384803392,
+      "timestamp": "2026-11-10T03:38:06Z",
+      "oldlen": 9930,
+      "newlen": 10030
+    },
+    {
+      "sample_index": 4,
+      "pageid": 1783590,
+      "title": "Power Macintosh 6100",
+      "old_revid": 1384798051,
+      "new_revid": 1384803273,
+      "timestamp": "2026-11-10T03:37:36Z",
+      "oldlen": 19286,
+      "newlen": 19074
+    },
+    {
+      "sample_index": 5,
+      "pageid": 1941798,
+      "title": "St. Louis Mills",
+      "old_revid": 1384802067,
+      "new_revid": 1384802616,
+      "timestamp": "2026-11-10T03:34:38Z",
+      "oldlen": 28831,
+      "newlen": 28952
+    },
+    {
+      "sample_index": 6,
+      "pageid": 2141500,
+      "title": "Lucia Micarelli",
+      "old_revid": 1384797851,
+      "new_revid": 1384802794,
+      "timestamp": "2026-11-10T03:35:27Z",
+      "oldlen": 6922,
+      "newlen": 6931
+    },
+    {
+      "sample_index": 7,
+      "pageid": 5690351,
+      "title": "North Shore Times",
+      "old_revid": 1384801259,
+      "new_revid": 1384803047,
+      "timestamp": "2026-11-10T03:36:35Z",
+      "oldlen": 7141,
+      "newlen": 7129
+    },
+    {
+      "sample_index": 8,
+      "pageid": 7077917,
+      "title": "2006–07 Ford Ranger One Day Cup season",
+      "old_revid": 1321624073,
+      "new_revid": 1384803044,
+      "timestamp": "2026-11-10T03:36:35Z",
+      "oldlen": 8195,
+      "newlen": 8241
+    },
+    {
+      "sample_index": 9,
+      "pageid": 7568400,
+      "title": "Zombie Squad",
+      "old_revid": 1384332610,
+      "new_revid": 1384802346,
+      "timestamp": "2026-11-10T03:33:33Z",
+      "oldlen": 11911,
+      "newlen": 11892
+    },
+    {
+      "sample_index": 10,
+      "pageid": 9576048,
+      "title": "Khor Rori",
+      "old_revid": 1384800793,
+      "new_revid": 1384803485,
+      "timestamp": "2026-11-10T03:38:29Z",
+      "oldlen": 18792,
+      "newlen": 18791
+    },
+    {
+      "sample_index": 11,
+      "pageid": 10819076,
+      "title": "Giant Robo",
+      "old_revid": 1382204177,
+      "new_revid": 1384802458,
+      "timestamp": "2026-11-10T03:33:58Z",
+      "oldlen": 11829,
+      "newlen": 12922
+    },
+    {
+      "sample_index": 12,
+      "pageid": 13673345,
+      "title": "Car",
+      "old_revid": 1382977045,
+      "new_revid": 1384802626,
+      "timestamp": "2026-11-10T03:34:41Z",
+      "oldlen": 109715,
+      "newlen": 109641
+    },
+    {
+      "sample_index": 13,
+      "pageid": 14813563,
+      "title": "SENP3",
+      "old_revid": 1300696378,
+      "new_revid": 1384803761,
+      "timestamp": "2026-11-10T03:39:29Z",
+      "oldlen": 7638,
+      "newlen": 7670
+    },
+    {
+      "sample_index": 14,
+      "pageid": 15226410,
+      "title": "LAS1L",
+      "old_revid": 1383154815,
+      "new_revid": 1384803708,
+      "timestamp": "2026-11-10T03:39:17Z",
+      "oldlen": 4358,
+      "newlen": 4390
+    },
+    {
+      "sample_index": 15,
+      "pageid": 20211999,
+      "title": "List of ArtCenter College of Design people",
+      "old_revid": 1380136065,
+      "new_revid": 1384802497,
+      "timestamp": "2026-11-10T03:34:07Z",
+      "oldlen": 30961,
+      "newlen": 30957
+    },
+    {
+      "sample_index": 16,
+      "pageid": 21414327,
+      "title": "Auktyon",
+      "old_revid": 1384803145,
+      "new_revid": 1384803984,
+      "timestamp": "2026-11-10T03:40:30Z",
+      "oldlen": 69061,
+      "newlen": 69062
+    },
+    {
+      "sample_index": 17,
+      "pageid": 21609264,
+      "title": "Air changes per hour",
+      "old_revid": 1384788896,
+      "new_revid": 1384803168,
+      "timestamp": "2026-11-10T03:37:08Z",
+      "oldlen": 18152,
+      "newlen": 18048
+    },
+    {
+      "sample_index": 18,
+      "pageid": 21952424,
+      "title": "Jean-Baptiste Broussier",
+      "old_revid": 1353427191,
+      "new_revid": 1384802276,
+      "timestamp": "2026-11-10T03:33:16Z",
+      "oldlen": 5962,
+      "newlen": 5969
+    },
+    {
+      "sample_index": 19,
+      "pageid": 22660404,
+      "title": "Raja Narendra Lal Khan Women's College",
+      "old_revid": 1379964124,
+      "new_revid": 1384802904,
+      "timestamp": "2026-11-10T03:35:56Z",
+      "oldlen": 7156,
+      "newlen": 7156
+    },
+    {
+      "sample_index": 20,
+      "pageid": 24582643,
+      "title": "Borut Javornik",
+      "old_revid": 1156541788,
+      "new_revid": 1384802686,
+      "timestamp": "2026-11-10T03:34:57Z",
+      "oldlen": 1298,
+      "newlen": 1359
+    },
+    {
+      "sample_index": 21,
+      "pageid": 26539196,
+      "title": "Jinxian South railway station",
+      "old_revid": 1364232747,
+      "new_revid": 1384803332,
+      "timestamp": "2026-11-10T03:37:52Z",
+      "oldlen": 671,
+      "newlen": 892
+    },
+    {
+      "sample_index": 22,
+      "pageid": 28038624,
+      "title": "Martin Evans (model engineer)",
+      "old_revid": 1288093763,
+      "new_revid": 1384803803,
+      "timestamp": "2026-11-10T03:39:40Z",
+      "oldlen": 6218,
+      "newlen": 6248
+    },
+    {
+      "sample_index": 23,
+      "pageid": 33493714,
+      "title": "Cyclophora albiocellaria",
+      "old_revid": 1329594597,
+      "new_revid": 1384803127,
+      "timestamp": "2026-11-10T03:36:57Z",
+      "oldlen": 2370,
+      "newlen": 2384
+    },
+    {
+      "sample_index": 24,
+      "pageid": 33832194,
+      "title": "Cyclophora intermixtaria",
+      "old_revid": 1329594970,
+      "new_revid": 1384803660,
+      "timestamp": "2026-11-10T03:39:06Z",
+      "oldlen": 2179,
+      "newlen": 2193
+    },
+    {
+      "sample_index": 25,
+      "pageid": 37130889,
+      "title": "2012–13 Ryobi One-Day Cup",
+      "old_revid": 1384802639,
+      "new_revid": 1384802748,
+      "timestamp": "2026-11-10T03:35:15Z",
+      "oldlen": 26273,
+      "newlen": 26230
+    },
+    {
+      "sample_index": 26,
+      "pageid": 39983925,
+      "title": "Cyclophora azorensis",
+      "old_revid": 1353042314,
+      "new_revid": 1384803252,
+      "timestamp": "2026-11-10T03:37:30Z",
+      "oldlen": 1342,
+      "newlen": 1352
+    },
+    {
+      "sample_index": 27,
+      "pageid": 40000938,
+      "title": "Cyclophora landanata",
+      "old_revid": 1329594973,
+      "new_revid": 1384803665,
+      "timestamp": "2026-11-10T03:39:08Z",
+      "oldlen": 1116,
+      "newlen": 1126
+    },
+    {
+      "sample_index": 28,
+      "pageid": 40000986,
+      "title": "Cyclophora lyciscaria",
+      "old_revid": 1342307844,
+      "new_revid": 1384803699,
+      "timestamp": "2026-11-10T03:39:17Z",
+      "oldlen": 1446,
+      "newlen": 1457
+    },
+    {
+      "sample_index": 29,
+      "pageid": 40001790,
+      "title": "Cyclophora dimerites",
+      "old_revid": 1353042355,
+      "new_revid": 1384803519,
+      "timestamp": "2026-11-10T03:38:36Z",
+      "oldlen": 1294,
+      "newlen": 1304
+    },
+    {
+      "sample_index": 30,
+      "pageid": 40002492,
+      "title": "Cyclophora compacta",
+      "old_revid": 1329594814,
+      "new_revid": 1384803322,
+      "timestamp": "2026-11-10T03:37:48Z",
+      "oldlen": 1320,
+      "newlen": 1329
+    },
+    {
+      "sample_index": 31,
+      "pageid": 40004293,
+      "title": "Cyclophora aquila",
+      "old_revid": 1362115728,
+      "new_revid": 1384803193,
+      "timestamp": "2026-11-10T03:37:14Z",
+      "oldlen": 949,
+      "newlen": 956
+    },
+    {
+      "sample_index": 32,
+      "pageid": 40004309,
+      "title": "Cyclophora ferruginata",
+      "old_revid": 1329594906,
+      "new_revid": 1384803563,
+      "timestamp": "2026-11-10T03:38:45Z",
+      "oldlen": 1049,
+      "newlen": 1061
+    },
+    {
+      "sample_index": 33,
+      "pageid": 40009614,
+      "title": "Cyclophora endospila",
+      "old_revid": 1353042367,
+      "new_revid": 1384803549,
+      "timestamp": "2026-11-10T03:38:42Z",
+      "oldlen": 1068,
+      "newlen": 1078
+    },
+    {
+      "sample_index": 34,
+      "pageid": 40010276,
+      "title": "Cyclophora megista",
+      "old_revid": 1329595286,
+      "new_revid": 1384803717,
+      "timestamp": "2026-11-10T03:39:20Z",
+      "oldlen": 1059,
+      "newlen": 1067
+    },
+    {
+      "sample_index": 35,
+      "pageid": 40104681,
+      "title": "Cyclophora aequalipunctata",
+      "old_revid": 1329594580,
+      "new_revid": 1384803107,
+      "timestamp": "2026-11-10T03:36:53Z",
+      "oldlen": 1320,
+      "newlen": 1336
+    },
+    {
+      "sample_index": 36,
+      "pageid": 40230908,
+      "title": "Cyclophora anablemma",
+      "old_revid": 1353042290,
+      "new_revid": 1384803148,
+      "timestamp": "2026-11-10T03:37:02Z",
+      "oldlen": 1043,
+      "newlen": 1053
+    },
+    {
+      "sample_index": 37,
+      "pageid": 40230930,
+      "title": "Cyclophora antennaria",
+      "old_revid": 1329594640,
+      "new_revid": 1384803180,
+      "timestamp": "2026-11-10T03:37:11Z",
+      "oldlen": 1055,
+      "newlen": 1066
+    },
+    {
+      "sample_index": 38,
+      "pageid": 40247286,
+      "title": "Cyclophora argyromyces",
+      "old_revid": 1353042307,
+      "new_revid": 1384803203,
+      "timestamp": "2026-11-10T03:37:17Z",
+      "oldlen": 1148,
+      "newlen": 1160
+    },
+    {
+      "sample_index": 39,
+      "pageid": 40249501,
+      "title": "Cyclophora coenosata",
+      "old_revid": 1329594808,
+      "new_revid": 1384803311,
+      "timestamp": "2026-11-10T03:37:45Z",
+      "oldlen": 1002,
+      "newlen": 1012
+    },
+    {
+      "sample_index": 40,
+      "pageid": 47802257,
+      "title": "Joshua Ryne Goldberg",
+      "old_revid": 1384796190,
+      "new_revid": 1384802849,
+      "timestamp": "2026-11-10T03:35:42Z",
+      "oldlen": 35764,
+      "newlen": 35987
+    },
+    {
+      "sample_index": 41,
+      "pageid": 49072341,
+      "title": "F-block metallocene",
+      "old_revid": 1369966455,
+      "new_revid": 1384802535,
+      "timestamp": "2026-11-10T03:34:18Z",
+      "oldlen": 13743,
+      "newlen": 13827
+    },
+    {
+      "sample_index": 42,
+      "pageid": 53522344,
+      "title": "1887 San Diego mayoral election",
+      "old_revid": 1382405818,
+      "new_revid": 1384803356,
+      "timestamp": "2026-11-10T03:37:57Z",
+      "oldlen": 4473,
+      "newlen": 4423
+    },
+    {
+      "sample_index": 43,
+      "pageid": 53525055,
+      "title": "1891 San Diego mayoral election",
+      "old_revid": 1382405913,
+      "new_revid": 1384803474,
+      "timestamp": "2026-11-10T03:38:26Z",
+      "oldlen": 3432,
+      "newlen": 3376
+    },
+    {
+      "sample_index": 44,
+      "pageid": 53534379,
+      "title": "1905 San Diego mayoral election",
+      "old_revid": 1382406372,
+      "new_revid": 1384803913,
+      "timestamp": "2026-11-10T03:40:14Z",
+      "oldlen": 4271,
+      "newlen": 4221
+    },
+    {
+      "sample_index": 45,
+      "pageid": 54426356,
+      "title": "68 Kill",
+      "old_revid": 1381464900,
+      "new_revid": 1384803383,
+      "timestamp": "2026-11-10T03:38:04Z",
+      "oldlen": 9285,
+      "newlen": 9159
+    },
+    {
+      "sample_index": 46,
+      "pageid": 56908559,
+      "title": "1895 Boston mayoral election",
+      "old_revid": 1382540295,
+      "new_revid": 1384802884,
+      "timestamp": "2026-11-10T03:35:51Z",
+      "oldlen": 12972,
+      "newlen": 12966
+    },
+    {
+      "sample_index": 47,
+      "pageid": 59565609,
+      "title": "2020 United States presidential election in Texas",
+      "old_revid": 1382639277,
+      "new_revid": 1384803149,
+      "timestamp": "2026-11-10T03:37:03Z",
+      "oldlen": 244522,
+      "newlen": 244519
+    },
+    {
+      "sample_index": 48,
+      "pageid": 64674834,
+      "title": "Humanities, arts, and social sciences",
+      "old_revid": 1381690986,
+      "new_revid": 1384803182,
+      "timestamp": "2026-11-10T03:37:12Z",
+      "oldlen": 5777,
+      "newlen": 5781
+    },
+    {
+      "sample_index": 49,
+      "pageid": 68286384,
+      "title": "2021–22 Marsh One-Day Cup",
+      "old_revid": 1384035322,
+      "new_revid": 1384802251,
+      "timestamp": "2026-11-10T03:33:10Z",
+      "oldlen": 24239,
+      "newlen": 24285
+    },
+    {
+      "sample_index": 50,
+      "pageid": 69245413,
+      "title": "Mercury World Tour",
+      "old_revid": 1384714536,
+      "new_revid": 1384803845,
+      "timestamp": "2026-11-10T03:39:53Z",
+      "oldlen": 27214,
+      "newlen": 27194
+    },
+    {
+      "sample_index": 51,
+      "pageid": 74691610,
+      "title": "2SLGBT",
+      "old_revid": 1287377173,
+      "new_revid": 1384803815,
+      "timestamp": "2026-11-10T03:39:43Z",
+      "oldlen": 117,
+      "newlen": 92
+    },
+    {
+      "sample_index": 52,
+      "pageid": 76273302,
+      "title": "When I Give My Love",
+      "old_revid": 1369729688,
+      "new_revid": 1384802551,
+      "timestamp": "2026-11-10T03:34:21Z",
+      "oldlen": 1809,
+      "newlen": 1828
+    },
+    {
+      "sample_index": 53,
+      "pageid": 78318715,
+      "title": "Ramayana: Part 1",
+      "old_revid": 1384803567,
+      "new_revid": 1384803787,
+      "timestamp": "2026-11-10T03:39:36Z",
+      "oldlen": 144849,
+      "newlen": 144849
+    },
+    {
+      "sample_index": 54,
+      "pageid": 78389952,
+      "title": "2026 United States House of Representatives elections in Colorado",
+      "old_revid": 1384799106,
+      "new_revid": 1384803265,
+      "timestamp": "2026-11-10T03:37:33Z",
+      "oldlen": 145229,
+      "newlen": 145314
+    },
+    {
+      "sample_index": 55,
+      "pageid": 78935743,
+      "title": "Planes 2: Fire & Rescue",
+      "old_revid": 1383420359,
+      "new_revid": 1384803441,
+      "timestamp": "2026-11-10T03:38:18Z",
+      "oldlen": 93,
+      "newlen": 92
+    },
+    {
+      "sample_index": 56,
+      "pageid": 79422412,
+      "title": "2025 Mountain West Conference football season",
+      "old_revid": 1384802685,
+      "new_revid": 1384802788,
+      "timestamp": "2026-11-10T03:35:27Z",
+      "oldlen": 111027,
+      "newlen": 111031
+    },
+    {
+      "sample_index": 57,
+      "pageid": 79426138,
+      "title": "Mahmoud Khalil",
+      "old_revid": 1381273928,
+      "new_revid": 1384802216,
+      "timestamp": "2026-11-10T03:33:00Z",
+      "oldlen": 40582,
+      "newlen": 39903
+    },
+    {
+      "sample_index": 58,
+      "pageid": 80303789,
+      "title": "2026 New York State Assembly election",
+      "old_revid": 1384801643,
+      "new_revid": 1384803983,
+      "timestamp": "2026-11-10T03:40:30Z",
+      "oldlen": 136826,
+      "newlen": 137045
+    },
+    {
+      "sample_index": 59,
+      "pageid": 81929985,
+      "title": "Diamond Diplomacy",
+      "old_revid": 1383733209,
+      "new_revid": 1384802395,
+      "timestamp": "2026-11-10T03:33:45Z",
+      "oldlen": 13638,
+      "newlen": 13877
+    },
+    {
+      "sample_index": 60,
+      "pageid": 84341828,
+      "title": "2026–27 NCL Premier",
+      "old_revid": 1383418684,
+      "new_revid": 1384803468,
+      "timestamp": "2026-11-10T03:38:26Z",
+      "oldlen": 13662,
+      "newlen": 13662
+    },
+    {
+      "sample_index": 61,
+      "pageid": 84654932,
+      "title": "Tad the Lost Explorer 3",
+      "old_revid": 1383419629,
+      "new_revid": 1384803760,
+      "timestamp": "2026-11-10T03:39:30Z",
+      "oldlen": 152,
+      "newlen": 151
+    },
+    {
+      "sample_index": 62,
+      "pageid": 84673603,
+      "title": "2026 Palm Beach County Learjet 60 crash",
+      "old_revid": 1384778102,
+      "new_revid": 1384803689,
+      "timestamp": "2026-11-10T03:39:14Z",
+      "oldlen": 26437,
+      "newlen": 26906
+    },
+    {
+      "sample_index": 63,
+      "pageid": 84681060,
+      "title": "Planes 2 Fire & Rescue",
+      "old_revid": 1383420568,
+      "new_revid": 1384803393,
+      "timestamp": "2026-11-10T03:38:06Z",
+      "oldlen": 128,
+      "newlen": 127
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "all_actions_feasible": true,
+    "all_dp_milp_checks_match": true,
+    "all_gaps_nonnegative": true,
+    "candidate_count_145": true,
+    "csv_json_row_count_match": true,
+    "exact_gap_zero": true,
+    "five_methods_each_cell": true,
+    "four_budget_fractions": true,
+    "four_pairings": true,
+    "observed_degree_max_gap_below_one_percent": true,
+    "observed_density_max_gap_below_half_percent": true,
+    "observed_positive_rank_correlation": true,
+    "producer_status_verified": true,
+    "random_has_1000_repetitions": true
+  },
+  "csv_sha256": "728ffafc65a6215714e4b7ed1b1f0aae39e0de3aea05b55368ad8a55674ef268",
+  "json_sha256": "f448ae430a1a2d3de442745bc9f4a19895db40bca5bd5bd6b25a5ffb90057473",
+  "record_count": 80,
+  "status": "VERIFIED"
+}

@@ -1,0 +1,58 @@
+{
+  "status": "VERIFIED",
+  "checks": {
+    "execution_finished": true,
+    "twelve_rows": true,
+    "two_windows_two_budgets": true,
+    "result_hash_matches_record": true,
+    "all_group_checks_pass": true,
+    "positive_external_denominators": true
+  },
+  "group_checks": {
+    "window_1_b32": {
+      "three_methods": true,
+      "same_selected_set": true,
+      "same_selected_weight": true,
+      "same_residual_weight": true,
+      "same_filter_error": true,
+      "same_join_error": true,
+      "same_group_error": true,
+      "dual_iterated": true
+    },
+    "window_1_b80": {
+      "three_methods": true,
+      "same_selected_set": true,
+      "same_selected_weight": true,
+      "same_residual_weight": true,
+      "same_filter_error": true,
+      "same_join_error": true,
+      "same_group_error": true,
+      "dual_iterated": true
+    },
+    "window_2_b32": {
+      "three_methods": true,
+      "same_selected_set": true,
+      "same_selected_weight": true,
+      "same_residual_weight": true,
+      "same_filter_error": true,
+      "same_join_error": true,
+      "same_group_error": true,
+      "dual_iterated": true
+    },
+    "window_2_b80": {
+      "three_methods": true,
+      "same_selected_set": true,
+      "same_selected_weight": true,
+      "same_residual_weight": true,
+      "same_filter_error": true,
+      "same_join_error": true,
+      "same_group_error": true,
+      "dual_iterated": true
+    }
+  },
+  "hashes": {
+    "result_csv": "598fa1a39fe72f3bafd07ad10752929075e7ec82820609ba13ec5eb9672e16da",
+    "execution_record": "36771d040ed1490a24c36b10c87da4180f02c6b0aa95c402d7cb0c397ab227e2",
+    "verifier": "536ae1038fa587aa1be6171cafda30bfb07c6f4ecc47e062023ee9ea29fc07f9"
+  }
+}

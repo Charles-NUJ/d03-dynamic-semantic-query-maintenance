@@ -1,0 +1,9 @@
+{
+  "time": "2026-11-01T16:43:02.853808+08:00",
+  "python": "3.11.5 | packaged by Anaconda, Inc. | (main, Sep 11 2023, 13:26:23) [MSC v.1916 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "torch": "2.1.0+cu121",
+  "transformers": "4.48.3",
+  "cuda": "12.1",
+  "gpu": "NVIDIA GeForce RTX 3080 Laptop GPU, 3120 MiB, 1 %"
+}

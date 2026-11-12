@@ -1,0 +1,171 @@
+{
+  "status": "VERIFIED",
+  "study": "Controlled structural regime map over changed-input fraction, join-degree heterogeneity, and budget coverage.",
+  "causal_contract": "Every policy sees the generated changed set, generated current degrees, and budget before selection. Realized transitions remain hidden.",
+  "controlled_construction": "The semantic labels and transition cells are frozen from the natural trace. Every generated changed set contains all transition cells. Degree multisets are assigned at document level, independently of transitions, with fixed total relation mass.",
+  "counts": {
+    "cells": 320,
+    "documents": 64,
+    "transition_cells": 23,
+    "observed_reference_rows": 5933,
+    "controlled_reference_rows": 5952,
+    "summary_rows": 384,
+    "repetitions_per_cell": 200
+  },
+  "factors": {
+    "changed_fractions": [
+      0.1,
+      0.25,
+      0.453125,
+      1.0
+    ],
+    "target_degree_cvs": [
+      0.0,
+      0.5,
+      1.0,
+      1.88
+    ],
+    "achieved_degree_cvs": {
+      "0.0": 0.0,
+      "0.5": 0.4998229250556098,
+      "1.0": 1.000460568582758,
+      "1.88": 1.8801385439955947
+    },
+    "budget_fractions_of_changed": [
+      0.1,
+      0.25,
+      0.55,
+      1.0
+    ],
+    "methods": [
+      "random_all",
+      "random_changed",
+      "input_change_id",
+      "degree_all",
+      "signature_degree_ours",
+      "hindsight_oracle"
+    ]
+  },
+  "checks": {
+    "expected_row_count": true,
+    "all_repetitions_present": true,
+    "all_changed_equals_degree_all": true,
+    "uniform_degree_equals_changed_id_minimax": true,
+    "sufficient_budget_zero_for_changed_first": true,
+    "special_structure_improves_minimax_over_single_controls": true,
+    "special_structure_improves_realized_error_over_single_controls": true,
+    "selection_respects_call_cap": true,
+    "positive_generated_degrees": true
+  },
+  "special_structure_low_budget_cell": {
+    "random_changed": {
+      "changed_fraction": 0.453125,
+      "changed_count": 145,
+      "target_degree_cv": 1.88,
+      "achieved_degree_cv": 1.8801385439955947,
+      "budget_fraction_of_changed": 0.25,
+      "budget": 36,
+      "method": "random_changed",
+      "repetitions": 200,
+      "mean_calls": 36.0,
+      "mean_stable_calls": 0.0,
+      "mean_minimax_residual_fraction": 0.755619566175048,
+      "std_minimax_residual_fraction": 0.0637757339871516,
+      "mean_realized_join_error_fraction": 0.13187358415897066,
+      "std_realized_join_error_fraction": 0.09769313857637818
+    },
+    "degree_all": {
+      "changed_fraction": 0.453125,
+      "changed_count": 145,
+      "target_degree_cv": 1.88,
+      "achieved_degree_cv": 1.8801385439955947,
+      "budget_fraction_of_changed": 0.25,
+      "budget": 36,
+      "method": "degree_all",
+      "repetitions": 200,
+      "mean_calls": 36.0,
+      "mean_stable_calls": 19.405,
+      "mean_minimax_residual_fraction": 0.4308638699595827,
+      "std_minimax_residual_fraction": 0.06306472149478426,
+      "mean_realized_join_error_fraction": 0.0738976679238998,
+      "std_realized_join_error_fraction": 0.032754352952324754
+    },
+    "signature_degree_ours": {
+      "changed_fraction": 0.453125,
+      "changed_count": 145,
+      "target_degree_cv": 1.88,
+      "achieved_degree_cv": 1.8801385439955947,
+      "budget_fraction_of_changed": 0.25,
+      "budget": 36,
+      "method": "signature_degree_ours",
+      "repetitions": 200,
+      "mean_calls": 36.0,
+      "mean_stable_calls": 0.0,
+      "mean_minimax_residual_fraction": 0.23657396267912734,
+      "std_minimax_residual_fraction": 0.025233624888605723,
+      "mean_realized_join_error_fraction": 0.04132293713841055,
+      "std_realized_join_error_fraction": 0.01875670736291033
+    }
+  },
+  "special_structure_observed_budget_cell": {
+    "random_changed": {
+      "changed_fraction": 0.453125,
+      "changed_count": 145,
+      "target_degree_cv": 1.88,
+      "achieved_degree_cv": 1.8801385439955947,
+      "budget_fraction_of_changed": 0.55,
+      "budget": 80,
+      "method": "random_changed",
+      "repetitions": 200,
+      "mean_calls": 80.0,
+      "mean_stable_calls": 0.0,
+      "mean_minimax_residual_fraction": 0.4445689499159668,
+      "std_minimax_residual_fraction": 0.07674541607006799,
+      "mean_realized_join_error_fraction": 0.08029325410893363,
+      "std_realized_join_error_fraction": 0.0686673510525163
+    },
+    "degree_all": {
+      "changed_fraction": 0.453125,
+      "changed_count": 145,
+      "target_degree_cv": 1.88,
+      "achieved_degree_cv": 1.8801385439955947,
+      "budget_fraction_of_changed": 0.55,
+      "budget": 80,
+      "method": "degree_all",
+      "repetitions": 200,
+      "mean_calls": 80.0,
+      "mean_stable_calls": 43.475,
+      "mean_minimax_residual_fraction": 0.23346663799864067,
+      "std_minimax_residual_fraction": 0.03779277400755128,
+      "mean_realized_join_error_fraction": 0.039652574907602614,
+      "std_realized_join_error_fraction": 0.017945463229098832
+    },
+    "signature_degree_ours": {
+      "changed_fraction": 0.453125,
+      "changed_count": 145,
+      "target_degree_cv": 1.88,
+      "achieved_degree_cv": 1.8801385439955947,
+      "budget_fraction_of_changed": 0.55,
+      "budget": 80,
+      "method": "signature_degree_ours",
+      "repetitions": 200,
+      "mean_calls": 80.0,
+      "mean_stable_calls": 0.0,
+      "mean_minimax_residual_fraction": 0.06333807855748946,
+      "std_minimax_residual_fraction": 0.00817294928787947,
+      "mean_realized_join_error_fraction": 0.010999307194166776,
+      "std_realized_join_error_fraction": 0.005064104260934139
+    }
+  },
+  "ordinary_boundaries": {
+    "all_inputs_changed": "ours equals degree-only selection",
+    "uniform_join_degree": "ours equals changed-input/ID in minimax residual",
+    "budget_covers_changed_layer": "every changed-first rule reaches zero"
+  },
+  "evidence_boundary": "This controlled study explains structural activation using one frozen set of semantic outcomes. It does not estimate production occurrence frequency.",
+  "hashes": {
+    "database": "a11bdfeec802775c88391da41736e96e30dd00aba6788fd53e21fd269fe37a39",
+    "script": "c0d2d9a4d0ffc96be69f545f41055ed534387d71787fe13efe9c252c415db2bd",
+    "summary_csv": "5a02dfe9b606b5b7355e8561d79a2618c7cd1075403a99c65b66adcd3dfc7c47"
+  }
+}

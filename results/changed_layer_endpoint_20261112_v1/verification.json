@@ -1,0 +1,23 @@
+{
+  "status": "VERIFIED",
+  "checks": {
+    "experiment_id": true,
+    "three_records": true,
+    "all_calls_145": true,
+    "zero_stable_calls": true,
+    "zero_filter_and_join_error": true,
+    "positive_denominators": true,
+    "timing_parts_positive": true,
+    "input_hashes_match": true
+  },
+  "summary_sha256": "64BA9251B0A7DE2CBA10B141014887C342742F6BE8713521460C66D9AA84318A",
+  "records_sha256": "9A2B534A0632B3EFDC2494A9DF72BDCC2B1A32400E9C110249B3281BCF679961",
+  "input_manifest_sha256": "12C754C9A107DDC84C6AD5D6BDA9C731A7331F51FFE10D72EAC67B897AA9D4CF",
+  "median_seconds": {
+    "prepare": 2.4256973000010476,
+    "selection": 8.739999975659885e-05,
+    "semantic": 6.861049199997069,
+    "publish": 0.0008654000012029428,
+    "total": 9.300444900000002
+  }
+}

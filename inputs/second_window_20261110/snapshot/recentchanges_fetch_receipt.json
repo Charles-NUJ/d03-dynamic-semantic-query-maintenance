@@ -1,0 +1,17 @@
+{
+  "status": "FETCHED_BEFORE_PAIR_SELECTION",
+  "time_utc": "2026-11-10T03:40:43.979997+00:00",
+  "url_parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "list": "recentchanges",
+    "rcnamespace": "0",
+    "rctype": "edit",
+    "rcshow": "!bot",
+    "rcprop": "title|ids|sizes|flags|timestamp",
+    "rclimit": "500"
+  },
+  "rows": 500,
+  "output_sha256": "2df47492fe29d94a41a39d2718baa1b87efe02b64d2102b9cc43307d70d976bc"
+}

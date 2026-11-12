@@ -1,0 +1,101 @@
+{
+  "reuse_all": {
+    "display": "Reuse-all (endpoint)",
+    "kind": "complete endpoint",
+    "sources": [],
+    "note": "Keep every stored semantic value after the document update."
+  },
+  "lineage_only": {
+    "display": "Lineage-full refresh [Metaxy, mlidea]",
+    "kind": "ability-matched literature adaptation",
+    "sources": [
+      "metaxy",
+      "mlidea"
+    ],
+    "note": "Recompute every semantic cell reached by exact version lineage; this is not a reproduction of either system."
+  },
+  "uniform_clean": {
+    "display": "SVC-style uniform [SVC]",
+    "kind": "ability-matched literature adaptation",
+    "sources": [
+      "svc"
+    ],
+    "note": "Transfer only uniform sample selection from SVC; omit its aggregate estimator and outlier index, and score the maintained filter and join directly."
+  },
+  "ttl_control": {
+    "display": "TTL greedy (control)",
+    "kind": "system control",
+    "sources": [],
+    "note": "Prioritize the oldest stored source version."
+  },
+  "edit_control": {
+    "display": "Edit greedy (control)",
+    "kind": "problem-specific control",
+    "sources": [],
+    "note": "Prioritize relative document-length change without reading the new semantic value."
+  },
+  "proxy_priority": {
+    "display": "Proxy uncertainty [SUPG]",
+    "kind": "ability-matched literature adaptation",
+    "sources": [
+      "supg"
+    ],
+    "note": "Transfer proxy-guided evaluation from SUPG and rank stored prediction uncertainty; this is not a reproduction of SUPG."
+  },
+  "influence_only": {
+    "display": "Link-degree greedy (ours)",
+    "kind": "structural ablation",
+    "sources": [],
+    "note": "Rank only by the number of current main-namespace links in the materialized join relation."
+  },
+  "change_only_control": {
+    "display": "Input-change/ID (ours)",
+    "kind": "structural ablation",
+    "sources": [],
+    "note": "Prioritize cells whose fixed operator input signature changed; break ties by cell identifier."
+  },
+  "change_random_control": {
+    "display": "Input-change random (ours)",
+    "kind": "randomized structural control",
+    "sources": [],
+    "note": "Restrict calls to changed input signatures and choose uniformly among those cells."
+  },
+  "ttl_x_influence": {
+    "display": "TTL-degree greedy (control)",
+    "kind": "query-aware control",
+    "sources": [],
+    "note": "Rank by stored-value age times current link degree."
+  },
+  "edit_x_influence": {
+    "display": "Edit-degree greedy (control)",
+    "kind": "query-aware control",
+    "sources": [],
+    "note": "Rank by relative document-length change times current link degree."
+  },
+  "proxy_x_influence": {
+    "display": "Proxy-degree [SUPG]",
+    "kind": "ability-matched query-aware adaptation",
+    "sources": [
+      "supg"
+    ],
+    "note": "Multiply stored prediction uncertainty by current link degree; no external system is reproduced."
+  },
+  "change_x_influence_ours": {
+    "display": "Signature-degree repair (ours)",
+    "kind": "our method",
+    "sources": [],
+    "note": "Use exact fixed-input invariance, then minimize the worst-case residual join-row error by link degree."
+  },
+  "hindsight_filter": {
+    "display": "Hindsight-filter (oracle)",
+    "kind": "noncausal lower bound",
+    "sources": [],
+    "note": "Read the hidden transition before selection and prioritize every changed label."
+  },
+  "hindsight_join": {
+    "display": "Hindsight-join (oracle)",
+    "kind": "noncausal lower bound",
+    "sources": [],
+    "note": "Read the hidden transition and its current join degree before selection."
+  }
+}

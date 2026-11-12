@@ -1,0 +1,28 @@
+{
+  "boundary": "This verifier establishes deterministic omission sensitivity and summary arithmetic. It does not establish independent replication, production frequency, or business importance.",
+  "checks": {
+    "expected_methods": true,
+    "fixed_budget": true,
+    "four_methods_per_document": true,
+    "input_hashes_match": true,
+    "positive_denominators": true,
+    "primary_reproduced_csv_identical": true,
+    "primary_reproduced_json_identical": true,
+    "primary_status_finished": true,
+    "selection_respects_cap": true,
+    "sensitivity_boundary_registered": true,
+    "sixty_four_documents": true,
+    "summary_recomputed": true
+  },
+  "counts": {
+    "documents": 64,
+    "rows": 256
+  },
+  "hashes": {
+    "primary_csv": "7432b1dab4707b40efe556e1d9c5f009f896836128ef895c4f1c16ebb59c0061",
+    "primary_json": "2b44a8460f8767ab3b85194b5b29a23c4eedc45917c5e5fc0539b412121f7ac3",
+    "reproduced_csv": "7432b1dab4707b40efe556e1d9c5f009f896836128ef895c4f1c16ebb59c0061",
+    "reproduced_json": "2b44a8460f8767ab3b85194b5b29a23c4eedc45917c5e5fc0539b412121f7ac3"
+  },
+  "status": "VERIFIED"
+}

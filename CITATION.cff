@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the accompanying paper."
+title: "Budgeted Repair of Versioned Semantic Joins with Input Signatures"
+type: software
+authors:
+  - family-names: Hu
+    given-names: Penghui
+    orcid: "https://orcid.org/0000-0002-7202-4824"
+  - family-names: Li
+    given-names: Ying
+    orcid: "https://orcid.org/0009-0005-9902-0945"
+  - family-names: Wang
+    given-names: Jian
+    orcid: "https://orcid.org/0000-0001-5149-4619"
+license: MIT
+repository-code: "https://github.com/Charles-NUJ/d03-dynamic-semantic-query-maintenance"
+date-released: 2026-11-12

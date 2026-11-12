@@ -1,0 +1,40 @@
+{
+  "status": "VERIFIED",
+  "claim": "Selecting the largest positive join degrees among changed-input cells minimizes worst-case residual join-row error for every transition-cardinality cap gamma.",
+  "scope": {
+    "semantic_cells": 4,
+    "degree_values": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "input_change_patterns": 16,
+    "budgets": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "transition_caps_gamma": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "instances": 102400,
+  "feasible_actions_checked": 983040,
+  "adversary_patterns_checked": 3649536,
+  "simultaneous_optimality_checks": 102400,
+  "checks": {
+    "cardinality_capped_order_statistic_identity": true,
+    "top_degree_optimal_for_every_gamma": true,
+    "worst_case_nondecreasing_in_gamma": true,
+    "uncapped_theorem_recovered_at_gamma_n": true
+  },
+  "scientific_boundary": "Finite exhaustive verification supports but does not replace the general exchange/majorization proof. Gamma limits the number of hidden semantic transitions; it is not a control variable.",
+  "script_sha256_before_output": "74f10a39e949017ea1158502949008a87c96f729cb00253ad0a5fe4c4f2b9f9f"
+}

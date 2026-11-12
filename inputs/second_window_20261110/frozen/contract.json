@@ -1,0 +1,31 @@
+{
+  "contract_id": "D03-SECOND-WINDOW-20261110",
+  "status": "FROZEN_BEFORE_CONTENT_AND_LABEL_ACCESS",
+  "source": "English Wikipedia MediaWiki API recentchanges, main namespace, edit events, non-bot filter",
+  "metadata_sha256": "2df47492fe29d94a41a39d2718baa1b87efe02b64d2102b9cc43307d70d976bc",
+  "excluded_old_pairs_sha256": "a72e933c640aa952abc4d838a4612eb317784afd07564f4cc6e7f7bffdf677b3",
+  "selection_seed": 20261110,
+  "target_pairs": 64,
+  "selection_rule": "exclude all page IDs from the 2026-11-01 window; retain one latest observed edit per remaining page; sort by page ID; sample with Python random.Random(seed) without replacement",
+  "semantic_predicates": [
+    "The main subject is a living person.",
+    "The main subject is an organization.",
+    "The document describes an event that has already occurred.",
+    "The document describes a planned or future event.",
+    "The document states that the main subject currently holds an official position."
+  ],
+  "model": "local Qwen2.5-0.5B-Instruct",
+  "decoding": {
+    "temperature": 0,
+    "max_input_tokens": 768,
+    "max_new_tokens": 2,
+    "required_output": "0 or 1"
+  },
+  "scientific_boundaries": [
+    "This is a second recent-edit window, not a population estimate.",
+    "The 64 page IDs are disjoint from the first window.",
+    "The collection process, predicates, and fixed model remain the same.",
+    "Model transitions are not human semantic truth.",
+    "The sample is frozen before revision content and model labels are read."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "status": "FINISHED",
+  "output_files": {
+    "structured_database.sqlite": {
+      "bytes": 491520,
+      "sha256": "a58ed41a64662d32b4f8b134420aa3f1f12d362179ecaca4c02cf76115b6fe37"
+    },
+    "method_source_map.json": {
+      "bytes": 3678,
+      "sha256": "0993524295ef43fd961230748a18b5c82ecfd6901e6145d6ffc2d62affb2466d"
+    },
+    "reference_relation.json": {
+      "bytes": 351809,
+      "sha256": "467f14ff9450b982b8c6853aaec53dd769298fde9c6e568e58df826259c5fd7d"
+    },
+    "method_results.csv": {
+      "bytes": 8358,
+      "sha256": "d79e4bf886f54add2d6315f076d7f548643275488a44f7c63d024fd2ee83fe63"
+    },
+    "structural_ablation.csv": {
+      "bytes": 1196,
+      "sha256": "3fda17f0fecb53f86a7e0e82270c3aef7b46ac0323fd1be4226c16c6204a3b53"
+    },
+    "summary.json": {
+      "bytes": 43832,
+      "sha256": "b29fce568355ab9798604c45c26ed45b93e51196c97c32696b94425e0158985e"
+    }
+  }
+}

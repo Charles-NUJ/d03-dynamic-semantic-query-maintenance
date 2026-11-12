@@ -1,0 +1,34 @@
+{
+  "status": "VERIFIED",
+  "checks": {
+    "primary_status_verified": true,
+    "reproduced_status_verified": true,
+    "primary_internal_checks_pass": true,
+    "reproduced_internal_checks_pass": true,
+    "summary_hashes_match": true,
+    "summary_rows_match": true,
+    "expected_summary_rows": true,
+    "two_hundred_repetitions_each": true,
+    "database_hashes_match": true,
+    "script_hashes_match": true,
+    "ordinary_boundaries_recorded": true,
+    "all_changed_equality_recomputed": true,
+    "uniform_degree_equality_recomputed": true,
+    "full_budget_zero_recomputed": true,
+    "special_structure_gain_recomputed": true,
+    "ours_never_spends_on_stable_cells": true
+  },
+  "primary": {
+    "json": "artifact\\results\\structure_map\\structural_regime_map.json",
+    "json_sha256": "e8363e0abf6ecac2307a6d32e7f447055bf7ab6a4b6289c07ce6946e5d1e8a9c",
+    "csv": "artifact\\results\\structure_map\\structural_regime_map.csv",
+    "csv_sha256": "5a02dfe9b606b5b7355e8561d79a2618c7cd1075403a99c65b66adcd3dfc7c47"
+  },
+  "reproduced": {
+    "json": "artifact\\reproduced_results\\structure_map\\structural_regime_map.json",
+    "json_sha256": "e8363e0abf6ecac2307a6d32e7f447055bf7ab6a4b6289c07ce6946e5d1e8a9c",
+    "csv": "artifact\\reproduced_results\\structure_map\\structural_regime_map.csv",
+    "csv_sha256": "5a02dfe9b606b5b7355e8561d79a2618c7cd1075403a99c65b66adcd3dfc7c47"
+  },
+  "boundary": "This verifier checks deterministic reproduction and registered structural equalities. It does not validate production frequency or user demand."
+}

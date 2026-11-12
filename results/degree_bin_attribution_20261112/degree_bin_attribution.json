@@ -1,0 +1,105 @@
+{
+  "status": "VERIFIED_POSTHOC",
+  "selection_contract": "Both methods use the same 80-call cap and changed set; label_flip is used only after selection.",
+  "inputs": {
+    "rows_sha256": "CFB8431962DCA8333E783B03EBDC7132CFF5CB236D6C563847FF7585B01218D0",
+    "reference_sha256": "91F254DB2E99A4CFA94D9491D5915E31CCA752BCBA1AC29A7BBACAF3086D566B"
+  },
+  "changed_cells": 145,
+  "budget": 80,
+  "bins": [
+    {
+      "degree_bin": "3--21",
+      "method": "input_change_id",
+      "changed_cells": 40,
+      "transition_cells": 0,
+      "transition_fraction": 0.0,
+      "selected_cells": 20,
+      "selected_transition_cells": 0,
+      "repaired_transition_rows": 0,
+      "remaining_transition_rows": 0
+    },
+    {
+      "degree_bin": "3--21",
+      "method": "signature_degree_ours",
+      "changed_cells": 40,
+      "transition_cells": 0,
+      "transition_fraction": 0.0,
+      "selected_cells": 0,
+      "selected_transition_cells": 0,
+      "repaired_transition_rows": 0,
+      "remaining_transition_rows": 0
+    },
+    {
+      "degree_bin": "23--32",
+      "method": "input_change_id",
+      "changed_cells": 35,
+      "transition_cells": 7,
+      "transition_fraction": 0.2,
+      "selected_cells": 10,
+      "selected_transition_cells": 1,
+      "repaired_transition_rows": 23,
+      "remaining_transition_rows": 188
+    },
+    {
+      "degree_bin": "23--32",
+      "method": "signature_degree_ours",
+      "changed_cells": 35,
+      "transition_cells": 7,
+      "transition_fraction": 0.2,
+      "selected_cells": 10,
+      "selected_transition_cells": 5,
+      "repaired_transition_rows": 160,
+      "remaining_transition_rows": 51
+    },
+    {
+      "degree_bin": "35--64",
+      "method": "input_change_id",
+      "changed_cells": 35,
+      "transition_cells": 8,
+      "transition_fraction": 0.22857142857142856,
+      "selected_cells": 20,
+      "selected_transition_cells": 5,
+      "repaired_transition_rows": 251,
+      "remaining_transition_rows": 121
+    },
+    {
+      "degree_bin": "35--64",
+      "method": "signature_degree_ours",
+      "changed_cells": 35,
+      "transition_cells": 8,
+      "transition_fraction": 0.22857142857142856,
+      "selected_cells": 35,
+      "selected_transition_cells": 8,
+      "repaired_transition_rows": 372,
+      "remaining_transition_rows": 0
+    },
+    {
+      "degree_bin": "67--1350",
+      "method": "input_change_id",
+      "changed_cells": 35,
+      "transition_cells": 8,
+      "transition_fraction": 0.22857142857142856,
+      "selected_cells": 30,
+      "selected_transition_cells": 8,
+      "repaired_transition_rows": 2512,
+      "remaining_transition_rows": 0
+    },
+    {
+      "degree_bin": "67--1350",
+      "method": "signature_degree_ours",
+      "changed_cells": 35,
+      "transition_cells": 8,
+      "transition_fraction": 0.22857142857142856,
+      "selected_cells": 35,
+      "selected_transition_cells": 8,
+      "repaired_transition_rows": 2512,
+      "remaining_transition_rows": 0
+    }
+  ],
+  "checks": {
+    "partition_changed_cells_per_method": true,
+    "same_transition_population": true,
+    "same_budget": true
+  }
+}
