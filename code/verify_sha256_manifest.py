@@ -30,10 +30,23 @@ def main() -> None:
     root = args.root.resolve()
     manifest = args.manifest.resolve()
     excluded = {(root / item).resolve() for item in args.exclude}
+    runtime_directories = {
+        "__pycache__",
+        ".pytest_cache",
+        ".venv",
+        "venv",
+    }
 
     def is_excluded(path: Path) -> bool:
         resolved = path.resolve()
-        return any(resolved == item or item in resolved.parents for item in excluded)
+        relative = resolved.relative_to(root)
+        return (
+            any(resolved == item or item in resolved.parents for item in excluded)
+            or any(part in runtime_directories for part in relative.parts)
+            or any(part.startswith("reproduced_results") for part in relative.parts)
+            or path.suffix == ".pyc"
+            or path.name == ".DS_Store"
+        )
 
     entries = []
     for line in manifest.read_text(encoding="utf-8").splitlines():

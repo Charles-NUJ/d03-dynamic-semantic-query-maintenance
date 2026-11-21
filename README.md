@@ -2,6 +2,8 @@
 
 This repository contains the code, frozen inputs, semantic outputs, and verification records for the accompanying ICDE research paper.
 
+The original submission snapshot is preserved by the `icde2027-submission` tag. Later artifact-maintenance commits are limited to reproducibility metadata, integrity checks, and documentation; they do not change the frozen inputs, semantic outputs, algorithms, or reported measurements. See `ARTIFACT_CHANGELOG.md`.
+
 ## Problem and method
 
 A versioned document store maintains semantic values that feed a filter and a join. A commit changes some operator inputs, while a fixed call budget may cover only part of that changed layer before publication. Stable inputs can reuse their stored values exactly. Our method ranks changed cells by their current join degree under unit call costs. Under positive heterogeneous costs, the selection becomes a 0/1 knapsack problem solved by dynamic programming. The repository separates information visible at selection time from new semantic values used only after a call.
@@ -19,6 +21,8 @@ Check the published file inventory with:
 ```bash
 python code/verify_sha256_manifest.py --root . --manifest SHA256SUMS.txt
 ```
+
+The verifier checks the published files and ignores local execution products such as `reproduced_results/`, Python bytecode, and virtual environments.
 
 ## Quick replay from frozen semantic outputs
 

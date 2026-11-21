@@ -20,7 +20,7 @@ def main() -> None:
     parser.add_argument(
         "--exclude",
         action="append",
-        default=[],
+        default=[".git", "reproduced_results"],
         help="Path relative to root to exclude; may be supplied more than once.",
     )
     args = parser.parse_args()
@@ -28,10 +28,23 @@ def main() -> None:
     output = args.output.resolve()
     excluded = {output}
     excluded.update((root / item).resolve() for item in args.exclude)
+    runtime_directories = {
+        "__pycache__",
+        ".pytest_cache",
+        ".venv",
+        "venv",
+    }
 
     def is_excluded(path: Path) -> bool:
         resolved = path.resolve()
-        return any(resolved == item or item in resolved.parents for item in excluded)
+        relative = resolved.relative_to(root)
+        return (
+            any(resolved == item or item in resolved.parents for item in excluded)
+            or any(part in runtime_directories for part in relative.parts)
+            or any(part.startswith("reproduced_results") for part in relative.parts)
+            or path.suffix == ".pyc"
+            or path.name == ".DS_Store"
+        )
 
     files = sorted(
         path for path in root.rglob("*") if path.is_file() and not is_excluded(path)
@@ -42,6 +55,7 @@ def main() -> None:
             f"{sha256(path)}  {path.relative_to(root).as_posix()}\n" for path in files
         ),
         encoding="utf-8",
+        newline="\n",
     )
     print(f"WROTE {output} WITH {len(files)} ENTRIES")
 

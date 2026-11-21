@@ -10,6 +10,19 @@ def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def hash_matches(path: Path, expected: str) -> bool:
+    """Accept identical content across LF/CRLF checkout conventions."""
+    content = path.read_bytes()
+    candidates = {
+        hashlib.sha256(content).hexdigest(),
+        hashlib.sha256(content.replace(b"\r\n", b"\n")).hexdigest(),
+        hashlib.sha256(
+            content.replace(b"\r\n", b"\n").replace(b"\n", b"\r\n")
+        ).hexdigest(),
+    }
+    return expected in candidates
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--contract", type=Path, required=True)
@@ -42,13 +55,21 @@ def main() -> None:
     checks = {
         "frozen_before_content": pairs["status"] == "FROZEN_BEFORE_CONTENT_AND_LABEL_ACCESS",
         "metadata_hash_matches": pairs["metadata_sha256"] == contract["metadata_sha256"],
-        "old_pairs_hash_matches": contract["excluded_old_pairs_sha256"] == sha256(args.old_pairs),
+        "old_pairs_hash_matches": hash_matches(
+            args.old_pairs, contract["excluded_old_pairs_sha256"]
+        ),
         "page_ids_disjoint": not (old_ids & new_ids),
         "64_pairs": len(pairs["pairs"]) == 64 and len(new_ids) == 64,
         "revision_content_complete": not revisions["missing_revids"] and revisions["revision_count"] == 128,
-        "manifest_contract_hash": manifest["contract"]["sha256"] == sha256(args.contract),
-        "manifest_pairs_hash": manifest["pairs"]["sha256"] == sha256(args.pairs),
-        "manifest_revisions_hash": manifest["revisions"]["sha256"] == sha256(args.revisions),
+        "manifest_contract_hash": hash_matches(
+            args.contract, manifest["contract"]["sha256"]
+        ),
+        "manifest_pairs_hash": hash_matches(
+            args.pairs, manifest["pairs"]["sha256"]
+        ),
+        "manifest_revisions_hash": hash_matches(
+            args.revisions, manifest["revisions"]["sha256"]
+        ),
         "prediction_keys_complete": prediction_keys == expected_prediction_keys,
         "640_predictions": len(predictions) == 640,
         "320_pair_results": len(pair_results) == 320,
@@ -80,6 +101,7 @@ def main() -> None:
             "receipt": sha256(args.result_dir / "execution_receipt.json"),
         },
         "boundary": "This verifies a second time window with page IDs disjoint from the first. Collection process, model, and predicates remain shared.",
+        "hash_policy": "Hash checks accept byte-identical content under LF or CRLF line endings.",
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(output, indent=2) + "\n", encoding="utf-8")
