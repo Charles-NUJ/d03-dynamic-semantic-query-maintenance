@@ -94,6 +94,14 @@ python code/verify_second_window_inference.py --contract inputs/second_window_20
 
 The committed semantic values are fixed-model outputs rather than human labels. Exact reuse follows from complete fixed-operator input identity. The unit-cost ordering and the heterogeneous-cost knapsack use the current query relation and the stated budget contract. Literature-labelled methods in the result files are ability-matched adaptations under the same interface, not reproductions of external systems.
 
+## Citation
+
+Please cite this repository as:
+
+> P. Hu, Y. Li, and J. Wang, “Budgeted Repair of Versioned Semantic Joins with Input Signatures,” software and reproducibility artifact, 2026. [Online]. Available: https://github.com/Charles-NUJ/d03-dynamic-semantic-query-maintenance
+
+A machine-readable citation with author ORCIDs is provided in `CITATION.cff`. This artifact citation does not describe the paper as accepted or published; publication metadata can replace it after a final venue record becomes available.
+
 ## License
 
 The authors' code is released under the MIT License. Third-party text and model files retain their upstream terms; see `DATA_SOURCES.md`.
