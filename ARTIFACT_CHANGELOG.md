@@ -10,4 +10,4 @@ The first maintenance update repairs artifact integrity checks after a fresh Git
 
 The update also documents the maintenance boundary in the README. It does not change the frozen revision windows, semantic predictions, query relations, method decisions, experimental measurements, algorithms, or paper claims.
 
-A documentation-only follow-up names the three authors in the MIT copyright notice and adds a repository citation. It does not change the license terms or any scientific material.
+A documentation-only follow-up names the three authors in the MIT copyright notice, adds a repository citation, and makes the machine-readable citation refer directly to the artifact. It does not change the license terms or any scientific material.
